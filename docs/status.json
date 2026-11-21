@@ -1,6 +1,6 @@
 {
-  "guncellenme_tsi": "2026-11-21T09:45:07+03:00",
-  "durum": "Aktif — Sabah 08:15 & 09:38 Otonom Yayınları Tamamlandı (Sıradaki: 11:24 VRAM GIF)",
+  "guncellenme_tsi": "2026-11-21T11:30:18+03:00",
+  "durum": "Aktif — 11:24 VRAM Animasyonlu GIF & Kuşluk Etkileşimi Tamamlandı (Sıradaki: 13:09 Öğle Tartışması)",
   "handle": "@turkprincee",
   "gorunen_ad": "Donanım & Oyun Lab",
   "takipci": 21,
@@ -105,13 +105,16 @@
       "dilim": "11:20",
       "aksiyon_tipi": "tek_tweet",
       "tweet_idleri": [
-        "X_SCHEDULED_GIF_1124"
+        "2124056218562109607",
+        "2124057094156591359",
+        "2124057328710537666",
+        "2124057409195032860"
       ],
       "ana_tweetler": [
         "84 FPS ile 91 FPS kağıt üstünde yakın görünür ama biri akarken diğeri takılır.\n\n8 GB VRAM dolduğunda dokular PCIe üzerinden sistem RAM'ine taşar; frametime 46 ms'ye fırlar ve %1 Low FPS 29'a çakılır. Akıcılığı ortalama değil %1 Low FPS belirler."
       ],
       "anket_secenekleri": [],
-      "konu_ozeti": "Animasyonlu GIF (vram.gif): 8 GB vs 16 GB VRAM Frametime & %1 Low FPS (X Bulut Kuyruğunda Planlandı)",
+      "konu_ozeti": "11:24 Animasyonlu GIF (vram.gif): 8 GB vs 16 GB VRAM Frametime & %1 Low FPS (Yayında) + 3 Kuşluk Teknik Yanıt",
       "gelir_aksiyonu_var_mi": false
     },
     {
