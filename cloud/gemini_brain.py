@@ -128,17 +128,19 @@ def uret_kanal_karari(
         secili_model = ucretsiz_modeller[min(model_idx, len(ucretsiz_modeller) - 1)]
         tam_girdi = istem if not ek_uyari else f"{istem}\n\nÖNCEKİ DENEME HATASI (DÜZELT): {ek_uyari}"
         try:
-            interaction = client.interactions.create(
-                model=secili_model,
-                system_instruction=SISTEM_TALIMATI,
-                input=tam_girdi,
-                tools=[{"type": "google_search"}, {"type": "url_context"}],
-                response_format={
+            cagri_parametreleri: Dict[str, Any] = {
+                "model": secili_model,
+                "system_instruction": SISTEM_TALIMATI,
+                "input": tam_girdi,
+                "response_format": {
                     "type": "text",
                     "mime_type": "application/json",
                     "schema": KanalKarari.model_json_schema(),
                 },
-            )
+            }
+            if os.environ.get("GEMINI_PAID_SEARCH", "").lower() == "true":
+                cagri_parametreleri["tools"] = [{"type": "google_search"}, {"type": "url_context"}]
+            interaction = client.interactions.create(**cagri_parametreleri)
         except Exception as api_exc:
             son_hata = str(api_exc)
             model_idx += 1
