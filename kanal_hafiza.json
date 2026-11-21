@@ -221,13 +221,32 @@
       "dilim": "16:30",
       "aksiyon_tipi": "tek_tweet",
       "tweet_idleri": [
-        "X_SCHEDULED_1641"
+        "2124135994291114177"
       ],
       "ana_tweetler": [
         "NVIDIA'nın sessizce yayınladığı GeForce Hotfix 621.35 sürücüsünü es geçmeyin.\n\nÖnceki sürücüde sistem boştayken bile arka planda nvlog.nvlgstg dosyasına sürekli veri yazıp NVMe SSD sağlığını (TBW) eriten ciddi bir hata vardı. Güncellemeyi bekletmeyin."
       ],
       "anket_secenekleri": [],
-      "konu_ozeti": "NVIDIA GeForce Hotfix 621.35 arka plan nvlog.nvlgstg NVMe SSD TBW yazma hatası (X Bulut Kuyruğunda Planlandı — 0 TL)",
+      "konu_ozeti": "16:41 NVIDIA GeForce Hotfix 621.35 arka plan nvlog.nvlgstg NVMe SSD TBW yazma hatası (Yayında)",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-21T16:45:00+03:00",
+      "dilim": "16:45_trafik_dalgasi",
+      "aksiyon_tipi": "alinti",
+      "tweet_idleri": [
+        "2124136835668701567",
+        "2124136908221759565",
+        "2124136982381043735",
+        "2124137061196161446",
+        "2124137135619936662",
+        "2124137214627975310"
+      ],
+      "ana_tweetler": [
+        "@VideoCardz NVIDIA TSMC wafer & GeForce arz-fiyat alıntısı + @shiftdeletenet, @tomshardware ve @VideoCardz 5 derinlikli teknik yanıt"
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "16:45 Ana Trafik Dalgası: 1 Teknik Alıntı (NVIDIA TSMC Wafer & GeForce Fiyatlama) + 5 Özgün Teknik Yanıt",
       "gelir_aksiyonu_var_mi": false
     },
     {
