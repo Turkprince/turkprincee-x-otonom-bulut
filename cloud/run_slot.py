@@ -21,16 +21,32 @@ RSS_YOLU = KOK_DIZIN / "docs" / "rss.xml"
 
 TSI = timezone(timedelta(hours=3))
 
-DILIMLER = ("09:30", "13:00", "16:30", "20:30", "23:15")
+DILIMLER = (
+    "01:30",
+    "08:15",
+    "09:30",
+    "11:20",
+    "13:00",
+    "15:00",
+    "16:30",
+    "18:30",
+    "20:30",
+    "23:15",
+)
 
 
 def belirle_aktif_dilim(simdi_tsi: datetime) -> str:
-    """Mevcut TSİ saatine en yakın aktif yayın dilimini seçer."""
+    """Mevcut TSİ saatine en yakın aktif 24 saatlik yayın dilimini seçer."""
     dakika_toplam = simdi_tsi.hour * 60 + simdi_tsi.minute
     hedefler = {
+        "01:30": 1 * 60 + 30,
+        "08:15": 8 * 60 + 15,
         "09:30": 9 * 60 + 30,
+        "11:20": 11 * 60 + 20,
         "13:00": 13 * 60,
+        "15:00": 15 * 60,
         "16:30": 16 * 60 + 30,
+        "18:30": 18 * 60 + 30,
         "20:30": 20 * 60 + 30,
         "23:15": 23 * 60 + 15,
     }

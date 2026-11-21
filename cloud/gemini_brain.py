@@ -32,20 +32,41 @@ KESİN ANAYASA KURALLARI:
 """
 
 DILIM_GOREVLERI = {
+    "01:30": (
+        "GECE YARISI GLOBAL SIZINTI & AMBARGO RADARI (01:30): ABD/Asya saat diliminde düşen en sıcak "
+        "ekran kartı, işlemci, sürücü veya oyun sızıntısını yakala; aksiyon_tipi='tek_tweet' ile Türkiye "
+        "uyurken ilk teknik analizi yayınla."
+    ),
+    "08:15": (
+        "ERKEN SABAH DONANIM & FİYAT/PERFORMANS RADARI (08:15): Güne başlarken donanım/konsol/ekipman "
+        "tarafında alıcıların bilmesi gereken net bir teknik karşılaştırma veya F/P gerçeği üret (aksiyon_tipi='tek_tweet')."
+    ),
     "09:30": (
         "SABAH TESPİT / GÜNDEM (09:30): Son 24 saatin en dikkat çekici teknoloji, donanım veya oyun "
         "gelişmesine tek tweetlik (aksiyon_tipi='tek_tweet') keskin, özgün ve paylaşılabilir analiz üret. "
         "Eğer açık döngü kuyruğunda bu sabah için söz verilmiş bir konu varsa ÖNCELİKLE o sözü yerine getir."
     ),
+    "11:20": (
+        "KUŞLUK MİMARİ & PANEL KARŞILAŞTIRMASI (11:20): Monitör panelleri, bellek mimarisi, SSD kontrolcüleri "
+        "veya ağ gecikmesi üzerine yüksek yer imi (bookmark) alan tek ekranlık derin tespit üret (aksiyon_tipi='tek_tweet')."
+    ),
     "13:00": (
         "ÖĞLE TARTIŞMA / ANKET (13:00): İki popüler donanım, konsol, panel veya oyun yaklaşımını çarpıştıran "
         "2-4 seçenekli anket (aksiyon_tipi='anket', her seçenek <=25 karakter) üret."
+    ),
+    "15:00": (
+        "ÖĞLEDEN SONRA MAĞAZA / İNDİRİM TUZAĞI İFŞASI (15:00): Tüketicilerin pazarlama terimleri yüzünden "
+        "yanlış para harcadığı somut bir teknik tuzağı metriklerle deşifre et (aksiyon_tipi='tek_tweet')."
     ),
     "16:30": (
         "ETKİLEŞİM VE TRAFİK DALGASI (16:30): Eğer hedef aday tweet listesinde uygun bir tweet ID varsa "
         "aksiyon_tipi='alinti' ile hedef_tweet_id belirterek teknik derinlik katan keskin bir alıntı üret; "
         "aday tweet ID yoksa aksiyon_tipi='tek_tweet' ile bugün ana akım teknoloji/oyun medyasının gözden kaçırdığı "
         "kritik bir teknik detayı ortaya koyan yüksek etkileşimli karşıt görüş analizi üret."
+    ),
+    "18:30": (
+        "AKŞAMÜSTÜ OYUN PERFORMANS & FPS TELEMETRİSİ (18:30): Güncel oyunlarda %1 Low FPS, frametime, "
+        "DLSS/FSR/XeSS veya konsol VRR/Hz tarafında akıcılığı doğrudan artıran keskin teknik analiz üret (aksiyon_tipi='tek_tweet')."
     ),
     "20:30": (
         "AKŞAM ANA FLOOD - PRIME TIME (20:30): Günün ana içeriği. aksiyon_tipi='flood' seçerek 5 ila 7 tweetten "

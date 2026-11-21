@@ -3,105 +3,110 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Donanım & Oyun Lab (@turkprincee) — 7/24 Bulut Komuta Paneli</title>
+  <title>Donanım & Oyun Lab (@turkprincee) — 24/7 İnteraktif Telemetri & Bulut Merkezi</title>
   <style>
     :root {
-      --bg: #0b0e14;
-      --card: #121722;
-      --border: #1e2738;
+      --bg: #080b11;
+      --card: #101622;
+      --card-alt: #0c111b;
+      --border: #1e293b;
       --cyan: #00e5ff;
       --amber: #ff6b00;
+      --red: #ff4560;
       --green: #10b981;
-      --text: #e5e9f0;
-      --muted: #8b95a7;
+      --text: #e6edf7;
+      --muted: #8b98ad;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: var(--bg);
+      background: radial-gradient(circle at 15% 0%, #112236 0%, var(--bg) 42%);
       color: var(--text);
       line-height: 1.55;
-      padding: 28px 18px 60px;
+      padding: 24px 16px 64px;
     }
-    .wrap { max-width: 1040px; margin: 0 auto; }
+    .wrap { max-width: 1140px; margin: 0 auto; }
     header {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      gap: 16px;
+      display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px;
       padding: 22px 24px;
-      background: linear-gradient(135deg, #121722 0%, #0d131d 100%);
+      background: linear-gradient(135deg, rgba(16,22,34,0.95) 0%, rgba(11,17,28,0.95) 100%);
       border: 1px solid var(--border);
       border-left: 4px solid var(--cyan);
-      border-radius: 14px;
-      margin-bottom: 22px;
+      border-radius: 16px;
+      margin-bottom: 20px;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.35);
     }
-    h1 { font-size: 1.35rem; letter-spacing: -0.02em; }
-    .sub { color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
+    h1 { font-size: 1.4rem; letter-spacing: -0.02em; display: flex; align-items: center; gap: 10px; }
+    .sub { color: var(--muted); font-size: 0.88rem; margin-top: 4px; }
     .badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: rgba(0, 229, 255, 0.1);
-      color: var(--cyan);
-      border: 1px solid rgba(0, 229, 255, 0.3);
-      padding: 7px 14px;
-      border-radius: 999px;
-      font-size: 0.84rem;
-      font-weight: 600;
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(0, 229, 255, 0.1); color: var(--cyan);
+      border: 1px solid rgba(0, 229, 255, 0.35);
+      padding: 7px 14px; border-radius: 999px; font-size: 0.83rem; font-weight: 600;
     }
-    .dot {
-      width: 8px; height: 8px; border-radius: 50%;
-      background: var(--green);
-      box-shadow: 0 0 10px var(--green);
+    .pulse {
+      width: 9px; height: 9px; border-radius: 50%; background: var(--green);
+      box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+      animation: pulseAnim 1.8s infinite;
     }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 16px;
-      margin-bottom: 22px;
+    @keyframes pulseAnim {
+      0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+      70% { box-shadow: 0 0 0 10px rgba(16, 185, 129, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+    }
+    .grid-4 {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+      gap: 14px; margin-bottom: 20px;
+    }
+    .grid-2 {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 18px; margin-bottom: 20px;
     }
     .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 18px 20px;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 14px; padding: 18px 20px;
     }
-    .label { color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
-    .val { font-size: 1.55rem; font-weight: 700; margin-top: 6px; }
-    .val.cyan { color: var(--cyan); }
-    .val.amber { color: var(--amber); }
-    .bar-bg {
-      width: 100%; height: 8px; background: #1b2230;
-      border-radius: 999px; margin-top: 10px; overflow: hidden;
+    .label { color: var(--muted); font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; }
+    .val { font-size: 1.55rem; font-weight: 700; margin-top: 6px; font-variant-numeric: tabular-nums; }
+    .cyan { color: var(--cyan); }
+    .amber { color: var(--amber); }
+    .green { color: var(--green); }
+    .red { color: var(--red); }
+    .bar-bg { width: 100%; height: 8px; background: #1a2333; border-radius: 999px; margin-top: 10px; overflow: hidden; }
+    .bar-fill { height: 100%; background: linear-gradient(90deg, var(--cyan), var(--amber)); width: 2%; transition: width 0.5s ease; }
+    h2 { font-size: 1.05rem; margin-bottom: 12px; color: var(--cyan); display: flex; justify-content: space-between; align-items: center; }
+    .btn-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 14px; }
+    button, .btn-link {
+      background: #162032; color: var(--text); border: 1px solid var(--border);
+      padding: 7px 12px; border-radius: 8px; font-size: 0.82rem; font-weight: 600;
+      cursor: pointer; transition: all 0.15s ease; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;
     }
-    .bar-fill {
-      height: 100%; background: linear-gradient(90deg, var(--cyan), var(--amber));
-      width: 2%; transition: width 0.4s ease;
-    }
-    h2 { font-size: 1.05rem; margin-bottom: 14px; color: var(--cyan); }
-    .slots {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 12px;
-      margin-bottom: 22px;
+    button:hover, .btn-link:hover { border-color: var(--cyan); color: var(--cyan); }
+    button.active { background: rgba(0, 229, 255, 0.14); border-color: var(--cyan); color: var(--cyan); }
+    .btn-cta { background: rgba(255, 107, 0, 0.14); border-color: var(--amber); color: var(--amber); }
+    .btn-cta:hover { background: rgba(255, 107, 0, 0.25); color: #fff; }
+    canvas { width: 100%; height: 185px; background: var(--card-alt); border: 1px solid var(--border); border-radius: 10px; display: block; }
+    .sim-stats { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-top: 10px; font-size: 0.84rem; font-family: monospace; }
+    .slots-10 {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(175px, 1fr)); gap: 10px;
     }
     .slot {
-      background: #0f141e;
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 14px;
+      background: var(--card-alt); border: 1px solid var(--border);
+      border-radius: 10px; padding: 11px 13px; position: relative;
     }
-    .slot-time { font-weight: 700; color: var(--amber); font-size: 0.95rem; }
-    .slot-desc { font-size: 0.83rem; color: var(--muted); margin-top: 4px; }
-    .log-item {
-      border-bottom: 1px solid var(--border);
-      padding: 12px 0;
+    .slot.next-slot { border-color: var(--cyan); box-shadow: 0 0 16px rgba(0,229,255,0.14); }
+    .slot-time { font-weight: 700; color: var(--amber); font-size: 0.9rem; }
+    .slot-desc { font-size: 0.79rem; color: var(--muted); margin-top: 3px; }
+    .gif-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 14px;
     }
+    .gif-card { background: var(--card-alt); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+    .gif-card img { width: 100%; display: block; border-bottom: 1px solid var(--border); }
+    .gif-info { padding: 10px 12px; display: flex; justify-content: space-between; align-items: center; font-size: 0.82rem; }
+    .log-item { border-bottom: 1px solid var(--border); padding: 13px 0; }
     .log-item:last-child { border-bottom: none; }
     .log-meta { font-size: 0.8rem; color: var(--cyan); font-family: monospace; }
-    .log-text { font-size: 0.92rem; margin-top: 4px; }
+    .log-text { font-size: 0.91rem; margin-top: 5px; white-space: pre-line; }
     a { color: var(--cyan); text-decoration: none; }
     a:hover { text-decoration: underline; }
   </style>
@@ -111,54 +116,342 @@
     <header>
       <div>
         <h1 id="title">Donanım & Oyun Lab (@turkprincee)</h1>
-        <div class="sub" id="statusText">7/24 Bulut Otonom Kanal Motoru · Bilgisayar Kapalıyken Aktif</div>
+        <div class="sub" id="statusText">24/7 Dinamik Analiz, Animasyonlu Telemetri & İnteraktif Donanım Laboratuvarı</div>
       </div>
-      <div class="badge"><span class="dot"></span><span id="updatedAt">Yükleniyor...</span></div>
+      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+        <div class="badge"><span class="pulse"></span><span id="countdownBadge">Sıradaki Yayın: Hesaplanıyor...</span></div>
+        <a class="btn-link" href="https://x.com/turkprincee" target="_blank" rel="noopener">X Profilini Aç ↗</a>
+        <a class="btn-link" href="./rss.xml" target="_blank" rel="noopener">Canlı RSS ↗</a>
+      </div>
     </header>
 
-    <div class="grid">
+    <div class="grid-4">
       <div class="card">
-        <div class="label">Aktif Faz</div>
+        <div class="label">Aktif Faz & Strateji</div>
         <div class="val cyan" id="fazVal">FAZ 1</div>
-        <div class="sub" id="fazDesc">Saf Büyüme ve Merak (0 Sales Link)</div>
+        <div class="sub" id="fazDesc">Saf Büyüme, Yer İmi & Görsel Otorite (0 TL)</div>
       </div>
       <div class="card">
-        <div class="label">Takipçi & Sonraki Faz Hedefi</div>
+        <div class="label">Takipçi & Faz Hedefi</div>
         <div class="val" id="followerVal">21 / 3.000</div>
         <div class="bar-bg"><div class="bar-fill" id="followerBar"></div></div>
       </div>
       <div class="card">
-        <div class="label">Günlük Otonom Dilim</div>
-        <div class="val amber">5 Yayın / Gün</div>
-        <div class="sub">+3..14 dk Rastgele Spam Koruması</div>
+        <div class="label">24 Saatlik Dinamik Nabız</div>
+        <div class="val amber">10+ Dilim / Gün</div>
+        <div class="sub">Canlı RSS Puanlama + GIF + Anket + Yanıt</div>
       </div>
       <div class="card">
-        <div class="label">Canlı X Profili</div>
-        <div class="val" style="font-size:1.1rem;margin-top:12px;">
-          <a href="https://x.com/turkprincee" target="_blank" rel="noopener">x.com/turkprincee ↗</a> · <a href="./rss.xml" target="_blank" rel="noopener">RSS ↗</a>
+        <div class="label">Maliyet & Bulut Güvencesi</div>
+        <div class="val green">0.00 TL / Ay</div>
+        <div class="sub" id="updatedAt">X Bulut Kuyruğu + GitHub Actions Aktif</div>
+      </div>
+    </div>
+
+    <!-- İNTERAKTİF LABORATUVAR SİMÜLATÖRLERİ -->
+    <div class="grid-2">
+      <div class="card">
+        <h2>
+          <span>1. Canlı Ghosting & Panel Tepki Simülatörü (GtG vs MPRT)</span>
+        </h2>
+        <div class="sub">Kutudaki "1 ms MPRT" ile gerçek piksel hızı (GtG) farkını hareketli hedefte canlı test edin:</div>
+        <div class="btn-row" id="panelBtns">
+          <button class="active" data-mode="oled">QD-OLED (0.03 ms GtG)</button>
+          <button data-mode="ips">Fast IPS (4.8 ms GtG)</button>
+          <button data-mode="mprt">1 ms MPRT Strobe</button>
+          <button data-mode="va">Ucuz VA (11.4 ms Smearing)</button>
         </div>
-        <div class="sub">Sabitlenmiş Rehber & Günlük Akış</div>
+        <canvas id="ghostCanvas" width="520" height="185"></canvas>
+        <div class="sim-stats">
+          <span id="ghostReadout" class="cyan">Aktif: QD-OLED · Gerçek GtG: 0.03 ms · Sıfır Ghosting</span>
+          <a id="shareGhostBtn" class="btn-link btn-cta" href="#" target="_blank" rel="noopener">Sonucu X'te Paylaş ↗</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>
+          <span>2. Canlı Frametime & %1 Low FPS Darboğaz Simülatörü</span>
+        </h2>
+        <div class="sub">VRAM taşması, tek kanal DDR5 ve VRR ayarının akıcılık çizgisine (ms) etkisini canlı görün:</div>
+        <div class="btn-row">
+          <button id="btnVram" class="active">VRAM: 16 GB</button>
+          <button id="btnRam" class="active">RAM: 2x16 Çift Kanal</button>
+          <button id="btnVrr" class="active">HDMI 2.1 VRR: Açık</button>
+        </div>
+        <canvas id="ftCanvas" width="520" height="185"></canvas>
+        <div class="sim-stats">
+          <span id="ftReadout" class="green">Ort: 96 FPS | %1 Low: 84 FPS | Frametime: 10.4 ms (Stabil)</span>
+          <a id="shareFtBtn" class="btn-link btn-cta" href="#" target="_blank" rel="noopener">Konfigürasyonu X'te Paylaş ↗</a>
+        </div>
       </div>
     </div>
 
-    <div class="card" style="margin-bottom:22px;">
-      <h2>Günlük Bulut Yayın Takvimi (TSİ — GitHub Actions Cron)</h2>
-      <div class="slots">
-        <div class="slot"><div class="slot-time">09:30 (+3..14 dk)</div><div class="slot-desc">Sabah Tespit / Gündem & Açık Döngü Kapanışı</div></div>
-        <div class="slot"><div class="slot-time">13:00 (+3..14 dk)</div><div class="slot-desc">Öğle Donanım / Panel / Oyun Çarpıştırma Anketi</div></div>
-        <div class="slot"><div class="slot-time">16:30 (+3..14 dk)</div><div class="slot-desc">Sektör Alıntısı & Teknik Derinlik Dalgası</div></div>
-        <div class="slot"><div class="slot-time">20:30 (+3..14 dk)</div><div class="slot-desc">Prime Time 5-7 Tweetlik Yüksek Kaydetmeli Flood</div></div>
-        <div class="slot"><div class="slot-time">23:15 (+3..14 dk)</div><div class="slot-desc">Gece Mikro Ayar İpucu + Yarına Merak Kancası</div></div>
+    <!-- ANİMASYONLU TELEMETRİ GIF STÜDYOSU -->
+    <div class="card" style="margin-bottom:20px;">
+      <h2>
+        <span>Özgün Animasyonlu Telemetri GIF Stüdyosu (0 TL Otomatik Üretim)</span>
+        <span class="sub" style="font-weight:400;">X akışında otomatik oynayan yüksek kaydetmeli görseller</span>
+      </h2>
+      <div class="gif-grid">
+        <div class="gif-card">
+          <img src="./media/ghosting_mprt_vs_gtg.gif" alt="1ms MPRT vs GtG Ghosting Animasyonu" loading="lazy" />
+          <div class="gif-info">
+            <span>1ms MPRT vs OLED GtG</span>
+            <a href="./media/ghosting_mprt_vs_gtg.gif" download>GIF İndir ↓</a>
+          </div>
+        </div>
+        <div class="gif-card">
+          <img src="./media/vram_8gb_vs_16gb.gif" alt="8GB vs 16GB VRAM Frametime Animasyonu" loading="lazy" />
+          <div class="gif-info">
+            <span>8 GB vs 16 GB VRAM %1 Low</span>
+            <a href="./media/vram_8gb_vs_16gb.gif" download>GIF İndir ↓</a>
+          </div>
+        </div>
+        <div class="gif-card">
+          <img src="./media/wifi_ping_jitter.gif" alt="Wi-Fi Repeater vs 5GHz Sabit Kanal Jitter" loading="lazy" />
+          <div class="gif-info">
+            <span>Repeater vs 5 GHz Jitter</span>
+            <a href="./media/wifi_ping_jitter.gif" download>GIF İndir ↓</a>
+          </div>
+        </div>
+        <div class="gif-card">
+          <img src="./media/ddr5_single_vs_dual.gif" alt="1x16GB vs 2x16GB DDR5 Karşılaştırma" loading="lazy" />
+          <div class="gif-info">
+            <span>1x16 vs 2x16 GB DDR5</span>
+            <a href="./media/ddr5_single_vs_dual.gif" download>GIF İndir ↓</a>
+          </div>
+        </div>
       </div>
     </div>
 
+    <!-- 24 SAAT DİNAMİK YAYIN RADARI -->
+    <div class="card" style="margin-bottom:20px;">
+      <h2>24 Saatlik Dinamik Yayın ve Etkileşim Radarı (TSİ · 10 Aktif Dilim)</h2>
+      <div class="slots-10" id="slotsGrid">
+        <div class="slot" data-hm="01:30"><div class="slot-time">01:30 (+sapma)</div><div class="slot-desc">Gece Yarısı Global Sızıntı & Ambargo Radarı</div></div>
+        <div class="slot" data-hm="08:15"><div class="slot-time">08:15 (+sapma)</div><div class="slot-desc">Erken Sabah Donanım & F/P Karşılaştırma Kartı</div></div>
+        <div class="slot" data-hm="09:30"><div class="slot-time">09:30 (+sapma)</div><div class="slot-desc">Sabah Ana Gündem Analizi & Açık Döngü Kapanışı</div></div>
+        <div class="slot" data-hm="11:20"><div class="slot-time">11:20 (+sapma)</div><div class="slot-desc">Kuşluk Panel / Bellek / SSD Mimari Analizi (GIF)</div></div>
+        <div class="slot" data-hm="13:00"><div class="slot-time">13:00 (+sapma)</div><div class="slot-desc">Öğle İnteraktif X Anketi & Taraf Seçtiren Tartışma</div></div>
+        <div class="slot" data-hm="15:00"><div class="slot-time">15:00 (+sapma)</div><div class="slot-desc">Öğleden Sonra Mağaza & İndirim Tuzağı İfşası</div></div>
+        <div class="slot" data-hm="16:30"><div class="slot-time">16:30 (+sapma)</div><div class="slot-desc">Büyük Hesaplar Alıntı & Özgün Teknik Yanıt Dalgası</div></div>
+        <div class="slot" data-hm="18:30"><div class="slot-time">18:30 (+sapma)</div><div class="slot-desc">Akşamüstü Oyun %1 Low FPS & VRR Telemetri (GIF)</div></div>
+        <div class="slot" data-hm="20:30"><div class="slot-time">20:30 (+sapma)</div><div class="slot-desc">Prime Time 5-7 Tweetlik Yüksek Kaydetmeli Ana Flood</div></div>
+        <div class="slot" data-hm="23:15"><div class="slot-time">23:15 (+sapma)</div><div class="slot-desc">Gece Kuşu Gizli Cihaz Ayarı + Sabaha Merak Kancası</div></div>
+      </div>
+    </div>
+
+    <!-- CANLI YAYIN VE KUYRUK KAYITLARI -->
     <div class="card">
-      <h2>Son Yayınlanan İçerikler ve 14 Günlük Konu Hafızası</h2>
+      <h2>
+        <span>Canlı Yayınlanan & Bulut Kuyruğuna Yüklenen İçerikler (14 Günlük Hafıza)</span>
+        <input id="filterInput" type="text" placeholder="Konu filtrele (OLED, VRAM, GTA 6, Wi-Fi...)" style="background:#0c111b;border:1px solid var(--border);color:var(--text);padding:6px 12px;border-radius:8px;font-size:0.82rem;width:250px;" />
+      </h2>
       <div id="logContainer"><div class="sub">Kayıtlar yükleniyor...</div></div>
     </div>
   </div>
 
   <script>
+    // 1) CANLI TSI GERİ SAYIM SAYACI
+    const SLOTS = ["01:30","08:15","09:30","11:20","13:00","15:00","16:30","18:30","20:30","23:15"];
+    function updateCountdown() {
+      const now = new Date();
+      const utcMs = now.getTime() + now.getTimezoneOffset() * 60000;
+      const tsi = new Date(utcMs + 3 * 3600000);
+      const curSec = tsi.getHours() * 3600 + tsi.getMinutes() * 60 + tsi.getSeconds();
+      let nextSlot = SLOTS[0];
+      let diffSec = (24 * 3600 - curSec) + (1 * 3600 + 30 * 60);
+      for (const s of SLOTS) {
+        const [hh, mm] = s.split(':').map(Number);
+        const sSec = hh * 3600 + mm * 60;
+        if (sSec > curSec) {
+          nextSlot = s;
+          diffSec = sSec - curSec;
+          break;
+        }
+      }
+      const h = String(Math.floor(diffSec / 3600)).padStart(2, '0');
+      const m = String(Math.floor((diffSec % 3600) / 60)).padStart(2, '0');
+      const sec = String(diffSec % 60).padStart(2, '0');
+      document.getElementById('countdownBadge').textContent = `Sıradaki Dilim (${nextSlot} TSİ): ${h}:${m}:${sec}`;
+      document.querySelectorAll('#slotsGrid .slot').forEach(el => {
+        el.classList.toggle('next-slot', el.dataset.hm === nextSlot);
+      });
+    }
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
+
+    // 2) CANLI GHOSTING CANVAS SİMÜLATÖRÜ
+    const gCanvas = document.getElementById('ghostCanvas');
+    const gCtx = gCanvas.getContext('2d');
+    let ghostMode = 'oled';
+    let gx = 60;
+    const ghostMeta = {
+      oled: { label: 'QD-OLED · Gerçek GtG: 0.03 ms · Sıfır Ghosting', color: '#00e5ff', tweet: "Kutudaki '1 ms MPRT' pazarlama aldatmacasıdır; gerçek piksel hızı GtG değeridir. 0.03 ms GtG sunan OLED panellerde hareket bulanıklığı sıfıra iner. @turkprincee" },
+      ips:  { label: 'Fast IPS · Gerçek GtG: ~4.8 ms · Hafif İz', color: '#10b981', tweet: "İyi bir Fast IPS monitörde gerçek GtG 4-5 ms civarındadır; agresif overdrive açarsanız ters gölgelenme (overshoot) oluşur. @turkprincee" },
+      mprt: { label: '1 ms MPRT Strobe · Arka Işık Kırpma · Çift Görüntü İzi', color: '#ff6b00', tweet: "1 ms MPRT arka ışığı kırparak ölçülür: parlaklığı düşürür, VRR'ı devre dışı bırakır ve çift görüntü (strobe crosstalk) bırakabilir. @turkprincee" },
+      va:   { label: 'Ucuz VA Panel · Koyu Geçiş GtG: ~11.4 ms · Siyah Smearing!', color: '#ff4560', tweet: "Kutuda 1 ms yazan ucuz VA panellerde koyu renk geçişi 11 ms'yi aşar; karanlık sahnelerde siyah gölgelenme (black smearing) kaçınılmazdır. @turkprincee" }
+    };
+    function updateGhostShare() {
+      const m = ghostMeta[ghostMode];
+      document.getElementById('ghostReadout').textContent = 'Aktif: ' + m.label;
+      document.getElementById('ghostReadout').style.color = m.color;
+      document.getElementById('shareGhostBtn').href = 'https://x.com/intent/tweet?text=' + encodeURIComponent(m.tweet);
+    }
+    document.querySelectorAll('#panelBtns button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('#panelBtns button').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        ghostMode = btn.dataset.mode;
+        updateGhostShare();
+      });
+    });
+    updateGhostShare();
+
+    function drawGhost() {
+      gCtx.fillStyle = '#0c111b';
+      gCtx.fillRect(0, 0, gCanvas.width, gCanvas.height);
+      gCtx.strokeStyle = '#192336';
+      for (let x = 0; x < gCanvas.width; x += 40) {
+        gCtx.beginPath(); gCtx.moveTo(x, 0); gCtx.lineTo(x, gCanvas.height); gCtx.stroke();
+      }
+      gx += 4.2;
+      if (gx > gCanvas.width - 40) gx = 40;
+      const cy = gCanvas.height / 2;
+      const c = ghostMeta[ghostMode].color;
+
+      if (ghostMode === 'va') {
+        for (let i = 7; i >= 1; i--) {
+          gCtx.fillStyle = `rgba(255, 69, 96, ${(8 - i) * 0.08})`;
+          gCtx.fillRect(gx - i * 13 - 20, cy - 22, 40, 44);
+        }
+      } else if (ghostMode === 'ips') {
+        for (let i = 2; i >= 1; i--) {
+          gCtx.fillStyle = `rgba(16, 185, 129, ${(3 - i) * 0.14})`;
+          gCtx.fillRect(gx - i * 11 - 20, cy - 22, 40, 44);
+        }
+      } else if (ghostMode === 'mprt') {
+        gCtx.strokeStyle = 'rgba(255, 107, 0, 0.55)';
+        gCtx.lineWidth = 2;
+        gCtx.strokeRect(gx - 28 - 20, cy - 22, 40, 44);
+      }
+
+      gCtx.fillStyle = c;
+      gCtx.fillRect(gx - 20, cy - 22, 40, 44);
+      gCtx.strokeStyle = '#080b11';
+      gCtx.lineWidth = 2.5;
+      gCtx.beginPath();
+      gCtx.moveTo(gx, cy - 14); gCtx.lineTo(gx, cy + 14);
+      gCtx.moveTo(gx - 14, cy); gCtx.lineTo(gx + 14, cy);
+      gCtx.stroke();
+      requestAnimationFrame(drawGhost);
+    }
+    requestAnimationFrame(drawGhost);
+
+    // 3) CANLI FRAMETIME & %1 LOW FPS OSİLOSKOP SİMÜLATÖRÜ
+    const fCanvas = document.getElementById('ftCanvas');
+    const fCtx = fCanvas.getContext('2d');
+    let vram16 = true, dualRam = true, vrrOn = true;
+    const ftHistory = new Array(120).fill(10.4);
+    let tick = 0;
+
+    function refreshFtUI() {
+      const bV = document.getElementById('btnVram');
+      const bR = document.getElementById('btnRam');
+      const bVrr = document.getElementById('btnVrr');
+      bV.textContent = vram16 ? 'VRAM: 16 GB' : 'VRAM: 8 GB (Darboğaz)';
+      bV.classList.toggle('active', vram16);
+      bR.textContent = dualRam ? 'RAM: 2x16 Çift Kanal' : 'RAM: 1x16 Tek Kanal';
+      bR.classList.toggle('active', dualRam);
+      bVrr.textContent = vrrOn ? 'HDMI 2.1 VRR: Açık' : 'VRR: Kapalı';
+      bVrr.classList.toggle('active', vrrOn);
+
+      let avg = 96 - (vram16 ? 0 : 9) - (dualRam ? 0 : 12);
+      let low1 = 84 - (vram16 ? 0 : 46) - (dualRam ? 0 : 16) - (vrrOn ? 0 : 8);
+      low1 = Math.max(19, low1);
+      const baseMs = (1000 / avg).toFixed(1);
+      const status = (vram16 && dualRam) ? 'Stabil Akış' : 'Mikro Takılma (Stutter)!';
+      const rd = document.getElementById('ftReadout');
+      rd.textContent = `Ort: ${avg} FPS | %1 Low: ${low1} FPS | Frametime: ${baseMs} ms (${status})`;
+      rd.className = (vram16 && dualRam) ? 'green' : 'red';
+      const shareTxt = `Sistem darboğaz testi: ${vram16 ? '16 GB VRAM' : '8 GB VRAM'} + ${dualRam ? '2x16 Çift Kanal' : '1x16 Tek Kanal'} DDR5 ile Ortalama ${avg} FPS iken %1 Low FPS ${low1}'e ${vram16 && dualRam ? 'tutunuyor' : 'çakılıyor'}! Akıcılığı belirleyen %1 Low değeridir. @turkprincee`;
+      document.getElementById('shareFtBtn').href = 'https://x.com/intent/tweet?text=' + encodeURIComponent(shareTxt);
+    }
+    document.getElementById('btnVram').onclick = () => { vram16 = !vram16; refreshFtUI(); };
+    document.getElementById('btnRam').onclick = () => { dualRam = !dualRam; refreshFtUI(); };
+    document.getElementById('btnVrr').onclick = () => { vrrOn = !vrrOn; refreshFtUI(); };
+    refreshFtUI();
+
+    function drawFt() {
+      tick++;
+      let ms = 10.4 + Math.sin(tick * 0.15) * 0.9;
+      if (!dualRam) ms += 2.4 + Math.abs(Math.sin(tick * 0.4)) * 4.5;
+      if (!vram16 && (tick % 26 === 0 || tick % 41 === 0)) ms += 32.0;
+      if (!vrrOn && tick % 17 === 0) ms += 9.5;
+      ftHistory.push(ms);
+      ftHistory.shift();
+
+      fCtx.fillStyle = '#0c111b';
+      fCtx.fillRect(0, 0, fCanvas.width, fCanvas.height);
+      // 16.6ms (60 FPS) ve 33.3ms (30 FPS) referans çizgileri
+      fCtx.strokeStyle = '#1e293b';
+      fCtx.setLineDash([4, 4]);
+      fCtx.beginPath();
+      fCtx.moveTo(0, 125); fCtx.lineTo(fCanvas.width, 125);
+      fCtx.moveTo(0, 65); fCtx.lineTo(fCanvas.width, 65);
+      fCtx.stroke();
+      fCtx.setLineDash([]);
+      fCtx.fillStyle = '#64748b';
+      fCtx.font = '11px monospace';
+      fCtx.fillText('33.3 ms (30 FPS sınırı)', 10, 58);
+      fCtx.fillText('16.6 ms (60 FPS sınırı)', 10, 118);
+
+      fCtx.strokeStyle = (vram16 && dualRam) ? '#00e5ff' : '#ff4560';
+      fCtx.lineWidth = 2.4;
+      fCtx.beginPath();
+      const step = fCanvas.width / (ftHistory.length - 1);
+      ftHistory.forEach((val, idx) => {
+        const x = idx * step;
+        const y = Math.max(14, 168 - (val - 8) * 3.1);
+        if (idx === 0) fCtx.moveTo(x, y); else fCtx.lineTo(x, y);
+      });
+      fCtx.stroke();
+      requestAnimationFrame(drawFt);
+    }
+    requestAnimationFrame(drawFt);
+
+    // 4) CANLI STATUS.JSON YÜKLEME VE FİLTRELEME
+    let allLogs = [];
+    function renderLogs(filterText = '') {
+      const box = document.getElementById('logContainer');
+      box.innerHTML = '';
+      const q = filterText.trim().toLowerCase();
+      const filtered = allLogs.filter(item => {
+        const blob = ((item.konu_ozeti || '') + ' ' + ((item.ana_tweetler || []).join(' '))).toLowerCase();
+        return !q || blob.includes(q);
+      });
+      filtered.forEach(item => {
+        const div = document.createElement('div');
+        div.className = 'log-item';
+        const ilkId = (item.tweet_idleri && item.tweet_idleri[0]) ? String(item.tweet_idleri[0]) : '';
+        const canliTweetMi = ilkId && /^\d+$/.test(ilkId);
+        const ilkMetin = (item.ana_tweetler && item.ana_tweetler[0]) ? item.ana_tweetler[0] : item.konu_ozeti;
+        const intentUrl = 'https://x.com/intent/tweet?text=' + encodeURIComponent(ilkMetin);
+        const linkHtml = canliTweetMi
+          ? ` · <a href="https://x.com/turkprincee/status/${ilkId}" target="_blank" rel="noopener">Canlı Tweeti Gör ↗</a>`
+          : ` · <a href="${intentUrl}" target="_blank" rel="noopener">X'te Aç ↗</a>`;
+        const detayMetin = (item.ana_tweetler && item.ana_tweetler.length)
+          ? item.ana_tweetler.join('\n\n---\n\n')
+          : item.konu_ozeti;
+        div.innerHTML = `
+          <div class="log-meta">${item.tarih_tsi} · [${item.dilim}] · ${item.aksiyon_tipi}${linkHtml}</div>
+          <div class="log-text">${detayMetin}</div>
+        `;
+        box.appendChild(div);
+      });
+    }
+    document.getElementById('filterInput').addEventListener('input', e => renderLogs(e.target.value));
+
     fetch('./status.json?t=' + Date.now())
       .then(r => r.json())
       .then(data => {
@@ -168,40 +461,11 @@
         document.getElementById('fazVal').textContent = `FAZ ${data.aktif_faz}`;
         const hedef = data.aktif_faz === 1 ? 3000 : (data.aktif_faz === 2 ? 10000 : 50000);
         document.getElementById('followerVal').textContent = `${data.takipci} / ${hedef.toLocaleString('tr-TR')}`;
-        const yuzde = Math.min(100, Math.max(2, (data.takipci / hedef) * 100));
-        document.getElementById('followerBar').style.width = yuzde + '%';
-        const fazMap = {
-          1: 'Saf Büyüme & Yer İmi Odaklı (Sıfır Satış Linki)',
-          2: 'Otorite & X Gelir Paylaşımı (Yüksek Dwell Time)',
-          3: 'Otonom Gelir Motoru (Maks %20 İlk Yanıt Linki)'
-        };
-        document.getElementById('fazDesc').textContent = fazMap[data.aktif_faz] || '';
-
-        const box = document.getElementById('logContainer');
-        box.innerHTML = '';
-        (data.son_yayinlar || []).forEach(item => {
-          const div = document.createElement('div');
-          div.className = 'log-item';
-          const ilkId = (item.tweet_idleri && item.tweet_idleri[0]) ? String(item.tweet_idleri[0]) : '';
-          const canliTweetMi = ilkId && /^\d+$/.test(ilkId);
-          const ilkMetin = (item.ana_tweetler && item.ana_tweetler[0]) ? item.ana_tweetler[0] : item.konu_ozeti;
-          const intentUrl = 'https://x.com/intent/tweet?text=' + encodeURIComponent(ilkMetin);
-          const linkHtml = canliTweetMi
-            ? ` · <a href="https://x.com/turkprincee/status/${ilkId}" target="_blank" rel="noopener">Canlı Tweet ↗</a>`
-            : ` · <a href="${intentUrl}" target="_blank" rel="noopener">Tek Tıkla X'te Aç ↗</a>`;
-          const detayMetin = (item.ana_tweetler && item.ana_tweetler.length)
-            ? item.ana_tweetler.join('\n\n---\n\n')
-            : item.konu_ozeti;
-          div.innerHTML = `
-            <div class="log-meta">${item.tarih_tsi} · [${item.dilim}] · ${item.aksiyon_tipi}${linkHtml}</div>
-            <div class="log-text" style="white-space:pre-line;">${detayMetin}</div>
-          `;
-          box.appendChild(div);
-        });
+        document.getElementById('followerBar').style.width = Math.min(100, Math.max(2, (data.takipci / hedef) * 100)) + '%';
+        allLogs = data.son_yayinlar || [];
+        renderLogs();
       })
-      .catch(() => {
-        document.getElementById('updatedAt').textContent = 'Çevrimdışı Önizleme';
-      });
+      .catch(() => {});
   </script>
 </body>
 </html>
