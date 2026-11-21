@@ -1,6 +1,6 @@
 {
-  "guncellenme_tsi": "2026-11-21T13:15:12+03:00",
-  "durum": "Aktif — 13:09 Tartışma + 13:12 Ekran Kartı Anketi Tamamlandı (Sıradaki: 15:07 DDR5 GIF)",
+  "guncellenme_tsi": "2026-11-21T15:13:54+03:00",
+  "durum": "Aktif — 15:07 DDR5 Animasyonlu GIF & Öğleden Sonra Etkileşimi Tamamlandı (Sıradaki: 16:41 Hotfix & Trafik Dalgası)",
   "handle": "@turkprincee",
   "gorunen_ad": "Donanım & Oyun Lab",
   "takipci": 21,
@@ -77,13 +77,16 @@
       "dilim": "15:00",
       "aksiyon_tipi": "tek_tweet",
       "tweet_idleri": [
-        "X_SCHEDULED_GIF_1507"
+        "2124112338391621793",
+        "2124113426079445236",
+        "2124113508879237385",
+        "2124113604232565149"
       ],
       "ana_tweetler": [
         "Hazır sistem ilanlarında \"16 GB DDR5\" yazısını görünce hemen sepete eklemeyin.\n\nKasanın içinden 1x16 GB tek modül çıkarsa bellek veri yolu daralır ve %1 Low FPS %18'e kadar düşer.\n\nA2 ve B2 slotlarında 2x16 GB çift kanal + BIOS EXPO şarttır."
       ],
       "anket_secenekleri": [],
-      "konu_ozeti": "Animasyonlu GIF (ddr5.gif): 1x16 GB vs 2x16 GB Çift Kanal DDR5 + EXPO (X Bulut Kuyruğunda Planlandı)",
+      "konu_ozeti": "15:07 Animasyonlu GIF (ddr5.gif): 1x16 GB vs 2x16 GB Çift Kanal DDR5 + EXPO (Yayında) + 3 Öğleden Sonra Teknik Yanıt",
       "gelir_aksiyonu_var_mi": false
     },
     {
