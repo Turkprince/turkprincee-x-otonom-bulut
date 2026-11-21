@@ -168,13 +168,35 @@
       "dilim": "13:00",
       "aksiyon_tipi": "tek_tweet",
       "tweet_idleri": [
-        "X_SCHEDULED_1309"
+        "2124082642723475524"
       ],
       "ana_tweetler": [
         "Aynı bütçede 27 inç oyuncu monitörü alacak olsanız bugün hangisini masanıza koyarsınız?\n\n1) 1440p 240Hz QD-OLED (0.03 ms GtG, sonsuz kontrast ama yanma riski)\n2) 4K 160Hz Mini-LED IPS (1000+ nit HDR, sıfır yanma riski ama hafif blooming)\n\nSebebiyle yazın."
       ],
       "anket_secenekleri": [],
-      "konu_ozeti": "27 inç oyuncu monitörü karşılaştırması: 1440p 240Hz QD-OLED vs 4K 160Hz Mini-LED IPS (X Bulut Kuyruğunda Planlandı — 0 TL)",
+      "konu_ozeti": "13:09 Öğle Karşılaştırması: 27 inç 1440p 240Hz QD-OLED vs 4K 160Hz Mini-LED IPS (Yayında)",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-21T13:12:00+03:00",
+      "dilim": "13:12_ogle_anket_ve_etkilesim",
+      "aksiyon_tipi": "anket",
+      "tweet_idleri": [
+        "2124083524672041069",
+        "2124083770353688794",
+        "2124083855674028441",
+        "2124083949018484922"
+      ],
+      "ana_tweetler": [
+        "Yeni nesil ekran kartı seçerken paranızın karşılığını belirleyen 1 numaralı kriteriniz hangisi?\n\nOyunuzu verin, yorumda kullandığınız kartı yazın:"
+      ],
+      "anket_secenekleri": [
+        "Saf Kas Gücü (Native)",
+        "DLSS / FSR Frame Gen",
+        "En az 16 GB VRAM",
+        "Düşük Watt ve Sıcaklık"
+      ],
+      "konu_ozeti": "13:12 Canlı 4 Seçenekli Ekran Kartı Anketi + @VideoCardz, @shiftdeletenet ve @TechnopatNet Öğle Teknik Yanıtları",
       "gelir_aksiyonu_var_mi": false
     },
     {
