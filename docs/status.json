@@ -1,6 +1,6 @@
 {
-  "guncellenme_tsi": "2026-11-21T03:29:42+03:00",
-  "durum": "Aktif — 0 TL Tam Ücretsiz Bulut Modu",
+  "guncellenme_tsi": "2026-11-21T03:34:04+03:00",
+  "durum": "Aktif — 0 TL Tam Ücretsiz Bulut Modu + X Yerleşik Bulut Kuyruğu Dolu",
   "handle": "@turkprincee",
   "gorunen_ad": "Donanım & Oyun Lab",
   "takipci": 21,
@@ -8,14 +8,84 @@
   "sabitlenmis_tweet_id": "2123930006766092611",
   "bekleyen_acik_donguler": [
     {
-      "hedef_tarih": "2026-11-21",
+      "hedef_tarih": "2026-11-22",
       "hedef_dilim": "09:30",
-      "soz_verilen_konu": "GTA 6 oynayanların 120Hz TV ve monitörlerinde yanlış seçtiği HDMI 2.1 / VRR ve 40Hz (25ms frametime) ayarının akıcılığı nasıl bozduğu",
-      "kaynak_tweet_id": "2123930211523940837",
+      "soz_verilen_konu": "Ev Wi-Fi 5GHz kanal çakışması (DFS / 80MHz vs 160MHz) ve oyunlarda ani ping sıçraması çözümü",
+      "kaynak_tweet_id": "X_NATIVE_SCHEDULED_2324",
       "tamamlandi": false
     }
   ],
   "son_yayinlar": [
+    {
+      "tarih_tsi": "2026-11-21T23:24:00+03:00",
+      "dilim": "23:15",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "X_SCHEDULED_2324"
+      ],
+      "ana_tweetler": [
+        "Kablosuz kulaklık veya farede anlık kopma yaşıyorsanız suçlu genelde Windows USB güç tasarrufudur.\n\nAygıt Yöneticisi > USB Kök Hub > Güç Yönetimi sekmesinde 'Güç kazancı için kapat' tikini kaldırın.\n\nYarın 09:30'da Wi-Fi 5GHz kanal tuzağını yazacağım."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Windows USB Kök Hub güç yönetimi kablosuz kopma çözümü + Wi-Fi 5GHz açık döngüsü (X Bulut Kuyruğunda Planlandı — 0 TL)",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-21T20:36:00+03:00",
+      "dilim": "20:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "X_SCHEDULED_2036"
+      ],
+      "ana_tweetler": [
+        "OLED monitör satışları bu çeyrekte ikiye katlandı ama mağazada kimse panel farkını anlatmıyor:\n\nAydınlık odada QD-OLED siyahları mor-griye döner; Tandem WOLED ise siyahı korur.\n\nKaranlık odada saf renk hacmi için QD-OLED, gündüz kullanımı için WOLED seçin."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "QD-OLED vs Tandem WOLED oda aydınlatması ve siyah seviyesi satın alma rehberi (X Bulut Kuyruğunda Planlandı — 0 TL)",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-21T16:41:00+03:00",
+      "dilim": "16:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "X_SCHEDULED_1641"
+      ],
+      "ana_tweetler": [
+        "NVIDIA'nın sessizce yayınladığı GeForce Hotfix 621.35 sürücüsünü es geçmeyin.\n\nÖnceki sürücüde sistem boştayken bile arka planda nvlog.nvlgstg dosyasına sürekli veri yazıp NVMe SSD sağlığını (TBW) eriten ciddi bir hata vardı. Güncellemeyi bekletmeyin."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "NVIDIA GeForce Hotfix 621.35 arka plan nvlog.nvlgstg NVMe SSD TBW yazma hatası (X Bulut Kuyruğunda Planlandı — 0 TL)",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-21T13:09:00+03:00",
+      "dilim": "13:00",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "X_SCHEDULED_1309"
+      ],
+      "ana_tweetler": [
+        "Aynı bütçede 27 inç oyuncu monitörü alacak olsanız bugün hangisini masanıza koyarsınız?\n\n1) 1440p 240Hz QD-OLED (0.03 ms GtG, sonsuz kontrast ama yanma riski)\n2) 4K 160Hz Mini-LED IPS (1000+ nit HDR, sıfır yanma riski ama hafif blooming)\n\nSebebiyle yazın."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "27 inç oyuncu monitörü karşılaştırması: 1440p 240Hz QD-OLED vs 4K 160Hz Mini-LED IPS (X Bulut Kuyruğunda Planlandı — 0 TL)",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-21T09:38:00+03:00",
+      "dilim": "09:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "X_SCHEDULED_0938"
+      ],
+      "ana_tweetler": [
+        "GTA 6 oynarken 120Hz TV veya monitörde VRR kapalıysa konsol 30 FPS kilidine düşer ve frametime 33.3 ms olur.\n\nHDMI 2.1 portunda 120Hz + VRR açtığınızda 40 FPS denge modu devreye girer; kare süresi 25 ms'ye iner ve giriş gecikmesi %25 azalır."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "GTA 6 HDMI 2.1 120Hz VRR + 40 FPS denge modu (25ms vs 33.3ms frametime) (X Bulut Kuyruğunda Planlandı — 0 TL)",
+      "gelir_aksiyonu_var_mi": false
+    },
     {
       "tarih_tsi": "2026-11-21T03:03:00+03:00",
       "dilim": "23:15_gece_ipucu",
