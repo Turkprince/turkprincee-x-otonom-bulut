@@ -1,0 +1,43 @@
+{
+  "guncellenme_tsi": "2026-11-21T03:14:33+03:00",
+  "durum": "API anahtarı bekleniyor (Hazır)",
+  "handle": "@turkprincee",
+  "gorunen_ad": "Donanım & Oyun Lab",
+  "takipci": 21,
+  "aktif_faz": 1,
+  "sabitlenmis_tweet_id": "2123930006766092611",
+  "bekleyen_acik_donguler": [
+    {
+      "hedef_tarih": "2026-11-21",
+      "hedef_dilim": "09:30",
+      "soz_verilen_konu": "GTA 6 oynayanların 120Hz TV ve monitörlerinde yanlış seçtiği HDMI 2.1 / VRR ve 40Hz (25ms frametime) ayarının akıcılığı nasıl bozduğu",
+      "kaynak_tweet_id": "2123930211523940837",
+      "tamamlandi": false
+    }
+  ],
+  "son_yayinlar": [
+    {
+      "tarih_tsi": "2026-11-21T03:03:00+03:00",
+      "dilim": "23:15_gece_ipucu",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "2123930211523940837"
+      ],
+      "konu_ozeti": "NVIDIA Denetim Masası Gölgelendirici Önbelleği Boyutu (Shader Cache Size) 4 GB varsayılan sınırı -> 10 GB ayarı ile %1 Low FPS anlık takılma (stutter) çözümü + sabah 09:30 GTA 6 VRR açık döngüsü"
+    },
+    {
+      "tarih_tsi": "2026-11-21T03:02:00+03:00",
+      "dilim": "lansman_sabitlenmis_flood",
+      "aksiyon_tipi": "flood",
+      "tweet_idleri": [
+        "2123930006766092611",
+        "2123930009098391969",
+        "2123930010922651746",
+        "2123930013770879381",
+        "2123930016212025754",
+        "2123930018661511295"
+      ],
+      "konu_ozeti": "Mağaza donanım satın alma tuzakları: 1ms MPRT vs GtG ghosting, 8GB VRAM PCIe taşması ve %1 Low FPS çöküşü, 1x16GB DDR5 tek kanal bant genişliği kaybı, ucuz 750W Bronze PSU 12V ripple riski, priz tipi Wi-Fi Repeater yarı-dupleks latency artışı"
+    }
+  ]
+}

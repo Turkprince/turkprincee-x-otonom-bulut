@@ -1,0 +1,93 @@
+name: "@turkprincee 7/24 Otonom X Bulut Motoru"
+
+on:
+  schedule:
+    # TSİ (UTC+3) günlük 5 zaman dilimi (+3..14 dk rastgele sapma motor içinde uygulanır)
+    - cron: "30 6 * * *"   # 09:30 TSİ — Sabah Tespit / Gündem
+    - cron: "0 10 * * *"   # 13:00 TSİ — Öğle Tartışma / Anket
+    - cron: "30 13 * * *"  # 16:30 TSİ — Etkileşim ve Trafik Dalgası
+    - cron: "30 17 * * *"  # 20:30 TSİ — Akşam Ana Flood (Prime Time)
+    - cron: "15 20 * * *"  # 23:15 TSİ — Gece Mikro İpucu ve Merak Kancası
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "Çalıştırılacak TSİ dilimi (auto = mevcut saate göre)"
+        required: true
+        default: "auto"
+        type: choice
+        options:
+          - "auto"
+          - "09:30"
+          - "13:00"
+          - "16:30"
+          - "20:30"
+          - "23:15"
+      no_wait:
+        description: "3-14 dk rastgele beklemeyi atla (hemen çalıştır)"
+        required: false
+        default: true
+        type: boolean
+      dry_run:
+        description: "Test modu (X'e göndermeden yalnız karar üret ve doğrula)"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: x-otonom-turkprincee
+  cancel-in-progress: false
+
+jobs:
+  yayin_dongusu:
+    name: "Otonom Yayın ve Hafıza Güncelleme"
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Depoyu İndir
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Python 3.12 Kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Bağımlılıkları Yükle
+        run: pip install -r requirements.txt
+
+      - name: Otonom Kanal Motorunu Çalıştır
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.8-flash' }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          AUTOMATION_WEBHOOK_URL: ${{ secrets.AUTOMATION_WEBHOOK_URL }}
+        run: |
+          SLOT_ARG="${{ inputs.slot || 'auto' }}"
+          EXTRA_FLAGS=""
+          if [ "${{ inputs.no_wait }}" = "true" ]; then
+            EXTRA_FLAGS="$EXTRA_FLAGS --no-wait"
+          fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            EXTRA_FLAGS="$EXTRA_FLAGS --dry-run"
+          fi
+          python -m cloud.run_slot --slot "$SLOT_ARG" $EXTRA_FLAGS
+
+      - name: 14 Günlük Hafızayı ve Bulut Durum Panelini Kaydet
+        run: |
+          git config user.name "DonanimOyunLab Cloud Bot"
+          git config user.email "actions@github.com"
+          git add kanal_hafiza.json docs/status.json
+          if git diff --staged --quiet; then
+            echo "Hafıza dosyasında değişiklik yok."
+          else
+            git commit -m "chore(otonom): kanal hafızası ve durum paneli güncellendi [skip ci]"
+            git push
+          fi

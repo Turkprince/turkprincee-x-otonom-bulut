@@ -1,0 +1,73 @@
+{
+  "name": "turkprincee_7_24_Otonom_X_Bulut_Akisi",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            { "field": "cronExpression", "expression": "30 9 * * *" },
+            { "field": "cronExpression", "expression": "0 13 * * *" },
+            { "field": "cronExpression", "expression": "30 16 * * *" },
+            { "field": "cronExpression", "expression": "30 20 * * *" },
+            { "field": "cronExpression", "expression": "15 23 * * *" }
+          ]
+        }
+      },
+      "name": "TSI_5_Zaman_Dilimi_Tetikleyici",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [220, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://generativelanguage.googleapis.com/v1beta/interactions",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "x-goog-api-key", "value": "={{$env.GEMINI_API_KEY}}" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"model\": \"gemini-3.8-flash\",\n  \"tools\": [{\"type\": \"google_search\"}],\n  \"input\": \"@turkprincee (Donanım & Oyun Lab) için mevcut TSİ saatine uygun karar JSON çıktısı üret.\",\n  \"response_format\": {\n    \"type\": \"text\",\n    \"mime_type\": \"application/json\",\n    \"schema\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"aktif_faz\": {\"type\": \"integer\"},\n        \"aksiyon_tipi\": {\"type\": \"string\"},\n        \"bekleme_dakika\": {\"type\": \"integer\"},\n        \"hedef_tweet_id\": {\"type\": [\"string\", \"null\"]},\n        \"ana_tweetler\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}},\n        \"anket_secenekleri\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}},\n        \"ilk_yanit_metni\": {\"type\": [\"string\", \"null\"]},\n        \"gorsel_prompt_en\": {\"type\": [\"string\", \"null\"]},\n        \"hafiza_ozeti\": {\"type\": \"string\"},\n        \"gelir_aksiyonu_var_mi\": {\"type\": \"boolean\"}\n      },\n      \"required\": [\"aktif_faz\", \"aksiyon_tipi\", \"bekleme_dakika\", \"ana_tweetler\", \"anket_secenekleri\", \"hafiza_ozeti\", \"gelir_aksiyonu_var_mi\"]\n    }\n  }\n}"
+      },
+      "name": "Gemini_3_8_Flash_Karar_Motoru",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [480, 300]
+    },
+    {
+      "parameters": {
+        "amount": "={{ JSON.parse($json.output_text).bekleme_dakika }}",
+        "unit": "minutes"
+      },
+      "name": "Rastgele_3_14_Dk_Spam_Korumasi",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [740, 300]
+    },
+    {
+      "parameters": {
+        "text": "={{ JSON.parse($node['Gemini_3_8_Flash_Karar_Motoru'].json.output_text).ana_tweetler[0] }}",
+        "additionalFields": {}
+      },
+      "name": "X_Tweet_Yayinla",
+      "type": "n8n-nodes-base.twitter",
+      "typeVersion": 2,
+      "position": [1000, 300]
+    }
+  ],
+  "connections": {
+    "TSI_5_Zaman_Dilimi_Tetikleyici": {
+      "main": [[{ "node": "Gemini_3_8_Flash_Karar_Motoru", "type": "main", "index": 0 }]]
+    },
+    "Gemini_3_8_Flash_Karar_Motoru": {
+      "main": [[{ "node": "Rastgele_3_14_Dk_Spam_Korumasi", "type": "main", "index": 0 }]]
+    },
+    "Rastgele_3_14_Dk_Spam_Korumasi": {
+      "main": [[{ "node": "X_Tweet_Yayinla", "type": "main", "index": 0 }]]
+    }
+  }
+}

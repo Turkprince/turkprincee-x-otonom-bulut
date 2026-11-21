@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donanım & Oyun Lab (@turkprincee) — 7/24 Bulut Komuta Paneli</title>
+  <style>
+    :root {
+      --bg: #0b0e14;
+      --card: #121722;
+      --border: #1e2738;
+      --cyan: #00e5ff;
+      --amber: #ff6b00;
+      --green: #10b981;
+      --text: #e5e9f0;
+      --muted: #8b95a7;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+      padding: 28px 18px 60px;
+    }
+    .wrap { max-width: 1040px; margin: 0 auto; }
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 22px 24px;
+      background: linear-gradient(135deg, #121722 0%, #0d131d 100%);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--cyan);
+      border-radius: 14px;
+      margin-bottom: 22px;
+    }
+    h1 { font-size: 1.35rem; letter-spacing: -0.02em; }
+    .sub { color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0, 229, 255, 0.1);
+      color: var(--cyan);
+      border: 1px solid rgba(0, 229, 255, 0.3);
+      padding: 7px 14px;
+      border-radius: 999px;
+      font-size: 0.84rem;
+      font-weight: 600;
+    }
+    .dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 10px var(--green);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 22px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+    }
+    .label { color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .val { font-size: 1.55rem; font-weight: 700; margin-top: 6px; }
+    .val.cyan { color: var(--cyan); }
+    .val.amber { color: var(--amber); }
+    .bar-bg {
+      width: 100%; height: 8px; background: #1b2230;
+      border-radius: 999px; margin-top: 10px; overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%; background: linear-gradient(90deg, var(--cyan), var(--amber));
+      width: 2%; transition: width 0.4s ease;
+    }
+    h2 { font-size: 1.05rem; margin-bottom: 14px; color: var(--cyan); }
+    .slots {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-bottom: 22px;
+    }
+    .slot {
+      background: #0f141e;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px;
+    }
+    .slot-time { font-weight: 700; color: var(--amber); font-size: 0.95rem; }
+    .slot-desc { font-size: 0.83rem; color: var(--muted); margin-top: 4px; }
+    .log-item {
+      border-bottom: 1px solid var(--border);
+      padding: 12px 0;
+    }
+    .log-item:last-child { border-bottom: none; }
+    .log-meta { font-size: 0.8rem; color: var(--cyan); font-family: monospace; }
+    .log-text { font-size: 0.92rem; margin-top: 4px; }
+    a { color: var(--cyan); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1 id="title">Donanım & Oyun Lab (@turkprincee)</h1>
+        <div class="sub" id="statusText">7/24 Bulut Otonom Kanal Motoru · Bilgisayar Kapalıyken Aktif</div>
+      </div>
+      <div class="badge"><span class="dot"></span><span id="updatedAt">Yükleniyor...</span></div>
+    </header>
+
+    <div class="grid">
+      <div class="card">
+        <div class="label">Aktif Faz</div>
+        <div class="val cyan" id="fazVal">FAZ 1</div>
+        <div class="sub" id="fazDesc">Saf Büyüme ve Merak (0 Sales Link)</div>
+      </div>
+      <div class="card">
+        <div class="label">Takipçi & Sonraki Faz Hedefi</div>
+        <div class="val" id="followerVal">21 / 3.000</div>
+        <div class="bar-bg"><div class="bar-fill" id="followerBar"></div></div>
+      </div>
+      <div class="card">
+        <div class="label">Günlük Otonom Dilim</div>
+        <div class="val amber">5 Yayın / Gün</div>
+        <div class="sub">+3..14 dk Rastgele Spam Koruması</div>
+      </div>
+      <div class="card">
+        <div class="label">Canlı X Profili</div>
+        <div class="val" style="font-size:1.1rem;margin-top:12px;">
+          <a href="https://x.com/turkprincee" target="_blank" rel="noopener">x.com/turkprincee ↗</a>
+        </div>
+        <div class="sub">Sabitlenmiş Rehber & Günlük Akış</div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:22px;">
+      <h2>Günlük Bulut Yayın Takvimi (TSİ — GitHub Actions Cron)</h2>
+      <div class="slots">
+        <div class="slot"><div class="slot-time">09:30 (+3..14 dk)</div><div class="slot-desc">Sabah Tespit / Gündem & Açık Döngü Kapanışı</div></div>
+        <div class="slot"><div class="slot-time">13:00 (+3..14 dk)</div><div class="slot-desc">Öğle Donanım / Panel / Oyun Çarpıştırma Anketi</div></div>
+        <div class="slot"><div class="slot-time">16:30 (+3..14 dk)</div><div class="slot-desc">Sektör Alıntısı & Teknik Derinlik Dalgası</div></div>
+        <div class="slot"><div class="slot-time">20:30 (+3..14 dk)</div><div class="slot-desc">Prime Time 5-7 Tweetlik Yüksek Kaydetmeli Flood</div></div>
+        <div class="slot"><div class="slot-time">23:15 (+3..14 dk)</div><div class="slot-desc">Gece Mikro Ayar İpucu + Yarına Merak Kancası</div></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Son Yayınlanan İçerikler ve 14 Günlük Konu Hafızası</h2>
+      <div id="logContainer"><div class="sub">Kayıtlar yükleniyor...</div></div>
+    </div>
+  </div>
+
+  <script>
+    fetch('./status.json?t=' + Date.now())
+      .then(r => r.json())
+      .then(data => {
+        document.getElementById('title').textContent = `${data.gorunen_ad} (${data.handle})`;
+        document.getElementById('statusText').textContent = `Bulut Durumu: ${data.durum}`;
+        document.getElementById('updatedAt').textContent = `Son Senkron: ${data.guncellenme_tsi}`;
+        document.getElementById('fazVal').textContent = `FAZ ${data.aktif_faz}`;
+        const hedef = data.aktif_faz === 1 ? 3000 : (data.aktif_faz === 2 ? 10000 : 50000);
+        document.getElementById('followerVal').textContent = `${data.takipci} / ${hedef.toLocaleString('tr-TR')}`;
+        const yuzde = Math.min(100, Math.max(2, (data.takipci / hedef) * 100));
+        document.getElementById('followerBar').style.width = yuzde + '%';
+        const fazMap = {
+          1: 'Saf Büyüme & Yer İmi Odaklı (Sıfır Satış Linki)',
+          2: 'Otorite & X Gelir Paylaşımı (Yüksek Dwell Time)',
+          3: 'Otonom Gelir Motoru (Maks %20 İlk Yanıt Linki)'
+        };
+        document.getElementById('fazDesc').textContent = fazMap[data.aktif_faz] || '';
+
+        const box = document.getElementById('logContainer');
+        box.innerHTML = '';
+        (data.son_yayinlar || []).forEach(item => {
+          const div = document.createElement('div');
+          div.className = 'log-item';
+          const ilkId = (item.tweet_idleri && item.tweet_idleri[0]) ? item.tweet_idleri[0] : '';
+          const linkHtml = ilkId && !ilkId.startsWith('DRY_')
+            ? ` · <a href="https://x.com/turkprincee/status/${ilkId}" target="_blank" rel="noopener">Tweeti Gör ↗</a>`
+            : '';
+          div.innerHTML = `
+            <div class="log-meta">${item.tarih_tsi} · [${item.dilim}] · ${item.aksiyon_tipi}${linkHtml}</div>
+            <div class="log-text">${item.konu_ozeti}</div>
+          `;
+          box.appendChild(div);
+        });
+      })
+      .catch(() => {
+        document.getElementById('updatedAt').textContent = 'Çevrimdışı Önizleme';
+      });
+  </script>
+</body>
+</html>
