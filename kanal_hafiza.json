@@ -57,6 +57,51 @@
       "konu_ozeti": "NVIDIA Denetim Masası Gölgelendirici Önbelleği Boyutu (Shader Cache Size) 4 GB varsayılan sınırı -> 10 GB ayarı ile %1 Low FPS anlık takılma (stutter) çözümü + sabah 09:30 GTA 6 VRR açık döngüsü"
     },
     {
+      "tarih_tsi": "2026-11-21T04:04:00+03:00",
+      "dilim": "04:00_animasyonlu_gif",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "2123945184274911358"
+      ],
+      "ana_tweetler": [
+        "Monitör kutusundaki \"1 ms MPRT\" yazısı gerçek piksel hızı değildir; arka ışığı kırparak ölçülür.\n\nUcuz VA panellerde koyu renk geçişi (GtG) 11 ms'yi aşar ve siyah iz (smearing) bırakır. Gerçek netlik için 0.03 ms GtG sunan OLED veya Fast IPS seçin."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Canlı Animasyonlu GIF: 1ms MPRT vs Ucuz VA Smearing vs 0.03ms OLED GtG (Yayında)",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-21T04:05:00+03:00",
+      "dilim": "04:05_interaktif_anket",
+      "aksiyon_tipi": "anket",
+      "tweet_idleri": [
+        "2123945715885810036"
+      ],
+      "ana_tweetler": [
+        "Ortalama FPS yüksek görünürken oyun keyfini en sinsi bozan teknik darboğaz sizce hangisi?\n\nDeneyiminize göre oy verin, yorumda sisteminizi konuşalım:"
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Canlı 4 Seçenekli İnteraktif X Anketi: 8GB VRAM vs 1x16 DDR5 vs VA Ghosting vs Wi-Fi Jitter (Yayında)",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-21T04:10:00+03:00",
+      "dilim": "04:10_sektor_alinti_ve_yanitlar",
+      "aksiyon_tipi": "alinti",
+      "tweet_idleri": [
+        "2123947106079773003",
+        "2123947202754293914",
+        "2123947225973961176",
+        "2123947249822728623"
+      ],
+      "ana_tweetler": [
+        "@TechPowerUp 1000Hz UltraGear alıntısı + @VideoCardz ve @TechPowerUp gönderilerine 3 özgün teknik yanıt"
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Canlı Etkileşim Dalgası: @TechPowerUp 1000Hz OLED alıntısı + @VideoCardz/@TechPowerUp 3 teknik yanıt (Yayında)",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
       "tarih_tsi": "2026-11-21T09:38:00+03:00",
       "dilim": "09:30",
       "aksiyon_tipi": "tek_tweet",
@@ -68,6 +113,20 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "GTA 6 HDMI 2.1 120Hz VRR + 40 FPS denge modu (25ms vs 33.3ms frametime) (X Bulut Kuyruğunda Planlandı — 0 TL)",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-21T11:24:00+03:00",
+      "dilim": "11:20",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "X_SCHEDULED_GIF_1124"
+      ],
+      "ana_tweetler": [
+        "84 FPS ile 91 FPS kağıt üstünde yakın görünür ama biri akarken diğeri takılır.\n\n8 GB VRAM dolduğunda dokular PCIe üzerinden sistem RAM'ine taşar; frametime 46 ms'ye fırlar ve %1 Low FPS 29'a çakılır. Akıcılığı ortalama değil %1 Low FPS belirler."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Animasyonlu GIF (vram.gif): 8 GB vs 16 GB VRAM Frametime & %1 Low FPS (X Bulut Kuyruğunda Planlandı)",
       "gelir_aksiyonu_var_mi": false
     },
     {
@@ -85,6 +144,20 @@
       "gelir_aksiyonu_var_mi": false
     },
     {
+      "tarih_tsi": "2026-11-21T15:07:00+03:00",
+      "dilim": "15:00",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "X_SCHEDULED_GIF_1507"
+      ],
+      "ana_tweetler": [
+        "Hazır sistem ilanlarında \"16 GB DDR5\" yazısını görünce hemen sepete eklemeyin.\n\nKasanın içinden 1x16 GB tek modül çıkarsa bellek veri yolu daralır ve %1 Low FPS %18'e kadar düşer.\n\nA2 ve B2 slotlarında 2x16 GB çift kanal + BIOS EXPO şarttır."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Animasyonlu GIF (ddr5.gif): 1x16 GB vs 2x16 GB Çift Kanal DDR5 + EXPO (X Bulut Kuyruğunda Planlandı)",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
       "tarih_tsi": "2026-11-21T16:41:00+03:00",
       "dilim": "16:30",
       "aksiyon_tipi": "tek_tweet",
@@ -96,6 +169,20 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "NVIDIA GeForce Hotfix 621.35 arka plan nvlog.nvlgstg NVMe SSD TBW yazma hatası (X Bulut Kuyruğunda Planlandı — 0 TL)",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-21T18:34:00+03:00",
+      "dilim": "18:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "X_SCHEDULED_GIF_1834"
+      ],
+      "ana_tweetler": [
+        "İnternetiniz 500 Mbps olduğu halde rekabetçi oyunda mermiler gitmiyorsa sorun hız değil, paket gecikme sapmasıdır (Jitter).\n\nPriz tipi Wi-Fi genişleticiler hızı böler, pingi 110+ ms zıplatır. Modemde 5 GHz bandını 36 veya 44. kanala sabitleyin."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Animasyonlu GIF (wifi.gif): 500 Mbps vs Wi-Fi Jitter & 5 GHz Sabit Kanal 36/44 (X Bulut Kuyruğunda Planlandı)",
       "gelir_aksiyonu_var_mi": false
     },
     {
