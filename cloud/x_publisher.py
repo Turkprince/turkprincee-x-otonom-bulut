@@ -160,55 +160,65 @@ class XBulutYayinci:
             return ["DRY_RUN_ID_1"]
 
         if self.x_api_hazir_mi:
-            if karar.aksiyon_tipi == "anket":
-                payload: Dict[str, Any] = {
-                    "text": karar.ana_tweetler[0],
-                    "poll": {
-                        "options": karar.anket_secenekleri,
-                        "duration_minutes": 1440,
-                    },
-                }
-                ilk_id = self._gonder_tek_tweet(payload)
-                yayinlanan_idler.append(ilk_id)
-
-            elif karar.aksiyon_tipi == "alinti" and karar.hedef_tweet_id:
-                payload = {
-                    "text": karar.ana_tweetler[0],
-                    "quote_tweet_id": karar.hedef_tweet_id,
-                }
-                ilk_id = self._gonder_tek_tweet(payload)
-                yayinlanan_idler.append(ilk_id)
-
-            elif karar.aksiyon_tipi == "yanit" and karar.hedef_tweet_id:
-                payload = {
-                    "text": karar.ana_tweetler[0],
-                    "reply": {"in_reply_to_tweet_id": karar.hedef_tweet_id},
-                }
-                ilk_id = self._gonder_tek_tweet(payload)
-                yayinlanan_idler.append(ilk_id)
-
-            else:
-                onceki_id: Optional[str] = None
-                for metin in karar.ana_tweetler:
-                    payload = {"text": metin}
-                    if onceki_id:
-                        payload["reply"] = {"in_reply_to_tweet_id": onceki_id}
-                    yeni_id = self._gonder_tek_tweet(payload)
-                    yayinlanan_idler.append(yeni_id)
-                    onceki_id = yeni_id
-                    if len(karar.ana_tweetler) > 1:
-                        time.sleep(2)
-
-            if karar.ilk_yanit_metni and karar.ilk_yanit_metni.strip() and yayinlanan_idler:
-                if ilk_yanit_bekleme_sn > 0:
-                    time.sleep(ilk_yanit_bekleme_sn)
-                yanit_id = self._gonder_tek_tweet(
-                    {
-                        "text": karar.ilk_yanit_metni.strip()[:270],
-                        "reply": {"in_reply_to_tweet_id": yayinlanan_idler[0]},
+            try:
+                if karar.aksiyon_tipi == "anket":
+                    payload: Dict[str, Any] = {
+                        "text": karar.ana_tweetler[0],
+                        "poll": {
+                            "options": karar.anket_secenekleri,
+                            "duration_minutes": 1440,
+                        },
                     }
-                )
-                yayinlanan_idler.append(yanit_id)
+                    ilk_id = self._gonder_tek_tweet(payload)
+                    yayinlanan_idler.append(ilk_id)
+
+                elif karar.aksiyon_tipi == "alinti" and karar.hedef_tweet_id:
+                    payload = {
+                        "text": karar.ana_tweetler[0],
+                        "quote_tweet_id": karar.hedef_tweet_id,
+                    }
+                    ilk_id = self._gonder_tek_tweet(payload)
+                    yayinlanan_idler.append(ilk_id)
+
+                elif karar.aksiyon_tipi == "yanit" and karar.hedef_tweet_id:
+                    payload = {
+                        "text": karar.ana_tweetler[0],
+                        "reply": {"in_reply_to_tweet_id": karar.hedef_tweet_id},
+                    }
+                    ilk_id = self._gonder_tek_tweet(payload)
+                    yayinlanan_idler.append(ilk_id)
+
+                else:
+                    onceki_id: Optional[str] = None
+                    for metin in karar.ana_tweetler:
+                        payload = {"text": metin}
+                        if onceki_id:
+                            payload["reply"] = {"in_reply_to_tweet_id": onceki_id}
+                        yeni_id = self._gonder_tek_tweet(payload)
+                        yayinlanan_idler.append(yeni_id)
+                        onceki_id = yeni_id
+                        if len(karar.ana_tweetler) > 1:
+                            time.sleep(2)
+
+                if karar.ilk_yanit_metni and karar.ilk_yanit_metni.strip() and yayinlanan_idler:
+                    if ilk_yanit_bekleme_sn > 0:
+                        time.sleep(ilk_yanit_bekleme_sn)
+                    yanit_id = self._gonder_tek_tweet(
+                        {
+                            "text": karar.ilk_yanit_metni.strip()[:270],
+                            "reply": {"in_reply_to_tweet_id": yayinlanan_idler[0]},
+                        }
+                    )
+                    yayinlanan_idler.append(yanit_id)
+            except RuntimeError as exc:
+                if "402" in str(exc) or "credits-depleted" in str(exc):
+                    print(
+                        "[ÜCRETSİZ MOD] X API ücretli kredi kullanılmıyor (0 TL koruma). "
+                        "İçerik Bulut RSS akışına ve Komuta Paneline aktarıldı."
+                    )
+                    yayinlanan_idler.append(f"CLOUD_QUEUE_{int(time.time())}")
+                else:
+                    raise
 
         if self.webhook_url:
             requests.post(

@@ -3,18 +3,21 @@
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import os
 import secrets
 import sys
 import time
 from datetime import datetime, timedelta, timezone
+from email.utils import format_datetime
 from pathlib import Path
 from typing import Any, Dict, List
 
 KOK_DIZIN = Path(__file__).resolve().parent.parent
 HAFIZA_YOLU = KOK_DIZIN / "kanal_hafiza.json"
 DURUM_YOLU = KOK_DIZIN / "docs" / "status.json"
+RSS_YOLU = KOK_DIZIN / "docs" / "rss.xml"
 
 TSI = timezone(timedelta(hours=3))
 
@@ -91,6 +94,42 @@ def yaz_durum_paneli(hafiza: Dict[str, Any], son_durum: str) -> None:
         "son_yayinlar": list(reversed(hafiza.get("son_14_gun_konu_hafizasi", [])[-10:])),
     }
     DURUM_YOLU.write_text(json.dumps(veri, ensure_ascii=False, indent=2), encoding="utf-8")
+    yaz_rss_akisi(hafiza)
+
+
+def yaz_rss_akisi(hafiza: Dict[str, Any]) -> None:
+    """Ücretsiz Buffer / Make / IFTTT entegrasyonları için standart RSS 2.0 akışı üretir."""
+    RSS_YOLU.parent.mkdir(parents=True, exist_ok=True)
+    simdi_rfc = format_datetime(datetime.now(TSI))
+    items_xml: List[str] = []
+    for idx, k in enumerate(reversed(hafiza.get("son_14_gun_konu_hafizasi", [])[-20:])):
+        ana_liste = k.get("ana_tweetler") or []
+        metin = ana_liste[0] if ana_liste else str(k.get("konu_ozeti", ""))
+        guid = (k.get("tweet_idleri") or [f"local-{idx}"])[0]
+        try:
+            pub_dt = format_datetime(datetime.fromisoformat(str(k.get("tarih_tsi"))))
+        except Exception:
+            pub_dt = simdi_rfc
+        items_xml.append(
+            "    <item>\n"
+            f"      <title>{html.escape(metin[:270])}</title>\n"
+            f"      <description>{html.escape(metin)}</description>\n"
+            f"      <guid isPermaLink=\"false\">{html.escape(str(guid))}</guid>\n"
+            f"      <pubDate>{pub_dt}</pubDate>\n"
+            "    </item>"
+        )
+    rss_icerik = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0">\n'
+        "  <channel>\n"
+        "    <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>\n"
+        "    <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>\n"
+        "    <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>\n"
+        f"    <lastBuildDate>{simdi_rfc}</lastBuildDate>\n"
+        + "\n".join(items_xml)
+        + "\n  </channel>\n</rss>\n"
+    )
+    RSS_YOLU.write_text(rss_icerik, encoding="utf-8")
 
 
 def _yaz_github_ozeti(markdown_metin: str) -> None:
@@ -118,19 +157,17 @@ def main() -> int:
 
     hafiza = yukle_hafiza()
 
-    # Ön kontrol: API anahtarları henüz GitHub Secrets'a girilmediyse hata vermeden bilgi özetle
+    # Ön kontrol: Yalnız ücretsiz GEMINI_API_KEY bile yeterli (0 TL bulut üretimi + RSS/Panel)
     gemini_var = bool(os.environ.get("GEMINI_API_KEY", "").strip())
     yayinci = XBulutYayinci()
-    hedef_var = yayinci.x_api_hazir_mi or bool(yayinci.webhook_url) or args.dry_run or args.json_only
 
-    if not gemini_var or not hedef_var:
+    if not gemini_var:
         mesaj = (
             "### ⏳ Bulut Kurulumu Bekleniyor (`@turkprincee`)\n"
             f"- **Kontrol Zamanı (TSİ):** `{simdi_tsi.isoformat(timespec='seconds')}`\n"
-            f"- **`GEMINI_API_KEY` tanımlı mı?** `{'EVET' if gemini_var else 'HAYIR'}`\n"
-            f"- **`X_API_*` veya `AUTOMATION_WEBHOOK_URL` tanımlı mı?** `{'EVET' if hedef_var else 'HAYIR'}`\n\n"
-            "GitHub deponuzun **Settings → Secrets and variables → Actions** bölümüne anahtarları eklediğiniz anda "
-            "bir sonraki zaman diliminde otomatik yayın başlayacaktır."
+            f"- **`GEMINI_API_KEY` (Ücretsiz) tanımlı mı?** `HAYIR`\n\n"
+            "GitHub deponuzun **Settings → Secrets and variables → Actions** bölümüne `GEMINI_API_KEY` eklediğiniz anda "
+            "otomatik bulut üretimi ve RSS akışı başlayacaktır."
         )
         if not args.json_only:
             print(mesaj)
@@ -206,6 +243,8 @@ def main() -> int:
             "dilim": dilim,
             "aksiyon_tipi": karar.aksiyon_tipi,
             "tweet_idleri": tweet_idleri,
+            "ana_tweetler": karar.ana_tweetler,
+            "anket_secenekleri": karar.anket_secenekleri,
             "konu_ozeti": karar.hafiza_ozeti,
             "gelir_aksiyonu_var_mi": karar.gelir_aksiyonu_var_mi,
         }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
+    <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
+    <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
+    <lastBuildDate>Sat, 21 Nov 2026 03:29:42 +0300</lastBuildDate>
+    <item>
+      <title>NVIDIA Denetim Masası Gölgelendirici Önbelleği Boyutu (Shader Cache Size) 4 GB varsayılan sınırı -&gt; 10 GB ayarı ile %1 Low FPS anlık takılma (stutter) çözümü + sabah 09:30 GTA 6 VRR açık döngüsü</title>
+      <description>NVIDIA Denetim Masası Gölgelendirici Önbelleği Boyutu (Shader Cache Size) 4 GB varsayılan sınırı -&gt; 10 GB ayarı ile %1 Low FPS anlık takılma (stutter) çözümü + sabah 09:30 GTA 6 VRR açık döngüsü</description>
+      <guid isPermaLink="false">2123930211523940837</guid>
+      <pubDate>Sat, 21 Nov 2026 03:03:00 +0300</pubDate>
+    </item>
+    <item>
+      <title>Mağaza donanım satın alma tuzakları: 1ms MPRT vs GtG ghosting, 8GB VRAM PCIe taşması ve %1 Low FPS çöküşü, 1x16GB DDR5 tek kanal bant genişliği kaybı, ucuz 750W Bronze PSU 12V ripple riski, priz tipi Wi-Fi Repeater yarı-dupleks latency artışı</title>
+      <description>Mağaza donanım satın alma tuzakları: 1ms MPRT vs GtG ghosting, 8GB VRAM PCIe taşması ve %1 Low FPS çöküşü, 1x16GB DDR5 tek kanal bant genişliği kaybı, ucuz 750W Bronze PSU 12V ripple riski, priz tipi Wi-Fi Repeater yarı-dupleks latency artışı</description>
+      <guid isPermaLink="false">2123930006766092611</guid>
+      <pubDate>Sat, 21 Nov 2026 03:02:00 +0300</pubDate>
+    </item>
+  </channel>
+</rss>

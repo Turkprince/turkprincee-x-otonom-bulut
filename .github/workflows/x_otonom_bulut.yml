@@ -84,7 +84,7 @@ jobs:
         run: |
           git config user.name "DonanimOyunLab Cloud Bot"
           git config user.email "actions@github.com"
-          git add kanal_hafiza.json docs/status.json
+          git add kanal_hafiza.json docs/status.json docs/rss.xml
           if git diff --staged --quiet; then
             echo "Hafıza dosyasında değişiklik yok."
           else

@@ -80,7 +80,11 @@ def uret_kanal_karari(
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY ortam değişkeni tanımlı değil.")
 
-    model_adi = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash").strip() or "gemini-3.8-flash"
+    model_tercih = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash").strip() or "gemini-3.8-flash"
+    ucretsiz_modeller = []
+    for m in (model_tercih, "gemini-3.8-flash", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite"):
+        if m not in ucretsiz_modeller:
+            ucretsiz_modeller.append(m)
     client = genai.Client(api_key=api_key)
 
     takipci = int(hafiza.get("kanal", {}).get("son_takipci_sayisi", 21))
@@ -119,19 +123,26 @@ def uret_kanal_karari(
 
     son_hata = None
     ek_uyari = ""
-    for deneme in range(3):
+    model_idx = 0
+    for deneme in range(4):
+        secili_model = ucretsiz_modeller[min(model_idx, len(ucretsiz_modeller) - 1)]
         tam_girdi = istem if not ek_uyari else f"{istem}\n\nÖNCEKİ DENEME HATASI (DÜZELT): {ek_uyari}"
-        interaction = client.interactions.create(
-            model=model_adi,
-            system_instruction=SISTEM_TALIMATI,
-            input=tam_girdi,
-            tools=[{"type": "google_search"}, {"type": "url_context"}],
-            response_format={
-                "type": "text",
-                "mime_type": "application/json",
-                "schema": KanalKarari.model_json_schema(),
-            },
-        )
+        try:
+            interaction = client.interactions.create(
+                model=secili_model,
+                system_instruction=SISTEM_TALIMATI,
+                input=tam_girdi,
+                tools=[{"type": "google_search"}, {"type": "url_context"}],
+                response_format={
+                    "type": "text",
+                    "mime_type": "application/json",
+                    "schema": KanalKarari.model_json_schema(),
+                },
+            )
+        except Exception as api_exc:
+            son_hata = str(api_exc)
+            model_idx += 1
+            continue
         ham_json = (interaction.output_text or "").strip()
         try:
             karar = KanalKarari.model_validate_json(ham_json)

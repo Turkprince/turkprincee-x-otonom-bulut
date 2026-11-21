@@ -135,7 +135,7 @@
       <div class="card">
         <div class="label">Canlı X Profili</div>
         <div class="val" style="font-size:1.1rem;margin-top:12px;">
-          <a href="https://x.com/turkprincee" target="_blank" rel="noopener">x.com/turkprincee ↗</a>
+          <a href="https://x.com/turkprincee" target="_blank" rel="noopener">x.com/turkprincee ↗</a> · <a href="./rss.xml" target="_blank" rel="noopener">RSS ↗</a>
         </div>
         <div class="sub">Sabitlenmiş Rehber & Günlük Akış</div>
       </div>
@@ -182,13 +182,19 @@
         (data.son_yayinlar || []).forEach(item => {
           const div = document.createElement('div');
           div.className = 'log-item';
-          const ilkId = (item.tweet_idleri && item.tweet_idleri[0]) ? item.tweet_idleri[0] : '';
-          const linkHtml = ilkId && !ilkId.startsWith('DRY_')
-            ? ` · <a href="https://x.com/turkprincee/status/${ilkId}" target="_blank" rel="noopener">Tweeti Gör ↗</a>`
-            : '';
+          const ilkId = (item.tweet_idleri && item.tweet_idleri[0]) ? String(item.tweet_idleri[0]) : '';
+          const canliTweetMi = ilkId && /^\d+$/.test(ilkId);
+          const ilkMetin = (item.ana_tweetler && item.ana_tweetler[0]) ? item.ana_tweetler[0] : item.konu_ozeti;
+          const intentUrl = 'https://x.com/intent/tweet?text=' + encodeURIComponent(ilkMetin);
+          const linkHtml = canliTweetMi
+            ? ` · <a href="https://x.com/turkprincee/status/${ilkId}" target="_blank" rel="noopener">Canlı Tweet ↗</a>`
+            : ` · <a href="${intentUrl}" target="_blank" rel="noopener">Tek Tıkla X'te Aç ↗</a>`;
+          const detayMetin = (item.ana_tweetler && item.ana_tweetler.length)
+            ? item.ana_tweetler.join('\n\n---\n\n')
+            : item.konu_ozeti;
           div.innerHTML = `
             <div class="log-meta">${item.tarih_tsi} · [${item.dilim}] · ${item.aksiyon_tipi}${linkHtml}</div>
-            <div class="log-text">${item.konu_ozeti}</div>
+            <div class="log-text" style="white-space:pre-line;">${detayMetin}</div>
           `;
           box.appendChild(div);
         });
