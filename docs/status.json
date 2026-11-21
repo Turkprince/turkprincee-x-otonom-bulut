@@ -1,6 +1,6 @@
 {
-  "guncellenme_tsi": "2026-11-21T16:47:14+03:00",
-  "durum": "Aktif — 16:41 Hotfix & 16:45 Ana Trafik Dalgası Tamamlandı (Sıradaki: 18:34 Wi-Fi Jitter GIF)",
+  "guncellenme_tsi": "2026-11-22T01:25:36+03:00",
+  "durum": "Aktif — Son yayın: 01:30 (tek_tweet)",
   "handle": "@turkprincee",
   "gorunen_ad": "Donanım & Oyun Lab",
   "takipci": 21,
@@ -16,6 +16,20 @@
     }
   ],
   "son_yayinlar": [
+    {
+      "tarih_tsi": "2026-11-22T01:25:36+03:00",
+      "dilim": "01:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795299936"
+      ],
+      "ana_tweetler": [
+        "SilverStone, yeni ATX 3.1 PSU belgelerinde Intel Nova Lake-S için tam 3 adet EPS 12V güç konnektörünü zorunlu kıldı.\n\nBu, yeni masaüstü mimarinin anlık tepe yükte 450W+ güç çekebileceği ve anakart VRM katmanlarında ciddi termal baskı oluşacağı anlamına geliyor."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "SilverStone ATX 3.1 PSU sızıntısı üzerinden Intel Nova Lake-S işlemcilerin 3 adet EPS 12V güç gereksinimi ve 450W+ anlık VRM yük analizi.",
+      "gelir_aksiyonu_var_mi": false
+    },
     {
       "tarih_tsi": "2026-11-21T23:24:00+03:00",
       "dilim": "23:15",
@@ -157,23 +171,6 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "Ek Etkileşim Dalgası: @shiftdeletenet GTA 6 birinci şahıs modu + @tomshardware Samsung Odyssey OLED G9 analiz yanıtları",
-      "gelir_aksiyonu_var_mi": false
-    },
-    {
-      "tarih_tsi": "2026-11-21T11:24:00+03:00",
-      "dilim": "11:20",
-      "aksiyon_tipi": "tek_tweet",
-      "tweet_idleri": [
-        "2124056218562109607",
-        "2124057094156591359",
-        "2124057328710537666",
-        "2124057409195032860"
-      ],
-      "ana_tweetler": [
-        "84 FPS ile 91 FPS kağıt üstünde yakın görünür ama biri akarken diğeri takılır.\n\n8 GB VRAM dolduğunda dokular PCIe üzerinden sistem RAM'ine taşar; frametime 46 ms'ye fırlar ve %1 Low FPS 29'a çakılır. Akıcılığı ortalama değil %1 Low FPS belirler."
-      ],
-      "anket_secenekleri": [],
-      "konu_ozeti": "11:24 Animasyonlu GIF (vram.gif): 8 GB vs 16 GB VRAM Frametime & %1 Low FPS (Yayında) + 3 Kuşluk Teknik Yanıt",
       "gelir_aksiyonu_var_mi": false
     }
   ]

@@ -290,6 +290,20 @@
       "anket_secenekleri": [],
       "konu_ozeti": "Windows USB Kök Hub güç yönetimi kablosuz kopma çözümü + Wi-Fi 5GHz açık döngüsü (X Bulut Kuyruğunda Planlandı — 0 TL)",
       "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-22T01:25:36+03:00",
+      "dilim": "01:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795299936"
+      ],
+      "ana_tweetler": [
+        "SilverStone, yeni ATX 3.1 PSU belgelerinde Intel Nova Lake-S için tam 3 adet EPS 12V güç konnektörünü zorunlu kıldı.\n\nBu, yeni masaüstü mimarinin anlık tepe yükte 450W+ güç çekebileceği ve anakart VRM katmanlarında ciddi termal baskı oluşacağı anlamına geliyor."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "SilverStone ATX 3.1 PSU sızıntısı üzerinden Intel Nova Lake-S işlemcilerin 3 adet EPS 12V güç gereksinimi ve 450W+ anlık VRM yük analizi.",
+      "gelir_aksiyonu_var_mi": false
     }
   ]
 }
