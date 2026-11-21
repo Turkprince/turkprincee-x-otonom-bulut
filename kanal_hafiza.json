@@ -149,6 +149,21 @@
       "gelir_aksiyonu_var_mi": false
     },
     {
+      "tarih_tsi": "2026-11-21T11:53:00+03:00",
+      "dilim": "11:50_ek_etkilesim",
+      "aksiyon_tipi": "yanit",
+      "tweet_idleri": [
+        "2124063398606311922",
+        "2124063457494413729"
+      ],
+      "ana_tweetler": [
+        "@shiftdeletenet GTA 6 FPS kamera modu ve @tomshardware 49 inc Odyssey OLED G9 teknik yanitlari"
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Ek Etkileşim Dalgası: @shiftdeletenet GTA 6 birinci şahıs modu + @tomshardware Samsung Odyssey OLED G9 analiz yanıtları",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
       "tarih_tsi": "2026-11-21T13:09:00+03:00",
       "dilim": "13:00",
       "aksiyon_tipi": "tek_tweet",
