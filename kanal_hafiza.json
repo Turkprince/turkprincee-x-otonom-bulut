@@ -30,6 +30,13 @@
       "soz_verilen_konu": "Ev Wi-Fi 5GHz kanal çakışması (DFS / 80MHz vs 160MHz) ve oyunlarda ani ping sıçraması çözümü",
       "kaynak_tweet_id": "X_NATIVE_SCHEDULED_2324",
       "tamamlandi": false
+    },
+    {
+      "hedef_tarih": "2026-11-23",
+      "hedef_dilim": "09:30",
+      "soz_verilen_konu": "Gece mikro ipucu ve Gen 4 NVMe SSD TBW tüketimi ile yarın sabahki analize açık döngü.",
+      "kaynak_tweet_id": "CLOUD_QUEUE_1795375906",
+      "tamamlandi": false
     }
   ],
   "son_14_gun_konu_hafizasi": [
@@ -364,6 +371,20 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "QD-OLED vs Tandem WOLED panellerde ABL parlaklık sınırlaması, subpixel fringing metin netliği ve OLED yanma riski teknik analizi",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-22T22:31:46+03:00",
+      "dilim": "23:15",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795375906"
+      ],
+      "ana_tweetler": [
+        "Gen 4 NVMe SSD yazma ömrünü tüketen 7400 MB/s hız testleri arkasındaki TBW sızıntılarını ve DRAM önbellek kayıplarını yarın sabah 09:30 analiziyle masaya yatırıyoruz."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Gece mikro ipucu ve Gen 4 NVMe SSD TBW tüketimi ile yarın sabahki analize açık döngü.",
       "gelir_aksiyonu_var_mi": false
     }
   ]
