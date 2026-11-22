@@ -4,7 +4,17 @@
     <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
     <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
     <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
-    <lastBuildDate>Sun, 22 Nov 2026 05:28:33 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 16:32:23 +0300</lastBuildDate>
+    <item>
+      <title>NVIDIA 621.35 hotfix sürücüsü NVMe SSD aşırı yazma sorununu çözmediğini iddia eden bağımsız testler, arka plandaki nvlog.nvlgstg servisinin boştayken bile gigabaytlarca veri tükettiğini kanıtlıyor.
+
+Sistem boşta dururken TBW ömrünüzü tüketen bu hataya dikkat edin.</title>
+      <description>NVIDIA 621.35 hotfix sürücüsü NVMe SSD aşırı yazma sorununu çözmediğini iddia eden bağımsız testler, arka plandaki nvlog.nvlgstg servisinin boştayken bile gigabaytlarca veri tükettiğini kanıtlıyor.
+
+Sistem boşta dururken TBW ömrünüzü tüketen bu hataya dikkat edin.</description>
+      <guid isPermaLink="false">CLOUD_QUEUE_1795354343</guid>
+      <pubDate>Sun, 22 Nov 2026 16:32:23 +0300</pubDate>
+    </item>
     <item>
       <title>Aynı isimdeki laptop ekran kartı %38 daha yavaş çıkabilir.
 

@@ -1,6 +1,6 @@
 {
-  "guncellenme_tsi": "2026-11-22T05:28:33+03:00",
-  "durum": "Aktif — Son yayın: 08:15 (tek_tweet)",
+  "guncellenme_tsi": "2026-11-22T16:32:23+03:00",
+  "durum": "Aktif — Son yayın: 16:30 (tek_tweet)",
   "handle": "@turkprincee",
   "gorunen_ad": "Donanım & Oyun Lab",
   "takipci": 22,
@@ -16,6 +16,20 @@
     }
   ],
   "son_yayinlar": [
+    {
+      "tarih_tsi": "2026-11-22T16:32:23+03:00",
+      "dilim": "16:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795354343"
+      ],
+      "ana_tweetler": [
+        "NVIDIA 621.35 hotfix sürücüsü NVMe SSD aşırı yazma sorununu çözmediğini iddia eden bağımsız testler, arka plandaki nvlog.nvlgstg servisinin boştayken bile gigabaytlarca veri tükettiğini kanıtlıyor.\n\nSistem boşta dururken TBW ömrünüzü tüketen bu hataya dikkat edin."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "NVIDIA 621.35 hotfix sürücüsünün NVMe SSD aşırı yazma ve TBW tüketim sorununu çözememesi ve boştaki veri yazma hatası analizi.",
+      "gelir_aksiyonu_var_mi": false
+    },
     {
       "tarih_tsi": "2026-11-22T05:28:33+03:00",
       "dilim": "08:15",
@@ -156,20 +170,6 @@
         "Düşük Watt ve Sıcaklık"
       ],
       "konu_ozeti": "13:12 Canlı 4 Seçenekli Ekran Kartı Anketi + @VideoCardz, @shiftdeletenet ve @TechnopatNet Öğle Teknik Yanıtları",
-      "gelir_aksiyonu_var_mi": false
-    },
-    {
-      "tarih_tsi": "2026-11-21T13:09:00+03:00",
-      "dilim": "13:00",
-      "aksiyon_tipi": "tek_tweet",
-      "tweet_idleri": [
-        "2124082642723475524"
-      ],
-      "ana_tweetler": [
-        "Aynı bütçede 27 inç oyuncu monitörü alacak olsanız bugün hangisini masanıza koyarsınız?\n\n1) 1440p 240Hz QD-OLED (0.03 ms GtG, sonsuz kontrast ama yanma riski)\n2) 4K 160Hz Mini-LED IPS (1000+ nit HDR, sıfır yanma riski ama hafif blooming)\n\nSebebiyle yazın."
-      ],
-      "anket_secenekleri": [],
-      "konu_ozeti": "13:09 Öğle Karşılaştırması: 27 inç 1440p 240Hz QD-OLED vs 4K 160Hz Mini-LED IPS (Yayında)",
       "gelir_aksiyonu_var_mi": false
     }
   ]
