@@ -7,7 +7,7 @@
     "konum": "Türkiye",
     "korumali_hesap_kilidi_acildi": true,
     "katilim_tarihi": "2015-09",
-    "son_takipci_sayisi": 21,
+    "son_takipci_sayisi": 22,
     "aktif_faz": 1,
     "faz_kurallari": {
       "1": "0-2999 takipçi: Saf Büyüme ve Merak. Sıfır satış linki/reklam. Yer imi, RT, yorum, profil ziyareti ve büyük hesaplara değer katan yanıt/alıntı odaklı.",
@@ -303,6 +303,20 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "SilverStone ATX 3.1 PSU sızıntısı üzerinden Intel Nova Lake-S işlemcilerin 3 adet EPS 12V güç gereksinimi ve 450W+ anlık VRM yük analizi.",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-22T05:28:33+03:00",
+      "dilim": "08:15",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795314513"
+      ],
+      "ana_tweetler": [
+        "Aynı isimdeki laptop ekran kartı %38 daha yavaş çıkabilir.\n\nKutuda 'RTX 4060' yazması yetmez; TGP sınırına bakın. 45W çalışan kırpılmış model, 140W tam güç karta kıyasla %1 Low FPS'te ağır çakılır.\n\nF/P ararken GPU adına değil, üreticinin BIOS watt limitine para verin."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Mobil GPU'larda TGP (Total Graphics Power) watt sınırı tuzağı: 45W vs 140W güç limitlerinin %1 Low FPS ve oyun performansına doğrudan etkisi.",
       "gelir_aksiyonu_var_mi": false
     }
   ]
