@@ -332,6 +332,20 @@
       "anket_secenekleri": [],
       "konu_ozeti": "NVIDIA 621.35 hotfix sürücüsünün NVMe SSD aşırı yazma ve TBW tüketim sorununu çözememesi ve boştaki veri yazma hatası analizi.",
       "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-22T17:58:27+03:00",
+      "dilim": "18:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795359507"
+      ],
+      "ana_tweetler": [
+        "Konsollarda GTA 6 plaj sahneleri yüzünden gelen 30 günlük PSN ban dalgası büyüteç altında.\n\nOyun içi %1 Low FPS dalgalanmalarını ve frametime sıçramalarını dert ederken, şimdi de kaydedilen karelerin otomatik bulut taramasıyla hesap askıya alınıyor."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "GTA 6 konsol ekran görüntüsü paylaşımları nedeniyle verilen 30 günlük PSN ban cezaları ve oyuncu tepkileri analizi.",
+      "gelir_aksiyonu_var_mi": false
     }
   ]
 }
