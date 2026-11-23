@@ -4,7 +4,17 @@
     <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
     <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
     <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
-    <lastBuildDate>Mon, 23 Nov 2026 23:31:31 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 01:01:19 +0300</lastBuildDate>
+    <item>
+      <title>ASUS ve büyük OEM&#x27;lerin maliyet krizi nedeniyle bütçe PC standardında yeniden 8 GB RAM dönemine dönülebileceği öngörülüyor.
+
+Modern AAA oyunlarda 128-bit veri yolunda 8 GB VRAM taşması ve %1 Low FPS çöküşleri yaşanırken bu hamle büyük bir gerileme.</title>
+      <description>ASUS ve büyük OEM&#x27;lerin maliyet krizi nedeniyle bütçe PC standardında yeniden 8 GB RAM dönemine dönülebileceği öngörülüyor.
+
+Modern AAA oyunlarda 128-bit veri yolunda 8 GB VRAM taşması ve %1 Low FPS çöküşleri yaşanırken bu hamle büyük bir gerileme.</description>
+      <guid isPermaLink="false">CLOUD_QUEUE_1795471279</guid>
+      <pubDate>Tue, 24 Nov 2026 01:01:19 +0300</pubDate>
+    </item>
     <item>
       <title>Gece oyunlarında ani FPS dropları yaşıyorsan Windows Grafik Ayarlarından donanım hızlandırmalı GPU zamanlamasını kapatıp test et.
 
@@ -204,12 +214,6 @@ HDMI 2.1 portunda 120Hz + VRR açtığınızda 40 FPS denge modu devreye girer; 
 HDMI 2.1 portunda 120Hz + VRR açtığınızda 40 FPS denge modu devreye girer; kare süresi 25 ms&#x27;ye iner ve giriş gecikmesi %25 azalır.</description>
       <guid isPermaLink="false">2124029542792593918</guid>
       <pubDate>Sat, 21 Nov 2026 09:38:00 +0300</pubDate>
-    </item>
-    <item>
-      <title>@TechPowerUp 1000Hz UltraGear alıntısı + @VideoCardz ve @TechPowerUp gönderilerine 3 özgün teknik yanıt</title>
-      <description>@TechPowerUp 1000Hz UltraGear alıntısı + @VideoCardz ve @TechPowerUp gönderilerine 3 özgün teknik yanıt</description>
-      <guid isPermaLink="false">2123947106079773003</guid>
-      <pubDate>Sat, 21 Nov 2026 04:10:00 +0300</pubDate>
     </item>
   </channel>
 </rss>
