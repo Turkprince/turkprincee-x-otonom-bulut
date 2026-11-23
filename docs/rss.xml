@@ -4,7 +4,17 @@
     <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
     <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
     <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
-    <lastBuildDate>Sun, 22 Nov 2026 22:31:46 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 23:31:31 +0300</lastBuildDate>
+    <item>
+      <title>Gece oyunlarında ani FPS dropları yaşıyorsan Windows Grafik Ayarlarından donanım hızlandırmalı GPU zamanlamasını kapatıp test et.
+
+Yarın sabah 09:30&#x27;da paylaşılacak olan PCIe Gen 5 SSD veri yolu doygunluğunun oyun yükleme sürelerine etkisini kaçırma.</title>
+      <description>Gece oyunlarında ani FPS dropları yaşıyorsan Windows Grafik Ayarlarından donanım hızlandırmalı GPU zamanlamasını kapatıp test et.
+
+Yarın sabah 09:30&#x27;da paylaşılacak olan PCIe Gen 5 SSD veri yolu doygunluğunun oyun yükleme sürelerine etkisini kaçırma.</description>
+      <guid isPermaLink="false">CLOUD_QUEUE_1795465891</guid>
+      <pubDate>Mon, 23 Nov 2026 23:31:31 +0300</pubDate>
+    </item>
     <item>
       <title>Gen 4 NVMe SSD yazma ömrünü tüketen 7400 MB/s hız testleri arkasındaki TBW sızıntılarını ve DRAM önbellek kayıplarını yarın sabah 09:30 analiziyle masaya yatırıyoruz.</title>
       <description>Gen 4 NVMe SSD yazma ömrünü tüketen 7400 MB/s hız testleri arkasındaki TBW sızıntılarını ve DRAM önbellek kayıplarını yarın sabah 09:30 analiziyle masaya yatırıyoruz.</description>
@@ -200,16 +210,6 @@ HDMI 2.1 portunda 120Hz + VRR açtığınızda 40 FPS denge modu devreye girer; 
       <description>@TechPowerUp 1000Hz UltraGear alıntısı + @VideoCardz ve @TechPowerUp gönderilerine 3 özgün teknik yanıt</description>
       <guid isPermaLink="false">2123947106079773003</guid>
       <pubDate>Sat, 21 Nov 2026 04:10:00 +0300</pubDate>
-    </item>
-    <item>
-      <title>Ortalama FPS yüksek görünürken oyun keyfini en sinsi bozan teknik darboğaz sizce hangisi?
-
-Deneyiminize göre oy verin, yorumda sisteminizi konuşalım:</title>
-      <description>Ortalama FPS yüksek görünürken oyun keyfini en sinsi bozan teknik darboğaz sizce hangisi?
-
-Deneyiminize göre oy verin, yorumda sisteminizi konuşalım:</description>
-      <guid isPermaLink="false">2123945715885810036</guid>
-      <pubDate>Sat, 21 Nov 2026 04:05:00 +0300</pubDate>
     </item>
   </channel>
 </rss>

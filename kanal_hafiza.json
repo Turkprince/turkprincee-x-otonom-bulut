@@ -37,6 +37,13 @@
       "soz_verilen_konu": "Gece mikro ipucu ve Gen 4 NVMe SSD TBW tüketimi ile yarın sabahki analize açık döngü.",
       "kaynak_tweet_id": "CLOUD_QUEUE_1795375906",
       "tamamlandi": false
+    },
+    {
+      "hedef_tarih": "2026-11-24",
+      "hedef_dilim": "09:30",
+      "soz_verilen_konu": "Windows Donanım Hızlandırmalı GPU Zamanlaması (HAGS) kapatılarak FPS droplarının önlenmesi ve PCIe Gen 5 SSD veri yolu analizi için açık döngü.",
+      "kaynak_tweet_id": "CLOUD_QUEUE_1795465891",
+      "tamamlandi": false
     }
   ],
   "son_14_gun_konu_hafizasi": [
@@ -385,6 +392,20 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "Gece mikro ipucu ve Gen 4 NVMe SSD TBW tüketimi ile yarın sabahki analize açık döngü.",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-23T23:31:31+03:00",
+      "dilim": "23:15",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795465891"
+      ],
+      "ana_tweetler": [
+        "Gece oyunlarında ani FPS dropları yaşıyorsan Windows Grafik Ayarlarından donanım hızlandırmalı GPU zamanlamasını kapatıp test et.\n\nYarın sabah 09:30'da paylaşılacak olan PCIe Gen 5 SSD veri yolu doygunluğunun oyun yükleme sürelerine etkisini kaçırma."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Windows Donanım Hızlandırmalı GPU Zamanlaması (HAGS) kapatılarak FPS droplarının önlenmesi ve PCIe Gen 5 SSD veri yolu analizi için açık döngü.",
       "gelir_aksiyonu_var_mi": false
     }
   ]
