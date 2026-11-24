@@ -4,7 +4,13 @@
     <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
     <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
     <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
-    <lastBuildDate>Tue, 24 Nov 2026 05:41:30 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 23:40:01 +0300</lastBuildDate>
+    <item>
+      <title>Gece oyuncuları için gizli ayar: Windows Grafik Ayarları altından Donanım Hızlandırmalı GPU Zamanlamasını kapatmak, anlık %1 Low FPS çöküşlerini engeller. Yarın sabah 09:30&#x27;da paylaşılacak yeni nesil PCIe Gen 5 SSD veri yolu hız dar boğazı analizi için takipte kalın.</title>
+      <description>Gece oyuncuları için gizli ayar: Windows Grafik Ayarları altından Donanım Hızlandırmalı GPU Zamanlamasını kapatmak, anlık %1 Low FPS çöküşlerini engeller. Yarın sabah 09:30&#x27;da paylaşılacak yeni nesil PCIe Gen 5 SSD veri yolu hız dar boğazı analizi için takipte kalın.</description>
+      <guid isPermaLink="false">CLOUD_QUEUE_1795552801</guid>
+      <pubDate>Tue, 24 Nov 2026 23:40:01 +0300</pubDate>
+    </item>
     <item>
       <title>F/P diye DRAM barındırmayan NVMe SSD almak, yük altında rastgele 4K IOPS değerini %80 çökertir.
 
@@ -200,20 +206,6 @@ Sebebiyle yazın.</description>
 8 GB VRAM dolduğunda dokular PCIe üzerinden sistem RAM&#x27;ine taşar; frametime 46 ms&#x27;ye fırlar ve %1 Low FPS 29&#x27;a çakılır. Akıcılığı ortalama değil %1 Low FPS belirler.</description>
       <guid isPermaLink="false">2124056218562109607</guid>
       <pubDate>Sat, 21 Nov 2026 11:24:00 +0300</pubDate>
-    </item>
-    <item>
-      <title>Kutusunda &quot;7000 MB/s&quot; yazan her M.2 SSD aynı değildir.
-
-Ucuz QLC ve DRAM&#x27;siz modeller, 150 GB&#x27;lık bir oyun kurarken SLC önbelleği dolduğu an 115 MB/s hızına (eski HDD seviyesine) çakılır.
-
-İndirimde SSD alırken kutudaki hıza değil, TLC yonga ve DRAM varlığına bakın.</title>
-      <description>Kutusunda &quot;7000 MB/s&quot; yazan her M.2 SSD aynı değildir.
-
-Ucuz QLC ve DRAM&#x27;siz modeller, 150 GB&#x27;lık bir oyun kurarken SLC önbelleği dolduğu an 115 MB/s hızına (eski HDD seviyesine) çakılır.
-
-İndirimde SSD alırken kutudaki hıza değil, TLC yonga ve DRAM varlığına bakın.</description>
-      <guid isPermaLink="false">2124029867226472626</guid>
-      <pubDate>Sat, 21 Nov 2026 09:39:00 +0300</pubDate>
     </item>
   </channel>
 </rss>
