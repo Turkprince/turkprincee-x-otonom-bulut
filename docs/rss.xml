@@ -4,7 +4,17 @@
     <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
     <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
     <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
-    <lastBuildDate>Tue, 24 Nov 2026 23:40:01 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 01:22:51 +0300</lastBuildDate>
+    <item>
+      <title>NVIDIA&#x27;nın yeni yaması NVMe SSD&#x27;leri zorlayan arka plan yazma hatasını sonunda kökten çözdü.
+
+Eski hotfix sürümlerindeki rastgele 4K IOPS çökmeleri ve boştaki TBW tüketim sızıntısı bitti.</title>
+      <description>NVIDIA&#x27;nın yeni yaması NVMe SSD&#x27;leri zorlayan arka plan yazma hatasını sonunda kökten çözdü.
+
+Eski hotfix sürümlerindeki rastgele 4K IOPS çökmeleri ve boştaki TBW tüketim sızıntısı bitti.</description>
+      <guid isPermaLink="false">CLOUD_QUEUE_1795558971</guid>
+      <pubDate>Wed, 25 Nov 2026 01:22:51 +0300</pubDate>
+    </item>
     <item>
       <title>Gece oyuncuları için gizli ayar: Windows Grafik Ayarları altından Donanım Hızlandırmalı GPU Zamanlamasını kapatmak, anlık %1 Low FPS çöküşlerini engeller. Yarın sabah 09:30&#x27;da paylaşılacak yeni nesil PCIe Gen 5 SSD veri yolu hız dar boğazı analizi için takipte kalın.</title>
       <description>Gece oyuncuları için gizli ayar: Windows Grafik Ayarları altından Donanım Hızlandırmalı GPU Zamanlamasını kapatmak, anlık %1 Low FPS çöküşlerini engeller. Yarın sabah 09:30&#x27;da paylaşılacak yeni nesil PCIe Gen 5 SSD veri yolu hız dar boğazı analizi için takipte kalın.</description>
@@ -196,16 +206,6 @@ Sebebiyle yazın.</description>
       <description>@shiftdeletenet GTA 6 FPS kamera modu ve @tomshardware 49 inc Odyssey OLED G9 teknik yanitlari</description>
       <guid isPermaLink="false">2124063398606311922</guid>
       <pubDate>Sat, 21 Nov 2026 11:53:00 +0300</pubDate>
-    </item>
-    <item>
-      <title>84 FPS ile 91 FPS kağıt üstünde yakın görünür ama biri akarken diğeri takılır.
-
-8 GB VRAM dolduğunda dokular PCIe üzerinden sistem RAM&#x27;ine taşar; frametime 46 ms&#x27;ye fırlar ve %1 Low FPS 29&#x27;a çakılır. Akıcılığı ortalama değil %1 Low FPS belirler.</title>
-      <description>84 FPS ile 91 FPS kağıt üstünde yakın görünür ama biri akarken diğeri takılır.
-
-8 GB VRAM dolduğunda dokular PCIe üzerinden sistem RAM&#x27;ine taşar; frametime 46 ms&#x27;ye fırlar ve %1 Low FPS 29&#x27;a çakılır. Akıcılığı ortalama değil %1 Low FPS belirler.</description>
-      <guid isPermaLink="false">2124056218562109607</guid>
-      <pubDate>Sat, 21 Nov 2026 11:24:00 +0300</pubDate>
     </item>
   </channel>
 </rss>

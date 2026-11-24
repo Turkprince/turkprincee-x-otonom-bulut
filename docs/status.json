@@ -1,6 +1,6 @@
 {
-  "guncellenme_tsi": "2026-11-24T23:40:01+03:00",
-  "durum": "Aktif — Son yayın: 23:15 (tek_tweet)",
+  "guncellenme_tsi": "2026-11-25T01:22:51+03:00",
+  "durum": "Aktif — Son yayın: 01:30 (tek_tweet)",
   "handle": "@turkprincee",
   "gorunen_ad": "Donanım & Oyun Lab",
   "takipci": 22,
@@ -37,6 +37,20 @@
     }
   ],
   "son_yayinlar": [
+    {
+      "tarih_tsi": "2026-11-25T01:22:51+03:00",
+      "dilim": "01:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795558971"
+      ],
+      "ana_tweetler": [
+        "NVIDIA'nın yeni yaması NVMe SSD'leri zorlayan arka plan yazma hatasını sonunda kökten çözdü.\n\nEski hotfix sürümlerindeki rastgele 4K IOPS çökmeleri ve boştaki TBW tüketim sızıntısı bitti."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "NVIDIA yeni yama ile NVMe SSD arka plan yazma hatası ve TBW tüketim sorununu çözdü analizi.",
+      "gelir_aksiyonu_var_mi": false
+    },
     {
       "tarih_tsi": "2026-11-24T23:40:01+03:00",
       "dilim": "23:15",
@@ -166,20 +180,6 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "Mobil GPU'larda TGP (Total Graphics Power) watt sınırı tuzağı: 45W vs 140W güç limitlerinin %1 Low FPS ve oyun performansına doğrudan etkisi.",
-      "gelir_aksiyonu_var_mi": false
-    },
-    {
-      "tarih_tsi": "2026-11-22T01:25:36+03:00",
-      "dilim": "01:30",
-      "aksiyon_tipi": "tek_tweet",
-      "tweet_idleri": [
-        "CLOUD_QUEUE_1795299936"
-      ],
-      "ana_tweetler": [
-        "SilverStone, yeni ATX 3.1 PSU belgelerinde Intel Nova Lake-S için tam 3 adet EPS 12V güç konnektörünü zorunlu kıldı.\n\nBu, yeni masaüstü mimarinin anlık tepe yükte 450W+ güç çekebileceği ve anakart VRM katmanlarında ciddi termal baskı oluşacağı anlamına geliyor."
-      ],
-      "anket_secenekleri": [],
-      "konu_ozeti": "SilverStone ATX 3.1 PSU sızıntısı üzerinden Intel Nova Lake-S işlemcilerin 3 adet EPS 12V güç gereksinimi ve 450W+ anlık VRM yük analizi.",
       "gelir_aksiyonu_var_mi": false
     }
   ]
