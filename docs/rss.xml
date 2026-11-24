@@ -4,7 +4,17 @@
     <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
     <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
     <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
-    <lastBuildDate>Tue, 24 Nov 2026 01:01:19 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 05:41:30 +0300</lastBuildDate>
+    <item>
+      <title>F/P diye DRAM barındırmayan NVMe SSD almak, yük altında rastgele 4K IOPS değerini %80 çökertir.
+
+HMB teknolojisi sistemden yalnızca 64 MB RAM ödünç alabilir. SLC önbellek tükendiği anda 5000 MB/s vadeden sürücü, 180 MB/s seviyesine çakılır. Alırken dahili DRAM arayın.</title>
+      <description>F/P diye DRAM barındırmayan NVMe SSD almak, yük altında rastgele 4K IOPS değerini %80 çökertir.
+
+HMB teknolojisi sistemden yalnızca 64 MB RAM ödünç alabilir. SLC önbellek tükendiği anda 5000 MB/s vadeden sürücü, 180 MB/s seviyesine çakılır. Alırken dahili DRAM arayın.</description>
+      <guid isPermaLink="false">CLOUD_QUEUE_1795488090</guid>
+      <pubDate>Tue, 24 Nov 2026 05:41:30 +0300</pubDate>
+    </item>
     <item>
       <title>ASUS ve büyük OEM&#x27;lerin maliyet krizi nedeniyle bütçe PC standardında yeniden 8 GB RAM dönemine dönülebileceği öngörülüyor.
 
@@ -204,16 +214,6 @@ Ucuz QLC ve DRAM&#x27;siz modeller, 150 GB&#x27;lık bir oyun kurarken SLC önbe
 İndirimde SSD alırken kutudaki hıza değil, TLC yonga ve DRAM varlığına bakın.</description>
       <guid isPermaLink="false">2124029867226472626</guid>
       <pubDate>Sat, 21 Nov 2026 09:39:00 +0300</pubDate>
-    </item>
-    <item>
-      <title>GTA 6 oynarken 120Hz TV veya monitörde VRR kapalıysa konsol 30 FPS kilidine düşer ve frametime 33.3 ms olur.
-
-HDMI 2.1 portunda 120Hz + VRR açtığınızda 40 FPS denge modu devreye girer; kare süresi 25 ms&#x27;ye iner ve giriş gecikmesi %25 azalır.</title>
-      <description>GTA 6 oynarken 120Hz TV veya monitörde VRR kapalıysa konsol 30 FPS kilidine düşer ve frametime 33.3 ms olur.
-
-HDMI 2.1 portunda 120Hz + VRR açtığınızda 40 FPS denge modu devreye girer; kare süresi 25 ms&#x27;ye iner ve giriş gecikmesi %25 azalır.</description>
-      <guid isPermaLink="false">2124029542792593918</guid>
-      <pubDate>Sat, 21 Nov 2026 09:38:00 +0300</pubDate>
     </item>
   </channel>
 </rss>
