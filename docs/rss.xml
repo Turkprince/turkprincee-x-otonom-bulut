@@ -4,7 +4,17 @@
     <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
     <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
     <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
-    <lastBuildDate>Wed, 25 Nov 2026 21:53:33 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:47:34 +0300</lastBuildDate>
+    <item>
+      <title>Thunderbolt 4 eGPU&#x27;lardaki 32 Gbps PCIe sınırı bitti.
+
+Thunderbolt 5 ile harici GPU&#x27;larda 64 Gbps PCIe Gen 4 bant genişliği devri başladı. Harici kartlar bant genişliği darboğazı yüzünden %25 performans kaybetmek yerine artık sadece %4-5 kayıpla çalışıyor.</title>
+      <description>Thunderbolt 4 eGPU&#x27;lardaki 32 Gbps PCIe sınırı bitti.
+
+Thunderbolt 5 ile harici GPU&#x27;larda 64 Gbps PCIe Gen 4 bant genişliği devri başladı. Harici kartlar bant genişliği darboğazı yüzünden %25 performans kaybetmek yerine artık sadece %4-5 kayıpla çalışıyor.</description>
+      <guid isPermaLink="false">CLOUD_QUEUE_1795643254</guid>
+      <pubDate>Thu, 26 Nov 2026 00:47:34 +0300</pubDate>
+    </item>
     <item>
       <title>1/ Tarayici uzantilari arka planda sessizce SSD omrunu tuketiyor. Adobe Acrobat uzantisinin yalnizca 3 gunde 300 GB uzerinde yazma aktivitesi urettigi rapor edildi.</title>
       <description>1/ Tarayici uzantilari arka planda sessizce SSD omrunu tuketiyor. Adobe Acrobat uzantisinin yalnizca 3 gunde 300 GB uzerinde yazma aktivitesi urettigi rapor edildi.</description>
@@ -186,16 +196,6 @@ Kasanın içinden 1x16 GB tek modül çıkarsa bellek veri yolu daralır ve %1 L
 A2 ve B2 slotlarında 2x16 GB çift kanal + BIOS EXPO şarttır.</description>
       <guid isPermaLink="false">2124112338391621793</guid>
       <pubDate>Sat, 21 Nov 2026 15:07:00 +0300</pubDate>
-    </item>
-    <item>
-      <title>Yeni nesil ekran kartı seçerken paranızın karşılığını belirleyen 1 numaralı kriteriniz hangisi?
-
-Oyunuzu verin, yorumda kullandığınız kartı yazın:</title>
-      <description>Yeni nesil ekran kartı seçerken paranızın karşılığını belirleyen 1 numaralı kriteriniz hangisi?
-
-Oyunuzu verin, yorumda kullandığınız kartı yazın:</description>
-      <guid isPermaLink="false">2124083524672041069</guid>
-      <pubDate>Sat, 21 Nov 2026 13:12:00 +0300</pubDate>
     </item>
   </channel>
 </rss>

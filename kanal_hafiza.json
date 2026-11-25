@@ -503,6 +503,20 @@
       "anket_secenekleri": [],
       "konu_ozeti": "Tarayici uzantilarinin (Adobe Acrobat vb.) arka planda SSD uzerinde asiri yazma aktivitesi olusturmasi ve TBW tuketimi analizi.",
       "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-26T00:47:34+03:00",
+      "dilim": "01:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795643254"
+      ],
+      "ana_tweetler": [
+        "Thunderbolt 4 eGPU'lardaki 32 Gbps PCIe sınırı bitti.\n\nThunderbolt 5 ile harici GPU'larda 64 Gbps PCIe Gen 4 bant genişliği devri başladı. Harici kartlar bant genişliği darboğazı yüzünden %25 performans kaybetmek yerine artık sadece %4-5 kayıpla çalışıyor."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Thunderbolt 5 eGPU ile PCIe bant genişliğinin 64 Gbps seviyesine çıkması ve harici masaüstü GPU performans kaybının %25'ten %5'e düşmesi analizi.",
+      "gelir_aksiyonu_var_mi": false
     }
   ]
 }
