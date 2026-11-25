@@ -470,6 +470,21 @@
       "anket_secenekleri": [],
       "konu_ozeti": "NVIDIA yeni yama ile NVMe SSD arka plan yazma hatası ve TBW tüketim sorununu çözdü analizi.",
       "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-25T18:50:20+03:00",
+      "dilim": "18:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795621820"
+      ],
+      "ana_tweetler": [
+        "Konsollarda GTA 6 yoğunluğunda frametime sıçramaları ve %1 Low FPS çöküşleri anlık ısınma eşiklerini aşıyor.",
+        "Sabit 60Hz yerine VRR açık 120Hz cap ve dinamik çözünürlük ölçekleme kullanmak milisaniyelik takılmaları %40 oranında törpüler."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "GTA 6 konsol performansinda frametime ve %1 Low FPS dalgalanmalarinin VRR ve dinamik cozunurluk ile optimizasyonu",
+      "gelir_aksiyonu_var_mi": false
     }
   ]
 }
