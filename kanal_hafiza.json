@@ -485,6 +485,24 @@
       "anket_secenekleri": [],
       "konu_ozeti": "GTA 6 konsol performansinda frametime ve %1 Low FPS dalgalanmalarinin VRR ve dinamik cozunurluk ile optimizasyonu",
       "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-25T21:53:33+03:00",
+      "dilim": "20:30",
+      "aksiyon_tipi": "flood",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795632813"
+      ],
+      "ana_tweetler": [
+        "1/ Tarayici uzantilari arka planda sessizce SSD omrunu tuketiyor. Adobe Acrobat uzantisinin yalnizca 3 gunde 300 GB uzerinde yazma aktivitesi urettigi rapor edildi.",
+        "2/ QLC ve TLC NAND flash hucrelerinin belirli bir TBW siniri vardir. Tarayici tabanli surekli onbellek yazmalari, SSD'nizin omrunden yillar calar.",
+        "3/ NVMe surucunuzun saglik durumunu izlemek icin SMART verilerini duzenli kontrol edin. Anormal GB yazma artislari goruyorsaniz suclari tarayici eklentileridir.",
+        "4/ Background proseslerde calisan gereksiz uzantilari kaldirarak rastgele 4K IOPS performans dususlerinin ve SSDasiri asinmasinin onune gecebilirsiniz.",
+        "5/ Donanim omrunu korumak yalnizca guclu PSU secimiyle degil, yazilim katmanindaki gizli veri yazma tuzaklarini engellemekle baslar."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Tarayici uzantilarinin (Adobe Acrobat vb.) arka planda SSD uzerinde asiri yazma aktivitesi olusturmasi ve TBW tuketimi analizi.",
+      "gelir_aksiyonu_var_mi": false
     }
   ]
 }

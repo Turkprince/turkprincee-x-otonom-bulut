@@ -1,6 +1,6 @@
 {
-  "guncellenme_tsi": "2026-11-25T18:50:20+03:00",
-  "durum": "Aktif — Son yayın: 18:30 (tek_tweet)",
+  "guncellenme_tsi": "2026-11-25T21:53:33+03:00",
+  "durum": "Aktif — Son yayın: 20:30 (flood)",
   "handle": "@turkprincee",
   "gorunen_ad": "Donanım & Oyun Lab",
   "takipci": 22,
@@ -37,6 +37,24 @@
     }
   ],
   "son_yayinlar": [
+    {
+      "tarih_tsi": "2026-11-25T21:53:33+03:00",
+      "dilim": "20:30",
+      "aksiyon_tipi": "flood",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795632813"
+      ],
+      "ana_tweetler": [
+        "1/ Tarayici uzantilari arka planda sessizce SSD omrunu tuketiyor. Adobe Acrobat uzantisinin yalnizca 3 gunde 300 GB uzerinde yazma aktivitesi urettigi rapor edildi.",
+        "2/ QLC ve TLC NAND flash hucrelerinin belirli bir TBW siniri vardir. Tarayici tabanli surekli onbellek yazmalari, SSD'nizin omrunden yillar calar.",
+        "3/ NVMe surucunuzun saglik durumunu izlemek icin SMART verilerini duzenli kontrol edin. Anormal GB yazma artislari goruyorsaniz suclari tarayici eklentileridir.",
+        "4/ Background proseslerde calisan gereksiz uzantilari kaldirarak rastgele 4K IOPS performans dususlerinin ve SSDasiri asinmasinin onune gecebilirsiniz.",
+        "5/ Donanim omrunu korumak yalnizca guclu PSU secimiyle degil, yazilim katmanindaki gizli veri yazma tuzaklarini engellemekle baslar."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Tarayici uzantilarinin (Adobe Acrobat vb.) arka planda SSD uzerinde asiri yazma aktivitesi olusturmasi ve TBW tuketimi analizi.",
+      "gelir_aksiyonu_var_mi": false
+    },
     {
       "tarih_tsi": "2026-11-25T18:50:20+03:00",
       "dilim": "18:30",
@@ -167,20 +185,6 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "GTA 6 konsol ekran görüntüsü paylaşımları nedeniyle verilen 30 günlük PSN ban cezaları ve oyuncu tepkileri analizi.",
-      "gelir_aksiyonu_var_mi": false
-    },
-    {
-      "tarih_tsi": "2026-11-22T16:32:23+03:00",
-      "dilim": "16:30",
-      "aksiyon_tipi": "tek_tweet",
-      "tweet_idleri": [
-        "CLOUD_QUEUE_1795354343"
-      ],
-      "ana_tweetler": [
-        "NVIDIA 621.35 hotfix sürücüsü NVMe SSD aşırı yazma sorununu çözmediğini iddia eden bağımsız testler, arka plandaki nvlog.nvlgstg servisinin boştayken bile gigabaytlarca veri tükettiğini kanıtlıyor.\n\nSistem boşta dururken TBW ömrünüzü tüketen bu hataya dikkat edin."
-      ],
-      "anket_secenekleri": [],
-      "konu_ozeti": "NVIDIA 621.35 hotfix sürücüsünün NVMe SSD aşırı yazma ve TBW tüketim sorununu çözememesi ve boştaki veri yazma hatası analizi.",
       "gelir_aksiyonu_var_mi": false
     }
   ]
