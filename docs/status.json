@@ -1,6 +1,6 @@
 {
-  "guncellenme_tsi": "2026-11-26T06:02:11+03:00",
-  "durum": "Aktif — Son yayın: 08:15 (tek_tweet)",
+  "guncellenme_tsi": "2026-11-26T18:17:10+03:00",
+  "durum": "Aktif — Son yayın: 18:30 (tek_tweet)",
   "handle": "@turkprincee",
   "gorunen_ad": "Donanım & Oyun Lab",
   "takipci": 22,
@@ -37,6 +37,20 @@
     }
   ],
   "son_yayinlar": [
+    {
+      "tarih_tsi": "2026-11-26T18:17:10+03:00",
+      "dilim": "18:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795706230"
+      ],
+      "ana_tweetler": [
+        "NVIDIA 621.40 sürücüsü SSD aşınmasını düzeltirken RTX 50 serisinde DisplayPort sinyal kaybı ve siyah ekran tetikliyor. %1 Low FPS düşüşü yaşamamak için acele etmeyin."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "NVIDIA 621.40 sürücüsünün RTX 50 ekran kartlarında siyah ekran ve DisplayPort sinyal kaybı yaratması analizi.",
+      "gelir_aksiyonu_var_mi": false
+    },
     {
       "tarih_tsi": "2026-11-26T06:02:11+03:00",
       "dilim": "08:15",
@@ -166,20 +180,6 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "Windows Donanım Hızlandırmalı GPU Zamanlaması (HAGS) kapatılarak FPS droplarının önlenmesi ve PCIe Gen 5 SSD veri yolu analizi için açık döngü.",
-      "gelir_aksiyonu_var_mi": false
-    },
-    {
-      "tarih_tsi": "2026-11-22T22:31:46+03:00",
-      "dilim": "23:15",
-      "aksiyon_tipi": "tek_tweet",
-      "tweet_idleri": [
-        "CLOUD_QUEUE_1795375906"
-      ],
-      "ana_tweetler": [
-        "Gen 4 NVMe SSD yazma ömrünü tüketen 7400 MB/s hız testleri arkasındaki TBW sızıntılarını ve DRAM önbellek kayıplarını yarın sabah 09:30 analiziyle masaya yatırıyoruz."
-      ],
-      "anket_secenekleri": [],
-      "konu_ozeti": "Gece mikro ipucu ve Gen 4 NVMe SSD TBW tüketimi ile yarın sabahki analize açık döngü.",
       "gelir_aksiyonu_var_mi": false
     }
   ]

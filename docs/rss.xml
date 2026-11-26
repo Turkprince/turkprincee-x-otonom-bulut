@@ -4,7 +4,13 @@
     <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
     <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
     <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
-    <lastBuildDate>Thu, 26 Nov 2026 06:02:11 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 18:17:10 +0300</lastBuildDate>
+    <item>
+      <title>NVIDIA 621.40 sürücüsü SSD aşınmasını düzeltirken RTX 50 serisinde DisplayPort sinyal kaybı ve siyah ekran tetikliyor. %1 Low FPS düşüşü yaşamamak için acele etmeyin.</title>
+      <description>NVIDIA 621.40 sürücüsü SSD aşınmasını düzeltirken RTX 50 serisinde DisplayPort sinyal kaybı ve siyah ekran tetikliyor. %1 Low FPS düşüşü yaşamamak için acele etmeyin.</description>
+      <guid isPermaLink="false">CLOUD_QUEUE_1795706230</guid>
+      <pubDate>Thu, 26 Nov 2026 18:17:10 +0300</pubDate>
+    </item>
     <item>
       <title>750 dolarlık hazır RTX 5060 sistemler piyasada cazip görünse de, 8GB VRAM sınırının modern AAA oyunlarda %1 Low FPS çöküşlerine yol açtığını unutmayın.</title>
       <description>750 dolarlık hazır RTX 5060 sistemler piyasada cazip görünse de, 8GB VRAM sınırının modern AAA oyunlarda %1 Low FPS çöküşlerine yol açtığını unutmayın.</description>
@@ -178,16 +184,6 @@ Priz tipi Wi-Fi genişleticiler hızı böler, pingi 110+ ms zıplatır. Modemde
       <description>@VideoCardz NVIDIA TSMC wafer &amp; GeForce arz-fiyat alıntısı + @shiftdeletenet, @tomshardware ve @VideoCardz 5 derinlikli teknik yanıt</description>
       <guid isPermaLink="false">2124136835668701567</guid>
       <pubDate>Sat, 21 Nov 2026 16:45:00 +0300</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA&#x27;nın sessizce yayınladığı GeForce Hotfix 621.35 sürücüsünü es geçmeyin.
-
-Önceki sürücüde sistem boştayken bile arka planda nvlog.nvlgstg dosyasına sürekli veri yazıp NVMe SSD sağlığını (TBW) eriten ciddi bir hata vardı. Güncellemeyi bekletmeyin.</title>
-      <description>NVIDIA&#x27;nın sessizce yayınladığı GeForce Hotfix 621.35 sürücüsünü es geçmeyin.
-
-Önceki sürücüde sistem boştayken bile arka planda nvlog.nvlgstg dosyasına sürekli veri yazıp NVMe SSD sağlığını (TBW) eriten ciddi bir hata vardı. Güncellemeyi bekletmeyin.</description>
-      <guid isPermaLink="false">2124135994291114177</guid>
-      <pubDate>Sat, 21 Nov 2026 16:41:00 +0300</pubDate>
     </item>
   </channel>
 </rss>
