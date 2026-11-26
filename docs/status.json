@@ -1,6 +1,6 @@
 {
-  "guncellenme_tsi": "2026-11-26T00:47:34+03:00",
-  "durum": "Aktif — Son yayın: 01:30 (tek_tweet)",
+  "guncellenme_tsi": "2026-11-26T06:02:11+03:00",
+  "durum": "Aktif — Son yayın: 08:15 (tek_tweet)",
   "handle": "@turkprincee",
   "gorunen_ad": "Donanım & Oyun Lab",
   "takipci": 22,
@@ -37,6 +37,20 @@
     }
   ],
   "son_yayinlar": [
+    {
+      "tarih_tsi": "2026-11-26T06:02:11+03:00",
+      "dilim": "08:15",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795662131"
+      ],
+      "ana_tweetler": [
+        "750 dolarlık hazır RTX 5060 sistemler piyasada cazip görünse de, 8GB VRAM sınırının modern AAA oyunlarda %1 Low FPS çöküşlerine yol açtığını unutmayın."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "750 dolarlik RTX 5060 hazir sistemler ve 8GB VRAM sinirinin %1 Low FPS uzerindeki etkisi analizi.",
+      "gelir_aksiyonu_var_mi": false
+    },
     {
       "tarih_tsi": "2026-11-26T00:47:34+03:00",
       "dilim": "01:30",
@@ -166,25 +180,6 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "Gece mikro ipucu ve Gen 4 NVMe SSD TBW tüketimi ile yarın sabahki analize açık döngü.",
-      "gelir_aksiyonu_var_mi": false
-    },
-    {
-      "tarih_tsi": "2026-11-22T20:33:17+03:00",
-      "dilim": "20:30",
-      "aksiyon_tipi": "flood",
-      "tweet_idleri": [
-        "CLOUD_QUEUE_1795368797"
-      ],
-      "ana_tweetler": [
-        "1/ 0.03ms GtG süresi sunan QD-OLED paneller piyasayı sardı ancak OLED yanığı korkusuyla statik HUD piksellerini korumak için HDR 1000 nit tepe parlaklıkta ABL (Auto Brightness Limiter) algoritmasının gücü nasıl kıstığını atlıyorsunuz.",
-        "2/ 240Hz yenileme hızında frametime değeri sadece 4.16ms iken, ucuz IPS panellerin 5ms GtG tepki süresi overshot ve ghosting yaratır. 1000 nit pik parlaklık vadeden panellerde tam ekran beyazda parlaklık 250 nite kadar düşer.",
-        "3/ Sadece tepe parlaklığa aldanıp OLED panel alırsanız, odanızın ambient (ortam) aydınlatması yüksekse siyah seviyesi mürdüm rengine döner ve polarizasyon katmanı yansımaları tolere edemez.",
-        "4/ QD-OLED alt piksel dizilimi (triangle layout) nedeniyle masaüstünde metin netliğinde subpixel fringing (renk saçılması) yapar. Kod yazıyor veya metin okuyorsanız bu durum göz yorgunluğunu doğrudan artırır.",
-        "5/ Soğutucu bloksuz ucuz OLED modellerde piksel tazeleme döngüleri (pixel refresh) ihmal edilirse organik bileşen ömrü yarıya iner. %100 APL testlerinde termal throttled kalmamak için pasif soğutma mimarisi şart.",
-        "6/ Satın alırken 1000 nit etiketine değil, panelin ABL eşik değerlerine, true black sertifikasına ve 3 yıl yanma garantisi sunup sunmadığına mutlaka bakın. Pazarlama tuzaklarına bütçenizi kaptırmayın."
-      ],
-      "anket_secenekleri": [],
-      "konu_ozeti": "QD-OLED vs Tandem WOLED panellerde ABL parlaklık sınırlaması, subpixel fringing metin netliği ve OLED yanma riski teknik analizi",
       "gelir_aksiyonu_var_mi": false
     }
   ]
