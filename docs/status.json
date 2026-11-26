@@ -1,6 +1,6 @@
 {
-  "guncellenme_tsi": "2026-11-26T22:26:51+03:00",
-  "durum": "Aktif — Son yayın: 23:15 (tek_tweet)",
+  "guncellenme_tsi": "2026-11-27T00:44:45+03:00",
+  "durum": "Aktif — Son yayın: 01:30 (tek_tweet)",
   "handle": "@turkprincee",
   "gorunen_ad": "Donanım & Oyun Lab",
   "takipci": 22,
@@ -44,6 +44,21 @@
     }
   ],
   "son_yayinlar": [
+    {
+      "tarih_tsi": "2026-11-27T00:44:45+03:00",
+      "dilim": "01:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795729485"
+      ],
+      "ana_tweetler": [
+        "Konsollarda 30 FPS kilitli gelen GTA 6 için jailbreak ile framerate kilidinin açılması %1 Low FPS ve frametime dalgalanmalarını tetikliyor.",
+        "Sabit 60 FPS hedefleyen OLED panellerde G-SYNC VRR titreşimi ve micro-stutter yaşamamak için harici profil araçları kritik önem taşıyor."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Jailbroken PS5 konsollarda GTA 6 frame rate kilidinin açılması ve OLED VRR flicker / micro-stutter sorunlarının NVIDIA G-SYNC tweaks ile çözülmesi analizi.",
+      "gelir_aksiyonu_var_mi": false
+    },
     {
       "tarih_tsi": "2026-11-26T22:26:51+03:00",
       "dilim": "23:15",
@@ -177,20 +192,6 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "Gece mikro ipucu olarak Windows HAGS kapatılması ve %1 Low FPS optimizasyonu verildi, yarın sabahki PCIe Gen 5 SSD veri yolu analizi için açık döngü kuruldu.",
-      "gelir_aksiyonu_var_mi": false
-    },
-    {
-      "tarih_tsi": "2026-11-24T05:41:30+03:00",
-      "dilim": "08:15",
-      "aksiyon_tipi": "tek_tweet",
-      "tweet_idleri": [
-        "CLOUD_QUEUE_1795488090"
-      ],
-      "ana_tweetler": [
-        "F/P diye DRAM barındırmayan NVMe SSD almak, yük altında rastgele 4K IOPS değerini %80 çökertir.\n\nHMB teknolojisi sistemden yalnızca 64 MB RAM ödünç alabilir. SLC önbellek tükendiği anda 5000 MB/s vadeden sürücü, 180 MB/s seviyesine çakılır. Alırken dahili DRAM arayın."
-      ],
-      "anket_secenekleri": [],
-      "konu_ozeti": "DRAM-less NVMe SSD'lerde HMB sınırları, SLC tampon dolumu sonrası rastgele 4K IOPS çöküşü ve sürdürülebilir yazma hızı analizi.",
       "gelir_aksiyonu_var_mi": false
     }
   ]
