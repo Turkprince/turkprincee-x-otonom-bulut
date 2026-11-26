@@ -51,6 +51,13 @@
       "soz_verilen_konu": "Gece mikro ipucu olarak Windows HAGS kapatılması ve %1 Low FPS optimizasyonu verildi, yarın sabahki PCIe Gen 5 SSD veri yolu analizi için açık döngü kuruldu.",
       "kaynak_tweet_id": "CLOUD_QUEUE_1795552801",
       "tamamlandi": false
+    },
+    {
+      "hedef_tarih": "2026-11-27",
+      "hedef_dilim": "09:30",
+      "soz_verilen_konu": "Gece mikro ipucu olarak 1ms MPRT vs GtG piksel tepki süresi ve ghosting çözümü verildi, yarın sabahki NAND flash hücre aşınması ve SSD TBW analizi için açık döngü kuruldu.",
+      "kaynak_tweet_id": "CLOUD_QUEUE_1795721211",
+      "tamamlandi": false
     }
   ],
   "son_14_gun_konu_hafizasi": [
@@ -562,6 +569,20 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "AMD RT-MLAS teknolojisinin ray tracing BVH bellek kullanımını %92 azaltması ve Radeon RX 9070 ile 3.7x hızlı rebuild analizi.",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-26T22:26:51+03:00",
+      "dilim": "23:15",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795721211"
+      ],
+      "ana_tweetler": [
+        "Monitöründe Ghosting mi yaşıyorsun? 1ms MPRT bulanıklık azaltma modunu kapatıp gerçek GtG piksel tepki süresine odaklan; arka plan titremesi biter.\n\nYarın 09:30'da NAND flash hücre aşınması ve SSD TBW ömrü analizi ile geliyorum."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Gece mikro ipucu olarak 1ms MPRT vs GtG piksel tepki süresi ve ghosting çözümü verildi, yarın sabahki NAND flash hücre aşınması ve SSD TBW analizi için açık döngü kuruldu.",
       "gelir_aksiyonu_var_mi": false
     }
   ]

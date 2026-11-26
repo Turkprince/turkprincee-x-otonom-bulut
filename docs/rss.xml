@@ -4,7 +4,17 @@
     <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
     <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
     <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
-    <lastBuildDate>Thu, 26 Nov 2026 20:31:27 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 22:26:51 +0300</lastBuildDate>
+    <item>
+      <title>Monitöründe Ghosting mi yaşıyorsun? 1ms MPRT bulanıklık azaltma modunu kapatıp gerçek GtG piksel tepki süresine odaklan; arka plan titremesi biter.
+
+Yarın 09:30&#x27;da NAND flash hücre aşınması ve SSD TBW ömrü analizi ile geliyorum.</title>
+      <description>Monitöründe Ghosting mi yaşıyorsun? 1ms MPRT bulanıklık azaltma modunu kapatıp gerçek GtG piksel tepki süresine odaklan; arka plan titremesi biter.
+
+Yarın 09:30&#x27;da NAND flash hücre aşınması ve SSD TBW ömrü analizi ile geliyorum.</description>
+      <guid isPermaLink="false">CLOUD_QUEUE_1795721211</guid>
+      <pubDate>Thu, 26 Nov 2026 22:26:51 +0300</pubDate>
+    </item>
     <item>
       <title>1/ Oyunda ray tracing açtığınızda donanımın tıkanma sebebi BVH (Bounding Volume Hierarchy) hesaplarıdır. AMD&#x27;nin yeni RT-MLAS teknolojisi tam bu darboğazı hedef alıyor.</title>
       <description>1/ Oyunda ray tracing açtığınızda donanımın tıkanma sebebi BVH (Bounding Volume Hierarchy) hesaplarıdır. AMD&#x27;nin yeni RT-MLAS teknolojisi tam bu darboğazı hedef alıyor.</description>
@@ -174,16 +184,6 @@ Aydınlık odada QD-OLED siyahları mor-griye döner; Tandem WOLED ise siyahı k
 Karanlık odada saf renk hacmi için QD-OLED, gündüz kullanımı için WOLED seçin.</description>
       <guid isPermaLink="false">X_SCHEDULED_2036</guid>
       <pubDate>Sat, 21 Nov 2026 20:36:00 +0300</pubDate>
-    </item>
-    <item>
-      <title>İnternetiniz 500 Mbps olduğu halde rekabetçi oyunda mermiler gitmiyorsa sorun hız değil, paket gecikme sapmasıdır (Jitter).
-
-Priz tipi Wi-Fi genişleticiler hızı böler, pingi 110+ ms zıplatır. Modemde 5 GHz bandını 36 veya 44. kanala sabitleyin.</title>
-      <description>İnternetiniz 500 Mbps olduğu halde rekabetçi oyunda mermiler gitmiyorsa sorun hız değil, paket gecikme sapmasıdır (Jitter).
-
-Priz tipi Wi-Fi genişleticiler hızı böler, pingi 110+ ms zıplatır. Modemde 5 GHz bandını 36 veya 44. kanala sabitleyin.</description>
-      <guid isPermaLink="false">X_SCHEDULED_GIF_1834</guid>
-      <pubDate>Sat, 21 Nov 2026 18:34:00 +0300</pubDate>
     </item>
   </channel>
 </rss>

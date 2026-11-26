@@ -1,6 +1,6 @@
 {
-  "guncellenme_tsi": "2026-11-26T20:31:27+03:00",
-  "durum": "Aktif — Son yayın: 20:30 (flood)",
+  "guncellenme_tsi": "2026-11-26T22:26:51+03:00",
+  "durum": "Aktif — Son yayın: 23:15 (tek_tweet)",
   "handle": "@turkprincee",
   "gorunen_ad": "Donanım & Oyun Lab",
   "takipci": 22,
@@ -34,9 +34,30 @@
       "soz_verilen_konu": "Gece mikro ipucu olarak Windows HAGS kapatılması ve %1 Low FPS optimizasyonu verildi, yarın sabahki PCIe Gen 5 SSD veri yolu analizi için açık döngü kuruldu.",
       "kaynak_tweet_id": "CLOUD_QUEUE_1795552801",
       "tamamlandi": false
+    },
+    {
+      "hedef_tarih": "2026-11-27",
+      "hedef_dilim": "09:30",
+      "soz_verilen_konu": "Gece mikro ipucu olarak 1ms MPRT vs GtG piksel tepki süresi ve ghosting çözümü verildi, yarın sabahki NAND flash hücre aşınması ve SSD TBW analizi için açık döngü kuruldu.",
+      "kaynak_tweet_id": "CLOUD_QUEUE_1795721211",
+      "tamamlandi": false
     }
   ],
   "son_yayinlar": [
+    {
+      "tarih_tsi": "2026-11-26T22:26:51+03:00",
+      "dilim": "23:15",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795721211"
+      ],
+      "ana_tweetler": [
+        "Monitöründe Ghosting mi yaşıyorsun? 1ms MPRT bulanıklık azaltma modunu kapatıp gerçek GtG piksel tepki süresine odaklan; arka plan titremesi biter.\n\nYarın 09:30'da NAND flash hücre aşınması ve SSD TBW ömrü analizi ile geliyorum."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Gece mikro ipucu olarak 1ms MPRT vs GtG piksel tepki süresi ve ghosting çözümü verildi, yarın sabahki NAND flash hücre aşınması ve SSD TBW analizi için açık döngü kuruldu.",
+      "gelir_aksiyonu_var_mi": false
+    },
     {
       "tarih_tsi": "2026-11-26T20:31:27+03:00",
       "dilim": "20:30",
@@ -170,20 +191,6 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "DRAM-less NVMe SSD'lerde HMB sınırları, SLC tampon dolumu sonrası rastgele 4K IOPS çöküşü ve sürdürülebilir yazma hızı analizi.",
-      "gelir_aksiyonu_var_mi": false
-    },
-    {
-      "tarih_tsi": "2026-11-24T01:01:19+03:00",
-      "dilim": "01:30",
-      "aksiyon_tipi": "tek_tweet",
-      "tweet_idleri": [
-        "CLOUD_QUEUE_1795471279"
-      ],
-      "ana_tweetler": [
-        "ASUS ve büyük OEM'lerin maliyet krizi nedeniyle bütçe PC standardında yeniden 8 GB RAM dönemine dönülebileceği öngörülüyor.\n\nModern AAA oyunlarda 128-bit veri yolunda 8 GB VRAM taşması ve %1 Low FPS çöküşleri yaşanırken bu hamle büyük bir gerileme."
-      ],
-      "anket_secenekleri": [],
-      "konu_ozeti": "ASUS bütçe PC'lerde 8 GB RAM standardına dönüş öngörüsü ve 8GB VRAM taşması, %1 Low FPS çöküşleri analizi.",
       "gelir_aksiyonu_var_mi": false
     }
   ]
