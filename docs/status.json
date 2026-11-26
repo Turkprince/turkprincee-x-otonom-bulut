@@ -1,6 +1,6 @@
 {
-  "guncellenme_tsi": "2026-11-26T18:17:10+03:00",
-  "durum": "Aktif — Son yayın: 18:30 (tek_tweet)",
+  "guncellenme_tsi": "2026-11-26T20:31:27+03:00",
+  "durum": "Aktif — Son yayın: 20:30 (flood)",
   "handle": "@turkprincee",
   "gorunen_ad": "Donanım & Oyun Lab",
   "takipci": 22,
@@ -37,6 +37,24 @@
     }
   ],
   "son_yayinlar": [
+    {
+      "tarih_tsi": "2026-11-26T20:31:27+03:00",
+      "dilim": "20:30",
+      "aksiyon_tipi": "flood",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795714287"
+      ],
+      "ana_tweetler": [
+        "1/ Oyunda ray tracing açtığınızda donanımın tıkanma sebebi BVH (Bounding Volume Hierarchy) hesaplarıdır. AMD'nin yeni RT-MLAS teknolojisi tam bu darboğazı hedef alıyor.",
+        "2/ Geleneksel BVH mimarisi her ışın sıçramasında devasa bellek bant genişliği tüketir. RT-MLAS ise bellek kullanımını %92 oranında azaltarak donanımı rahatlatıyor.",
+        "3/ Bu mimari değişim sayesinde Radeon RX 9070 gibi kartlarda BVH yeniden oluşturma süresi (rebuild) 3.7 kata kadar hızlanıyor, %1 Low FPS fırlıyor.",
+        "4/ Özellikle karmaşık sahnelerde anlık kare süresi (frametime) sıçramaları ve takılmalar (stutter) bu bellek optimizasyonu ile büyük ölçüde yok oluyor.",
+        "5/ Saf rasterizasyon gücü kadar artık ışın izleme maliyetini donanım seviyesinde sıkıştıran bu tür algoritmik hamleler gelecekte standart olacak."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "AMD RT-MLAS teknolojisinin ray tracing BVH bellek kullanımını %92 azaltması ve Radeon RX 9070 ile 3.7x hızlı rebuild analizi.",
+      "gelir_aksiyonu_var_mi": false
+    },
     {
       "tarih_tsi": "2026-11-26T18:17:10+03:00",
       "dilim": "18:30",
@@ -166,20 +184,6 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "ASUS bütçe PC'lerde 8 GB RAM standardına dönüş öngörüsü ve 8GB VRAM taşması, %1 Low FPS çöküşleri analizi.",
-      "gelir_aksiyonu_var_mi": false
-    },
-    {
-      "tarih_tsi": "2026-11-23T23:31:31+03:00",
-      "dilim": "23:15",
-      "aksiyon_tipi": "tek_tweet",
-      "tweet_idleri": [
-        "CLOUD_QUEUE_1795465891"
-      ],
-      "ana_tweetler": [
-        "Gece oyunlarında ani FPS dropları yaşıyorsan Windows Grafik Ayarlarından donanım hızlandırmalı GPU zamanlamasını kapatıp test et.\n\nYarın sabah 09:30'da paylaşılacak olan PCIe Gen 5 SSD veri yolu doygunluğunun oyun yükleme sürelerine etkisini kaçırma."
-      ],
-      "anket_secenekleri": [],
-      "konu_ozeti": "Windows Donanım Hızlandırmalı GPU Zamanlaması (HAGS) kapatılarak FPS droplarının önlenmesi ve PCIe Gen 5 SSD veri yolu analizi için açık döngü.",
       "gelir_aksiyonu_var_mi": false
     }
   ]

@@ -545,6 +545,24 @@
       "anket_secenekleri": [],
       "konu_ozeti": "NVIDIA 621.40 sürücüsünün RTX 50 ekran kartlarında siyah ekran ve DisplayPort sinyal kaybı yaratması analizi.",
       "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-26T20:31:27+03:00",
+      "dilim": "20:30",
+      "aksiyon_tipi": "flood",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795714287"
+      ],
+      "ana_tweetler": [
+        "1/ Oyunda ray tracing açtığınızda donanımın tıkanma sebebi BVH (Bounding Volume Hierarchy) hesaplarıdır. AMD'nin yeni RT-MLAS teknolojisi tam bu darboğazı hedef alıyor.",
+        "2/ Geleneksel BVH mimarisi her ışın sıçramasında devasa bellek bant genişliği tüketir. RT-MLAS ise bellek kullanımını %92 oranında azaltarak donanımı rahatlatıyor.",
+        "3/ Bu mimari değişim sayesinde Radeon RX 9070 gibi kartlarda BVH yeniden oluşturma süresi (rebuild) 3.7 kata kadar hızlanıyor, %1 Low FPS fırlıyor.",
+        "4/ Özellikle karmaşık sahnelerde anlık kare süresi (frametime) sıçramaları ve takılmalar (stutter) bu bellek optimizasyonu ile büyük ölçüde yok oluyor.",
+        "5/ Saf rasterizasyon gücü kadar artık ışın izleme maliyetini donanım seviyesinde sıkıştıran bu tür algoritmik hamleler gelecekte standart olacak."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "AMD RT-MLAS teknolojisinin ray tracing BVH bellek kullanımını %92 azaltması ve Radeon RX 9070 ile 3.7x hızlı rebuild analizi.",
+      "gelir_aksiyonu_var_mi": false
     }
   ]
 }
