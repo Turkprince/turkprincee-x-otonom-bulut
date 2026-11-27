@@ -599,6 +599,21 @@
       "anket_secenekleri": [],
       "konu_ozeti": "Jailbroken PS5 konsollarda GTA 6 frame rate kilidinin açılması ve OLED VRR flicker / micro-stutter sorunlarının NVIDIA G-SYNC tweaks ile çözülmesi analizi.",
       "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-27T18:11:19+03:00",
+      "dilim": "18:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795792279"
+      ],
+      "ana_tweetler": [
+        "Konsollardaki 30 FPS sınırı modcular tarafından kırıldı ancak frametime dalgalanmaları ve %1 Low FPS çöküşleri donanım kısıtlarında hala dev bir sorun.",
+        "Jailbroken sistemlerde FPS kilidini kaldırmak, OLED ekranlarda micro-stutter ve VRR flicker tetikler; akıcılık için dinamik çözünürlük ve G-SYNC senkronizasyonu şart."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "GTA 6 konsol modları ile frametime ve %1 Low FPS dalgalanmalarının OLED VRR ve micro-stutter üzerindeki teknik analizi.",
+      "gelir_aksiyonu_var_mi": false
     }
   ]
 }

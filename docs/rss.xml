@@ -4,7 +4,13 @@
     <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
     <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
     <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
-    <lastBuildDate>Fri, 27 Nov 2026 00:44:45 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 18:11:19 +0300</lastBuildDate>
+    <item>
+      <title>Konsollardaki 30 FPS sınırı modcular tarafından kırıldı ancak frametime dalgalanmaları ve %1 Low FPS çöküşleri donanım kısıtlarında hala dev bir sorun.</title>
+      <description>Konsollardaki 30 FPS sınırı modcular tarafından kırıldı ancak frametime dalgalanmaları ve %1 Low FPS çöküşleri donanım kısıtlarında hala dev bir sorun.</description>
+      <guid isPermaLink="false">CLOUD_QUEUE_1795792279</guid>
+      <pubDate>Fri, 27 Nov 2026 18:11:19 +0300</pubDate>
+    </item>
     <item>
       <title>Konsollarda 30 FPS kilitli gelen GTA 6 için jailbreak ile framerate kilidinin açılması %1 Low FPS ve frametime dalgalanmalarını tetikliyor.</title>
       <description>Konsollarda 30 FPS kilitli gelen GTA 6 için jailbreak ile framerate kilidinin açılması %1 Low FPS ve frametime dalgalanmalarını tetikliyor.</description>
@@ -162,20 +168,6 @@ Bu, yeni masaüstü mimarinin anlık tepe yükte 450W+ güç çekebileceği ve a
 Bu, yeni masaüstü mimarinin anlık tepe yükte 450W+ güç çekebileceği ve anakart VRM katmanlarında ciddi termal baskı oluşacağı anlamına geliyor.</description>
       <guid isPermaLink="false">CLOUD_QUEUE_1795299936</guid>
       <pubDate>Sun, 22 Nov 2026 01:25:36 +0300</pubDate>
-    </item>
-    <item>
-      <title>Kablosuz kulaklık veya farede anlık kopma yaşıyorsanız suçlu genelde Windows USB güç tasarrufudur.
-
-Aygıt Yöneticisi &gt; USB Kök Hub &gt; Güç Yönetimi sekmesinde &#x27;Güç kazancı için kapat&#x27; tikini kaldırın.
-
-Yarın 09:30&#x27;da Wi-Fi 5GHz kanal tuzağını yazacağım.</title>
-      <description>Kablosuz kulaklık veya farede anlık kopma yaşıyorsanız suçlu genelde Windows USB güç tasarrufudur.
-
-Aygıt Yöneticisi &gt; USB Kök Hub &gt; Güç Yönetimi sekmesinde &#x27;Güç kazancı için kapat&#x27; tikini kaldırın.
-
-Yarın 09:30&#x27;da Wi-Fi 5GHz kanal tuzağını yazacağım.</description>
-      <guid isPermaLink="false">X_SCHEDULED_2324</guid>
-      <pubDate>Sat, 21 Nov 2026 23:24:00 +0300</pubDate>
     </item>
   </channel>
 </rss>

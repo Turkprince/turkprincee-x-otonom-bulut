@@ -1,6 +1,6 @@
 {
-  "guncellenme_tsi": "2026-11-27T00:44:45+03:00",
-  "durum": "Aktif — Son yayın: 01:30 (tek_tweet)",
+  "guncellenme_tsi": "2026-11-27T18:11:19+03:00",
+  "durum": "Aktif — Son yayın: 18:30 (tek_tweet)",
   "handle": "@turkprincee",
   "gorunen_ad": "Donanım & Oyun Lab",
   "takipci": 22,
@@ -44,6 +44,21 @@
     }
   ],
   "son_yayinlar": [
+    {
+      "tarih_tsi": "2026-11-27T18:11:19+03:00",
+      "dilim": "18:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795792279"
+      ],
+      "ana_tweetler": [
+        "Konsollardaki 30 FPS sınırı modcular tarafından kırıldı ancak frametime dalgalanmaları ve %1 Low FPS çöküşleri donanım kısıtlarında hala dev bir sorun.",
+        "Jailbroken sistemlerde FPS kilidini kaldırmak, OLED ekranlarda micro-stutter ve VRR flicker tetikler; akıcılık için dinamik çözünürlük ve G-SYNC senkronizasyonu şart."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "GTA 6 konsol modları ile frametime ve %1 Low FPS dalgalanmalarının OLED VRR ve micro-stutter üzerindeki teknik analizi.",
+      "gelir_aksiyonu_var_mi": false
+    },
     {
       "tarih_tsi": "2026-11-27T00:44:45+03:00",
       "dilim": "01:30",
@@ -178,20 +193,6 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "NVIDIA yeni yama ile NVMe SSD arka plan yazma hatası ve TBW tüketim sorununu çözdü analizi.",
-      "gelir_aksiyonu_var_mi": false
-    },
-    {
-      "tarih_tsi": "2026-11-24T23:40:01+03:00",
-      "dilim": "23:15",
-      "aksiyon_tipi": "tek_tweet",
-      "tweet_idleri": [
-        "CLOUD_QUEUE_1795552801"
-      ],
-      "ana_tweetler": [
-        "Gece oyuncuları için gizli ayar: Windows Grafik Ayarları altından Donanım Hızlandırmalı GPU Zamanlamasını kapatmak, anlık %1 Low FPS çöküşlerini engeller. Yarın sabah 09:30'da paylaşılacak yeni nesil PCIe Gen 5 SSD veri yolu hız dar boğazı analizi için takipte kalın."
-      ],
-      "anket_secenekleri": [],
-      "konu_ozeti": "Gece mikro ipucu olarak Windows HAGS kapatılması ve %1 Low FPS optimizasyonu verildi, yarın sabahki PCIe Gen 5 SSD veri yolu analizi için açık döngü kuruldu.",
       "gelir_aksiyonu_var_mi": false
     }
   ]
