@@ -1,6 +1,6 @@
 {
-  "guncellenme_tsi": "2026-11-27T18:11:19+03:00",
-  "durum": "Aktif — Son yayın: 18:30 (tek_tweet)",
+  "guncellenme_tsi": "2026-11-27T20:11:00+03:00",
+  "durum": "Aktif — Son yayın: 20:30 (flood)",
   "handle": "@turkprincee",
   "gorunen_ad": "Donanım & Oyun Lab",
   "takipci": 22,
@@ -44,6 +44,24 @@
     }
   ],
   "son_yayinlar": [
+    {
+      "tarih_tsi": "2026-11-27T20:11:00+03:00",
+      "dilim": "20:30",
+      "aksiyon_tipi": "flood",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795799460"
+      ],
+      "ana_tweetler": [
+        "1/ Sadece 619 dolara satılan RX 9070 GRE ve Black Friday indirimleri göründüğü kadar masum mu? Donanım pazarındaki bu fiyat hamlesinin arkasında yatan teknik maliyetleri ve gizli darboğazları masaya yatırıyoruz.",
+        "2/ Orta segment kartlarda 192-bit veri yolu ve 12GB VRAM sınırları, günümüz açık dünya oyunlarında 1440p doku kalitesini artırırken %1 Low FPS değerlerinde ani çöküşlere davetiye çıkarıyor.",
+        "3/ PCIe Gen 5 x16 yuvalarına takılan tek slot çoklayıcı kartlar yerel yapay zeka iş yükleri için cazip duruyor ancak bant genişliği paylaşımlarında gecikme (latency) sürelerini doğrudan artırıyor.",
+        "4/ Bellek kapasitesi yüksek sistemlerde bile VRAM taşması yaşandığında frametime eğrileri bozulur ve mikro takılmalar (stutter) oyuncunun refleks süresini doğrudan törpüler.",
+        "5/ Alışveriş sepetine ekleme yapmadan önce güç tüketimi (TGP), 12V rail kararlılığı ve VRM sıcaklık eşiklerini mutlaka kontrol edin; ucuz fiyat her zaman optimum performans demek değildir."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Black Friday donanım indirimleri, RX 9070 GRE fiyatlandırma analizi, 12GB VRAM sınırları, PCIe 5.0 çoklayıcı gecikmeleri ve %1 Low FPS optimizasyonu.",
+      "gelir_aksiyonu_var_mi": false
+    },
     {
       "tarih_tsi": "2026-11-27T18:11:19+03:00",
       "dilim": "18:30",
@@ -179,20 +197,6 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "GTA 6 konsol performansinda frametime ve %1 Low FPS dalgalanmalarinin VRR ve dinamik cozunurluk ile optimizasyonu",
-      "gelir_aksiyonu_var_mi": false
-    },
-    {
-      "tarih_tsi": "2026-11-25T01:22:51+03:00",
-      "dilim": "01:30",
-      "aksiyon_tipi": "tek_tweet",
-      "tweet_idleri": [
-        "CLOUD_QUEUE_1795558971"
-      ],
-      "ana_tweetler": [
-        "NVIDIA'nın yeni yaması NVMe SSD'leri zorlayan arka plan yazma hatasını sonunda kökten çözdü.\n\nEski hotfix sürümlerindeki rastgele 4K IOPS çökmeleri ve boştaki TBW tüketim sızıntısı bitti."
-      ],
-      "anket_secenekleri": [],
-      "konu_ozeti": "NVIDIA yeni yama ile NVMe SSD arka plan yazma hatası ve TBW tüketim sorununu çözdü analizi.",
       "gelir_aksiyonu_var_mi": false
     }
   ]

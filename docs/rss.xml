@@ -4,7 +4,13 @@
     <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
     <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
     <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
-    <lastBuildDate>Fri, 27 Nov 2026 18:11:19 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 20:11:00 +0300</lastBuildDate>
+    <item>
+      <title>1/ Sadece 619 dolara satılan RX 9070 GRE ve Black Friday indirimleri göründüğü kadar masum mu? Donanım pazarındaki bu fiyat hamlesinin arkasında yatan teknik maliyetleri ve gizli darboğazları masaya yatırıyoruz.</title>
+      <description>1/ Sadece 619 dolara satılan RX 9070 GRE ve Black Friday indirimleri göründüğü kadar masum mu? Donanım pazarındaki bu fiyat hamlesinin arkasında yatan teknik maliyetleri ve gizli darboğazları masaya yatırıyoruz.</description>
+      <guid isPermaLink="false">CLOUD_QUEUE_1795799460</guid>
+      <pubDate>Fri, 27 Nov 2026 20:11:00 +0300</pubDate>
+    </item>
     <item>
       <title>Konsollardaki 30 FPS sınırı modcular tarafından kırıldı ancak frametime dalgalanmaları ve %1 Low FPS çöküşleri donanım kısıtlarında hala dev bir sorun.</title>
       <description>Konsollardaki 30 FPS sınırı modcular tarafından kırıldı ancak frametime dalgalanmaları ve %1 Low FPS çöküşleri donanım kısıtlarında hala dev bir sorun.</description>
@@ -158,16 +164,6 @@ Kutuda &#x27;RTX 4060&#x27; yazması yetmez; TGP sınırına bakın. 45W çalı�
 F/P ararken GPU adına değil, üreticinin BIOS watt limitine para verin.</description>
       <guid isPermaLink="false">CLOUD_QUEUE_1795314513</guid>
       <pubDate>Sun, 22 Nov 2026 05:28:33 +0300</pubDate>
-    </item>
-    <item>
-      <title>SilverStone, yeni ATX 3.1 PSU belgelerinde Intel Nova Lake-S için tam 3 adet EPS 12V güç konnektörünü zorunlu kıldı.
-
-Bu, yeni masaüstü mimarinin anlık tepe yükte 450W+ güç çekebileceği ve anakart VRM katmanlarında ciddi termal baskı oluşacağı anlamına geliyor.</title>
-      <description>SilverStone, yeni ATX 3.1 PSU belgelerinde Intel Nova Lake-S için tam 3 adet EPS 12V güç konnektörünü zorunlu kıldı.
-
-Bu, yeni masaüstü mimarinin anlık tepe yükte 450W+ güç çekebileceği ve anakart VRM katmanlarında ciddi termal baskı oluşacağı anlamına geliyor.</description>
-      <guid isPermaLink="false">CLOUD_QUEUE_1795299936</guid>
-      <pubDate>Sun, 22 Nov 2026 01:25:36 +0300</pubDate>
     </item>
   </channel>
 </rss>
