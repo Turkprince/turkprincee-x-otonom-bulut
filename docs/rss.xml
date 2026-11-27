@@ -4,7 +4,21 @@
     <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
     <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
     <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
-    <lastBuildDate>Fri, 27 Nov 2026 20:11:00 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 22:18:42 +0300</lastBuildDate>
+    <item>
+      <title>Oyunlarda ani ping sıçramasının gizli sebebi: Ağ kartındaki &#x27;Energy Efficient Ethernet&#x27;.
+
+Kart boştayken uykuya geçip her pakette 12ms gecikme ekler. Aygıt Yöneticisi&#x27;nden kapatın.
+
+Yarın 09:30&#x27;da SSD&#x27;nizi arka planda eriten OEM ses yazılımlarını inceliyoruz.</title>
+      <description>Oyunlarda ani ping sıçramasının gizli sebebi: Ağ kartındaki &#x27;Energy Efficient Ethernet&#x27;.
+
+Kart boştayken uykuya geçip her pakette 12ms gecikme ekler. Aygıt Yöneticisi&#x27;nden kapatın.
+
+Yarın 09:30&#x27;da SSD&#x27;nizi arka planda eriten OEM ses yazılımlarını inceliyoruz.</description>
+      <guid isPermaLink="false">CLOUD_QUEUE_1795807122</guid>
+      <pubDate>Fri, 27 Nov 2026 22:18:42 +0300</pubDate>
+    </item>
     <item>
       <title>1/ Sadece 619 dolara satılan RX 9070 GRE ve Black Friday indirimleri göründüğü kadar masum mu? Donanım pazarındaki bu fiyat hamlesinin arkasında yatan teknik maliyetleri ve gizli darboğazları masaya yatırıyoruz.</title>
       <description>1/ Sadece 619 dolara satılan RX 9070 GRE ve Black Friday indirimleri göründüğü kadar masum mu? Donanım pazarındaki bu fiyat hamlesinin arkasında yatan teknik maliyetleri ve gizli darboğazları masaya yatırıyoruz.</description>
@@ -150,20 +164,6 @@ Sistem boşta dururken TBW ömrünüzü tüketen bu hataya dikkat edin.</title>
 Sistem boşta dururken TBW ömrünüzü tüketen bu hataya dikkat edin.</description>
       <guid isPermaLink="false">CLOUD_QUEUE_1795354343</guid>
       <pubDate>Sun, 22 Nov 2026 16:32:23 +0300</pubDate>
-    </item>
-    <item>
-      <title>Aynı isimdeki laptop ekran kartı %38 daha yavaş çıkabilir.
-
-Kutuda &#x27;RTX 4060&#x27; yazması yetmez; TGP sınırına bakın. 45W çalışan kırpılmış model, 140W tam güç karta kıyasla %1 Low FPS&#x27;te ağır çakılır.
-
-F/P ararken GPU adına değil, üreticinin BIOS watt limitine para verin.</title>
-      <description>Aynı isimdeki laptop ekran kartı %38 daha yavaş çıkabilir.
-
-Kutuda &#x27;RTX 4060&#x27; yazması yetmez; TGP sınırına bakın. 45W çalışan kırpılmış model, 140W tam güç karta kıyasla %1 Low FPS&#x27;te ağır çakılır.
-
-F/P ararken GPU adına değil, üreticinin BIOS watt limitine para verin.</description>
-      <guid isPermaLink="false">CLOUD_QUEUE_1795314513</guid>
-      <pubDate>Sun, 22 Nov 2026 05:28:33 +0300</pubDate>
     </item>
   </channel>
 </rss>

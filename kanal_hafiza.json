@@ -58,6 +58,13 @@
       "soz_verilen_konu": "Gece mikro ipucu olarak 1ms MPRT vs GtG piksel tepki süresi ve ghosting çözümü verildi, yarın sabahki NAND flash hücre aşınması ve SSD TBW analizi için açık döngü kuruldu.",
       "kaynak_tweet_id": "CLOUD_QUEUE_1795721211",
       "tamamlandi": false
+    },
+    {
+      "hedef_tarih": "2026-11-28",
+      "hedef_dilim": "09:30",
+      "soz_verilen_konu": "Ağ kartlarındaki Energy Efficient Ethernet (EEE) özelliğinin kapatılmasıyla 10-15ms jitter ve ani ping sıçramasının önlenmesi mikro ipucu ve sabah 09:30 OEM yazılımları SSD TBW aşınması analizi açık döngüsü.",
+      "kaynak_tweet_id": "CLOUD_QUEUE_1795807122",
+      "tamamlandi": false
     }
   ],
   "son_14_gun_konu_hafizasi": [
@@ -631,6 +638,20 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "Black Friday donanım indirimleri, RX 9070 GRE fiyatlandırma analizi, 12GB VRAM sınırları, PCIe 5.0 çoklayıcı gecikmeleri ve %1 Low FPS optimizasyonu.",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-27T22:18:42+03:00",
+      "dilim": "23:15",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795807122"
+      ],
+      "ana_tweetler": [
+        "Oyunlarda ani ping sıçramasının gizli sebebi: Ağ kartındaki 'Energy Efficient Ethernet'.\n\nKart boştayken uykuya geçip her pakette 12ms gecikme ekler. Aygıt Yöneticisi'nden kapatın.\n\nYarın 09:30'da SSD'nizi arka planda eriten OEM ses yazılımlarını inceliyoruz."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Ağ kartlarındaki Energy Efficient Ethernet (EEE) özelliğinin kapatılmasıyla 10-15ms jitter ve ani ping sıçramasının önlenmesi mikro ipucu ve sabah 09:30 OEM yazılımları SSD TBW aşınması analizi açık döngüsü.",
       "gelir_aksiyonu_var_mi": false
     }
   ]
