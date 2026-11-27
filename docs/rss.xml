@@ -4,7 +4,17 @@
     <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
     <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
     <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
-    <lastBuildDate>Fri, 27 Nov 2026 22:18:42 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 00:10:33 +0300</lastBuildDate>
+    <item>
+      <title>Asya tedarik zincirinden gece sızıntısı: RTX 50 serisinde TSMC 4NP döküm kotalarının kurumsal çiplere kaymasıyla MSI tarafında masaüstü Blackwell arzı sert daralıyor.
+
+28 Gbps GDDR7 modül tedariği ve daralan silikon payı, lansmanda ciddi stok krizine işaret ediyor.</title>
+      <description>Asya tedarik zincirinden gece sızıntısı: RTX 50 serisinde TSMC 4NP döküm kotalarının kurumsal çiplere kaymasıyla MSI tarafında masaüstü Blackwell arzı sert daralıyor.
+
+28 Gbps GDDR7 modül tedariği ve daralan silikon payı, lansmanda ciddi stok krizine işaret ediyor.</description>
+      <guid isPermaLink="false">CLOUD_QUEUE_1795813833</guid>
+      <pubDate>Sat, 28 Nov 2026 00:10:33 +0300</pubDate>
+    </item>
     <item>
       <title>Oyunlarda ani ping sıçramasının gizli sebebi: Ağ kartındaki &#x27;Energy Efficient Ethernet&#x27;.
 
@@ -154,16 +164,6 @@ Oyun içi %1 Low FPS dalgalanmalarını ve frametime sıçramalarını dert eder
 Oyun içi %1 Low FPS dalgalanmalarını ve frametime sıçramalarını dert ederken, şimdi de kaydedilen karelerin otomatik bulut taramasıyla hesap askıya alınıyor.</description>
       <guid isPermaLink="false">CLOUD_QUEUE_1795359507</guid>
       <pubDate>Sun, 22 Nov 2026 17:58:27 +0300</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA 621.35 hotfix sürücüsü NVMe SSD aşırı yazma sorununu çözmediğini iddia eden bağımsız testler, arka plandaki nvlog.nvlgstg servisinin boştayken bile gigabaytlarca veri tükettiğini kanıtlıyor.
-
-Sistem boşta dururken TBW ömrünüzü tüketen bu hataya dikkat edin.</title>
-      <description>NVIDIA 621.35 hotfix sürücüsü NVMe SSD aşırı yazma sorununu çözmediğini iddia eden bağımsız testler, arka plandaki nvlog.nvlgstg servisinin boştayken bile gigabaytlarca veri tükettiğini kanıtlıyor.
-
-Sistem boşta dururken TBW ömrünüzü tüketen bu hataya dikkat edin.</description>
-      <guid isPermaLink="false">CLOUD_QUEUE_1795354343</guid>
-      <pubDate>Sun, 22 Nov 2026 16:32:23 +0300</pubDate>
     </item>
   </channel>
 </rss>

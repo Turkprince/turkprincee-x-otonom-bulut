@@ -1,6 +1,6 @@
 {
-  "guncellenme_tsi": "2026-11-27T22:18:42+03:00",
-  "durum": "Aktif — Son yayın: 23:15 (tek_tweet)",
+  "guncellenme_tsi": "2026-11-28T00:10:33+03:00",
+  "durum": "Aktif — Son yayın: 01:30 (tek_tweet)",
   "handle": "@turkprincee",
   "gorunen_ad": "Donanım & Oyun Lab",
   "takipci": 22,
@@ -51,6 +51,20 @@
     }
   ],
   "son_yayinlar": [
+    {
+      "tarih_tsi": "2026-11-28T00:10:33+03:00",
+      "dilim": "01:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795813833"
+      ],
+      "ana_tweetler": [
+        "Asya tedarik zincirinden gece sızıntısı: RTX 50 serisinde TSMC 4NP döküm kotalarının kurumsal çiplere kaymasıyla MSI tarafında masaüstü Blackwell arzı sert daralıyor.\n\n28 Gbps GDDR7 modül tedariği ve daralan silikon payı, lansmanda ciddi stok krizine işaret ediyor."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "ChannelGate Asya sızıntısı üzerinden RTX 50 serisi masaüstü Blackwell arz daralması, TSMC 4NP wafer kotaları ve 28 Gbps GDDR7 modül tedarik krizinin teknik analizi.",
+      "gelir_aksiyonu_var_mi": false
+    },
     {
       "tarih_tsi": "2026-11-27T22:18:42+03:00",
       "dilim": "23:15",
@@ -185,24 +199,6 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "Thunderbolt 5 eGPU ile PCIe bant genişliğinin 64 Gbps seviyesine çıkması ve harici masaüstü GPU performans kaybının %25'ten %5'e düşmesi analizi.",
-      "gelir_aksiyonu_var_mi": false
-    },
-    {
-      "tarih_tsi": "2026-11-25T21:53:33+03:00",
-      "dilim": "20:30",
-      "aksiyon_tipi": "flood",
-      "tweet_idleri": [
-        "CLOUD_QUEUE_1795632813"
-      ],
-      "ana_tweetler": [
-        "1/ Tarayici uzantilari arka planda sessizce SSD omrunu tuketiyor. Adobe Acrobat uzantisinin yalnizca 3 gunde 300 GB uzerinde yazma aktivitesi urettigi rapor edildi.",
-        "2/ QLC ve TLC NAND flash hucrelerinin belirli bir TBW siniri vardir. Tarayici tabanli surekli onbellek yazmalari, SSD'nizin omrunden yillar calar.",
-        "3/ NVMe surucunuzun saglik durumunu izlemek icin SMART verilerini duzenli kontrol edin. Anormal GB yazma artislari goruyorsaniz suclari tarayici eklentileridir.",
-        "4/ Background proseslerde calisan gereksiz uzantilari kaldirarak rastgele 4K IOPS performans dususlerinin ve SSDasiri asinmasinin onune gecebilirsiniz.",
-        "5/ Donanim omrunu korumak yalnizca guclu PSU secimiyle degil, yazilim katmanindaki gizli veri yazma tuzaklarini engellemekle baslar."
-      ],
-      "anket_secenekleri": [],
-      "konu_ozeti": "Tarayici uzantilarinin (Adobe Acrobat vb.) arka planda SSD uzerinde asiri yazma aktivitesi olusturmasi ve TBW tuketimi analizi.",
       "gelir_aksiyonu_var_mi": false
     }
   ]

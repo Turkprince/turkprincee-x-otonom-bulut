@@ -653,6 +653,20 @@
       "anket_secenekleri": [],
       "konu_ozeti": "Ağ kartlarındaki Energy Efficient Ethernet (EEE) özelliğinin kapatılmasıyla 10-15ms jitter ve ani ping sıçramasının önlenmesi mikro ipucu ve sabah 09:30 OEM yazılımları SSD TBW aşınması analizi açık döngüsü.",
       "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-28T00:10:33+03:00",
+      "dilim": "01:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795813833"
+      ],
+      "ana_tweetler": [
+        "Asya tedarik zincirinden gece sızıntısı: RTX 50 serisinde TSMC 4NP döküm kotalarının kurumsal çiplere kaymasıyla MSI tarafında masaüstü Blackwell arzı sert daralıyor.\n\n28 Gbps GDDR7 modül tedariği ve daralan silikon payı, lansmanda ciddi stok krizine işaret ediyor."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "ChannelGate Asya sızıntısı üzerinden RTX 50 serisi masaüstü Blackwell arz daralması, TSMC 4NP wafer kotaları ve 28 Gbps GDDR7 modül tedarik krizinin teknik analizi.",
+      "gelir_aksiyonu_var_mi": false
     }
   ]
 }
