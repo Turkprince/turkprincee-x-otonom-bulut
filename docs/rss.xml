@@ -4,7 +4,13 @@
     <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
     <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
     <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
-    <lastBuildDate>Sat, 28 Nov 2026 00:10:33 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 05:55:12 +0300</lastBuildDate>
+    <item>
+      <title>PCIe 5.0 SSD alırken $0.18/GB etiketine aldanmayın. 14 GB/s hız sunan bu sürücüler, DRAM önbellekleri tükendiğinde SLC cache bypass modunda 800 MB/s seviyesine çakılır.</title>
+      <description>PCIe 5.0 SSD alırken $0.18/GB etiketine aldanmayın. 14 GB/s hız sunan bu sürücüler, DRAM önbellekleri tükendiğinde SLC cache bypass modunda 800 MB/s seviyesine çakılır.</description>
+      <guid isPermaLink="false">CLOUD_QUEUE_1795834512</guid>
+      <pubDate>Sat, 28 Nov 2026 05:55:12 +0300</pubDate>
+    </item>
     <item>
       <title>Asya tedarik zincirinden gece sızıntısı: RTX 50 serisinde TSMC 4NP döküm kotalarının kurumsal çiplere kaymasıyla MSI tarafında masaüstü Blackwell arzı sert daralıyor.
 
@@ -154,16 +160,6 @@ Yarın sabah 09:30&#x27;da paylaşılacak olan PCIe Gen 5 SSD veri yolu doygunlu
       <description>1/ 0.03ms GtG süresi sunan QD-OLED paneller piyasayı sardı ancak OLED yanığı korkusuyla statik HUD piksellerini korumak için HDR 1000 nit tepe parlaklıkta ABL (Auto Brightness Limiter) algoritmasının gücü nasıl kıstığını atlıyorsunuz.</description>
       <guid isPermaLink="false">CLOUD_QUEUE_1795368797</guid>
       <pubDate>Sun, 22 Nov 2026 20:33:17 +0300</pubDate>
-    </item>
-    <item>
-      <title>Konsollarda GTA 6 plaj sahneleri yüzünden gelen 30 günlük PSN ban dalgası büyüteç altında.
-
-Oyun içi %1 Low FPS dalgalanmalarını ve frametime sıçramalarını dert ederken, şimdi de kaydedilen karelerin otomatik bulut taramasıyla hesap askıya alınıyor.</title>
-      <description>Konsollarda GTA 6 plaj sahneleri yüzünden gelen 30 günlük PSN ban dalgası büyüteç altında.
-
-Oyun içi %1 Low FPS dalgalanmalarını ve frametime sıçramalarını dert ederken, şimdi de kaydedilen karelerin otomatik bulut taramasıyla hesap askıya alınıyor.</description>
-      <guid isPermaLink="false">CLOUD_QUEUE_1795359507</guid>
-      <pubDate>Sun, 22 Nov 2026 17:58:27 +0300</pubDate>
     </item>
   </channel>
 </rss>

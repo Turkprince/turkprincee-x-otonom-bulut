@@ -667,6 +667,21 @@
       "anket_secenekleri": [],
       "konu_ozeti": "ChannelGate Asya sızıntısı üzerinden RTX 50 serisi masaüstü Blackwell arz daralması, TSMC 4NP wafer kotaları ve 28 Gbps GDDR7 modül tedarik krizinin teknik analizi.",
       "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-28T05:55:12+03:00",
+      "dilim": "08:15",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795834512"
+      ],
+      "ana_tweetler": [
+        "PCIe 5.0 SSD alırken $0.18/GB etiketine aldanmayın. 14 GB/s hız sunan bu sürücüler, DRAM önbellekleri tükendiğinde SLC cache bypass modunda 800 MB/s seviyesine çakılır.",
+        "Doğrudan PCIe 4.0 TLC NAND modellere yönelmek, hem cüzdanı korur hem de %1 Low FPS değerlerinde binlerce liralık fark yaratır."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "PCIe 5.0 SSD fiyat/performans yanılgısı, SLC cache dolumu sonrası 800 MB/s düşüşü ve %1 Low FPS etkisi analizi.",
+      "gelir_aksiyonu_var_mi": false
     }
   ]
 }
