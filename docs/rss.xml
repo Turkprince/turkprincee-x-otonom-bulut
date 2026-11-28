@@ -4,7 +4,13 @@
     <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
     <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
     <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
-    <lastBuildDate>Sat, 28 Nov 2026 19:09:56 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 20:10:48 +0300</lastBuildDate>
+    <item>
+      <title>1/ 72GB VRAM havuzunu PCIe x1 yuvası üzerinden birleştirip yerel yapay zekâ çalıştırmak ilk bakışta mantıksız gelebilir. Ancak PCIe veri yolu %10 doluluk oranında bile darboğaz yaratmıyor.</title>
+      <description>1/ 72GB VRAM havuzunu PCIe x1 yuvası üzerinden birleştirip yerel yapay zekâ çalıştırmak ilk bakışta mantıksız gelebilir. Ancak PCIe veri yolu %10 doluluk oranında bile darboğaz yaratmıyor.</description>
+      <guid isPermaLink="false">CLOUD_QUEUE_1795885848</guid>
+      <pubDate>Sat, 28 Nov 2026 20:10:48 +0300</pubDate>
+    </item>
     <item>
       <title>GTA 6 ilk yamasından sonra konsol grafiklerinde düşüş iddiaları artarken nesne detay kaybı ve aydınlatma bozulmaları frametime dalgalanmalarına yol açıyor. %1 Low FPS düşüşlerini engellemek için konsol VRR ve dinamik çözünürlük ayarlarını güncel tutun.</title>
       <description>GTA 6 ilk yamasından sonra konsol grafiklerinde düşüş iddiaları artarken nesne detay kaybı ve aydınlatma bozulmaları frametime dalgalanmalarına yol açıyor. %1 Low FPS düşüşlerini engellemek için konsol VRR ve dinamik çözünürlük ayarlarını güncel tutun.</description>
@@ -158,16 +164,6 @@ Modern AAA oyunlarda 128-bit veri yolunda 8 GB VRAM taşması ve %1 Low FPS çö
 Modern AAA oyunlarda 128-bit veri yolunda 8 GB VRAM taşması ve %1 Low FPS çöküşleri yaşanırken bu hamle büyük bir gerileme.</description>
       <guid isPermaLink="false">CLOUD_QUEUE_1795471279</guid>
       <pubDate>Tue, 24 Nov 2026 01:01:19 +0300</pubDate>
-    </item>
-    <item>
-      <title>Gece oyunlarında ani FPS dropları yaşıyorsan Windows Grafik Ayarlarından donanım hızlandırmalı GPU zamanlamasını kapatıp test et.
-
-Yarın sabah 09:30&#x27;da paylaşılacak olan PCIe Gen 5 SSD veri yolu doygunluğunun oyun yükleme sürelerine etkisini kaçırma.</title>
-      <description>Gece oyunlarında ani FPS dropları yaşıyorsan Windows Grafik Ayarlarından donanım hızlandırmalı GPU zamanlamasını kapatıp test et.
-
-Yarın sabah 09:30&#x27;da paylaşılacak olan PCIe Gen 5 SSD veri yolu doygunluğunun oyun yükleme sürelerine etkisini kaçırma.</description>
-      <guid isPermaLink="false">CLOUD_QUEUE_1795465891</guid>
-      <pubDate>Mon, 23 Nov 2026 23:31:31 +0300</pubDate>
     </item>
   </channel>
 </rss>

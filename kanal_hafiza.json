@@ -710,6 +710,24 @@
       "anket_secenekleri": [],
       "konu_ozeti": "GTA 6 ilk yamasından sonra grafik kalitesi düşüşü ve konsol frametime ile %1 Low FPS optimizasyonu analizi.",
       "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-28T20:10:48+03:00",
+      "dilim": "20:30",
+      "aksiyon_tipi": "flood",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795885848"
+      ],
+      "ana_tweetler": [
+        "1/ 72GB VRAM havuzunu PCIe x1 yuvası üzerinden birleştirip yerel yapay zekâ çalıştırmak ilk bakışta mantıksız gelebilir. Ancak PCIe veri yolu %10 doluluk oranında bile darboğaz yaratmıyor.",
+        "2/ PCIe 4.0 x1 slotu yaklaşık 2 GB/s bant genişliği sunar. Büyük dil modellerinde (LLM) ağırlık matrisleri karta bir kez yüklendikten sonra veri yolu trafiği minimuma iner ve hesaplama tamamen VRAM içinde döner.",
+        "3/ Çoklu ekran kartı havuzlarında en büyük yanılgı tüm kartların x16 hızında çalışmasının zorunlu olduğudur. AI çıkarım (inference) aşamasında ağırlık aktarımı sınırlıysa x1 yuvaları tam performans verir.",
+        "4/ Eski madencilik rig anakartlarını bu amaçla değerlendirmek maliyeti dramatik biçimde düşürür. Fakat dikkat edilmesi gereken ana metrik PCIe hat (lane) paylaşımı ve PCH üzerindeki gecikme süreleridir.",
+        "5/ Yüksek VRAM kapasitesi gerektiren yerel projelerde pahalı kurumsal çözümler yerine bu hibrit yaklaşım %1 Low frametime ve bellek taşması sorunlarını tamamen ortadan kaldırır."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Mismatched GPU'lar ile 72GB VRAM havuzu oluşturma ve PCIe x1 yuvalarının AI çıkarımındaki veri yolu bant genişliği analizi.",
+      "gelir_aksiyonu_var_mi": false
     }
   ]
 }
