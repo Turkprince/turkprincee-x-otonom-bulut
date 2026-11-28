@@ -1,6 +1,6 @@
 {
-  "guncellenme_tsi": "2026-11-28T20:10:48+03:00",
-  "durum": "Aktif — Son yayın: 20:30 (flood)",
+  "guncellenme_tsi": "2026-11-28T22:58:15+03:00",
+  "durum": "Aktif — Son yayın: 23:15 (tek_tweet)",
   "handle": "@turkprincee",
   "gorunen_ad": "Donanım & Oyun Lab",
   "takipci": 22,
@@ -48,9 +48,30 @@
       "soz_verilen_konu": "Ağ kartlarındaki Energy Efficient Ethernet (EEE) özelliğinin kapatılmasıyla 10-15ms jitter ve ani ping sıçramasının önlenmesi mikro ipucu ve sabah 09:30 OEM yazılımları SSD TBW aşınması analizi açık döngüsü.",
       "kaynak_tweet_id": "CLOUD_QUEUE_1795807122",
       "tamamlandi": false
+    },
+    {
+      "hedef_tarih": "2026-11-29",
+      "hedef_dilim": "09:30",
+      "soz_verilen_konu": "MPO kaynaklı frametime dalgalanması ve Discord donanım ivmesi mikro ipucu; sabah 09:30 Fast VA panellerde 35ms siyah piksel geçiş gecikmesi analizi açık döngüsü.",
+      "kaynak_tweet_id": "CLOUD_QUEUE_1795895895",
+      "tamamlandi": false
     }
   ],
   "son_yayinlar": [
+    {
+      "tarih_tsi": "2026-11-28T22:58:15+03:00",
+      "dilim": "23:15",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795895895"
+      ],
+      "ana_tweetler": [
+        "Arka planda Discord veya video açıkken oluşan frametime sıçramalarının nedeni MPO çakışmasıdır.\n\nDiscord > Gelişmiş > Donanım İvmesi'ni kapatın; %1 Low FPS anında toparlar.\n\nYarın 09:30'da 300Hz VA panellerdeki 35ms siyah piksel geçiş tuzağını inceliyoruz."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "MPO kaynaklı frametime dalgalanması ve Discord donanım ivmesi mikro ipucu; sabah 09:30 Fast VA panellerde 35ms siyah piksel geçiş gecikmesi analizi açık döngüsü.",
+      "gelir_aksiyonu_var_mi": false
+    },
     {
       "tarih_tsi": "2026-11-28T20:10:48+03:00",
       "dilim": "20:30",
@@ -186,20 +207,6 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "Jailbroken PS5 konsollarda GTA 6 frame rate kilidinin açılması ve OLED VRR flicker / micro-stutter sorunlarının NVIDIA G-SYNC tweaks ile çözülmesi analizi.",
-      "gelir_aksiyonu_var_mi": false
-    },
-    {
-      "tarih_tsi": "2026-11-26T22:26:51+03:00",
-      "dilim": "23:15",
-      "aksiyon_tipi": "tek_tweet",
-      "tweet_idleri": [
-        "CLOUD_QUEUE_1795721211"
-      ],
-      "ana_tweetler": [
-        "Monitöründe Ghosting mi yaşıyorsun? 1ms MPRT bulanıklık azaltma modunu kapatıp gerçek GtG piksel tepki süresine odaklan; arka plan titremesi biter.\n\nYarın 09:30'da NAND flash hücre aşınması ve SSD TBW ömrü analizi ile geliyorum."
-      ],
-      "anket_secenekleri": [],
-      "konu_ozeti": "Gece mikro ipucu olarak 1ms MPRT vs GtG piksel tepki süresi ve ghosting çözümü verildi, yarın sabahki NAND flash hücre aşınması ve SSD TBW analizi için açık döngü kuruldu.",
       "gelir_aksiyonu_var_mi": false
     }
   ]

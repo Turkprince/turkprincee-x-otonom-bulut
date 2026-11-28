@@ -65,6 +65,13 @@
       "soz_verilen_konu": "Ağ kartlarındaki Energy Efficient Ethernet (EEE) özelliğinin kapatılmasıyla 10-15ms jitter ve ani ping sıçramasının önlenmesi mikro ipucu ve sabah 09:30 OEM yazılımları SSD TBW aşınması analizi açık döngüsü.",
       "kaynak_tweet_id": "CLOUD_QUEUE_1795807122",
       "tamamlandi": false
+    },
+    {
+      "hedef_tarih": "2026-11-29",
+      "hedef_dilim": "09:30",
+      "soz_verilen_konu": "MPO kaynaklı frametime dalgalanması ve Discord donanım ivmesi mikro ipucu; sabah 09:30 Fast VA panellerde 35ms siyah piksel geçiş gecikmesi analizi açık döngüsü.",
+      "kaynak_tweet_id": "CLOUD_QUEUE_1795895895",
+      "tamamlandi": false
     }
   ],
   "son_14_gun_konu_hafizasi": [
@@ -727,6 +734,20 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "Mismatched GPU'lar ile 72GB VRAM havuzu oluşturma ve PCIe x1 yuvalarının AI çıkarımındaki veri yolu bant genişliği analizi.",
+      "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-28T22:58:15+03:00",
+      "dilim": "23:15",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795895895"
+      ],
+      "ana_tweetler": [
+        "Arka planda Discord veya video açıkken oluşan frametime sıçramalarının nedeni MPO çakışmasıdır.\n\nDiscord > Gelişmiş > Donanım İvmesi'ni kapatın; %1 Low FPS anında toparlar.\n\nYarın 09:30'da 300Hz VA panellerdeki 35ms siyah piksel geçiş tuzağını inceliyoruz."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "MPO kaynaklı frametime dalgalanması ve Discord donanım ivmesi mikro ipucu; sabah 09:30 Fast VA panellerde 35ms siyah piksel geçiş gecikmesi analizi açık döngüsü.",
       "gelir_aksiyonu_var_mi": false
     }
   ]
