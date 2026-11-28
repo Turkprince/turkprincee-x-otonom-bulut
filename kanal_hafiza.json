@@ -682,6 +682,20 @@
       "anket_secenekleri": [],
       "konu_ozeti": "PCIe 5.0 SSD fiyat/performans yanılgısı, SLC cache dolumu sonrası 800 MB/s düşüşü ve %1 Low FPS etkisi analizi.",
       "gelir_aksiyonu_var_mi": false
+    },
+    {
+      "tarih_tsi": "2026-11-28T17:27:13+03:00",
+      "dilim": "16:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795876033"
+      ],
+      "ana_tweetler": [
+        "Intel Razor Lake ile doğru yöne dönüyor: 0 E-Core, 12 P-Core ve 120 MB bLLC önbellek.\n\nHibrit mimarinin thread yönetimi ve ring bus gecikmesi %1 Low FPS katiliydi.\n\nDevasa L3/L4 önbellek, AMD X3D gibi RAM'e çıkış ihtiyacını keserek frametime dalgalanmasını bitirir."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "Intel Razor Lake-S 12 P-Core / 0 E-Core ve 120 MB bLLC önbellek mimarisinin ring bus gecikmesi ile %1 Low FPS frametime optimizasyonu.",
+      "gelir_aksiyonu_var_mi": false
     }
   ]
 }

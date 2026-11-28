@@ -4,7 +4,21 @@
     <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
     <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
     <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
-    <lastBuildDate>Sat, 28 Nov 2026 05:55:12 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 17:27:13 +0300</lastBuildDate>
+    <item>
+      <title>Intel Razor Lake ile doğru yöne dönüyor: 0 E-Core, 12 P-Core ve 120 MB bLLC önbellek.
+
+Hibrit mimarinin thread yönetimi ve ring bus gecikmesi %1 Low FPS katiliydi.
+
+Devasa L3/L4 önbellek, AMD X3D gibi RAM&#x27;e çıkış ihtiyacını keserek frametime dalgalanmasını bitirir.</title>
+      <description>Intel Razor Lake ile doğru yöne dönüyor: 0 E-Core, 12 P-Core ve 120 MB bLLC önbellek.
+
+Hibrit mimarinin thread yönetimi ve ring bus gecikmesi %1 Low FPS katiliydi.
+
+Devasa L3/L4 önbellek, AMD X3D gibi RAM&#x27;e çıkış ihtiyacını keserek frametime dalgalanmasını bitirir.</description>
+      <guid isPermaLink="false">CLOUD_QUEUE_1795876033</guid>
+      <pubDate>Sat, 28 Nov 2026 17:27:13 +0300</pubDate>
+    </item>
     <item>
       <title>PCIe 5.0 SSD alırken $0.18/GB etiketine aldanmayın. 14 GB/s hız sunan bu sürücüler, DRAM önbellekleri tükendiğinde SLC cache bypass modunda 800 MB/s seviyesine çakılır.</title>
       <description>PCIe 5.0 SSD alırken $0.18/GB etiketine aldanmayın. 14 GB/s hız sunan bu sürücüler, DRAM önbellekleri tükendiğinde SLC cache bypass modunda 800 MB/s seviyesine çakılır.</description>
@@ -154,12 +168,6 @@ Yarın sabah 09:30&#x27;da paylaşılacak olan PCIe Gen 5 SSD veri yolu doygunlu
       <description>Gen 4 NVMe SSD yazma ömrünü tüketen 7400 MB/s hız testleri arkasındaki TBW sızıntılarını ve DRAM önbellek kayıplarını yarın sabah 09:30 analiziyle masaya yatırıyoruz.</description>
       <guid isPermaLink="false">CLOUD_QUEUE_1795375906</guid>
       <pubDate>Sun, 22 Nov 2026 22:31:46 +0300</pubDate>
-    </item>
-    <item>
-      <title>1/ 0.03ms GtG süresi sunan QD-OLED paneller piyasayı sardı ancak OLED yanığı korkusuyla statik HUD piksellerini korumak için HDR 1000 nit tepe parlaklıkta ABL (Auto Brightness Limiter) algoritmasının gücü nasıl kıstığını atlıyorsunuz.</title>
-      <description>1/ 0.03ms GtG süresi sunan QD-OLED paneller piyasayı sardı ancak OLED yanığı korkusuyla statik HUD piksellerini korumak için HDR 1000 nit tepe parlaklıkta ABL (Auto Brightness Limiter) algoritmasının gücü nasıl kıstığını atlıyorsunuz.</description>
-      <guid isPermaLink="false">CLOUD_QUEUE_1795368797</guid>
-      <pubDate>Sun, 22 Nov 2026 20:33:17 +0300</pubDate>
     </item>
   </channel>
 </rss>
