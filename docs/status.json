@@ -1,6 +1,6 @@
 {
-  "guncellenme_tsi": "2026-11-28T17:27:13+03:00",
-  "durum": "Aktif — Son yayın: 16:30 (tek_tweet)",
+  "guncellenme_tsi": "2026-11-28T19:09:56+03:00",
+  "durum": "Aktif — Son yayın: 18:30 (tek_tweet)",
   "handle": "@turkprincee",
   "gorunen_ad": "Donanım & Oyun Lab",
   "takipci": 22,
@@ -51,6 +51,20 @@
     }
   ],
   "son_yayinlar": [
+    {
+      "tarih_tsi": "2026-11-28T19:09:56+03:00",
+      "dilim": "18:30",
+      "aksiyon_tipi": "tek_tweet",
+      "tweet_idleri": [
+        "CLOUD_QUEUE_1795882196"
+      ],
+      "ana_tweetler": [
+        "GTA 6 ilk yamasından sonra konsol grafiklerinde düşüş iddiaları artarken nesne detay kaybı ve aydınlatma bozulmaları frametime dalgalanmalarına yol açıyor. %1 Low FPS düşüşlerini engellemek için konsol VRR ve dinamik çözünürlük ayarlarını güncel tutun."
+      ],
+      "anket_secenekleri": [],
+      "konu_ozeti": "GTA 6 ilk yamasından sonra grafik kalitesi düşüşü ve konsol frametime ile %1 Low FPS optimizasyonu analizi.",
+      "gelir_aksiyonu_var_mi": false
+    },
     {
       "tarih_tsi": "2026-11-28T17:27:13+03:00",
       "dilim": "16:30",
@@ -186,20 +200,6 @@
       ],
       "anket_secenekleri": [],
       "konu_ozeti": "AMD RT-MLAS teknolojisinin ray tracing BVH bellek kullanımını %92 azaltması ve Radeon RX 9070 ile 3.7x hızlı rebuild analizi.",
-      "gelir_aksiyonu_var_mi": false
-    },
-    {
-      "tarih_tsi": "2026-11-26T18:17:10+03:00",
-      "dilim": "18:30",
-      "aksiyon_tipi": "tek_tweet",
-      "tweet_idleri": [
-        "CLOUD_QUEUE_1795706230"
-      ],
-      "ana_tweetler": [
-        "NVIDIA 621.40 sürücüsü SSD aşınmasını düzeltirken RTX 50 serisinde DisplayPort sinyal kaybı ve siyah ekran tetikliyor. %1 Low FPS düşüşü yaşamamak için acele etmeyin."
-      ],
-      "anket_secenekleri": [],
-      "konu_ozeti": "NVIDIA 621.40 sürücüsünün RTX 50 ekran kartlarında siyah ekran ve DisplayPort sinyal kaybı yaratması analizi.",
       "gelir_aksiyonu_var_mi": false
     }
   ]

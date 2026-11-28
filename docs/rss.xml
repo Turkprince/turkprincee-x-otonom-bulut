@@ -4,7 +4,13 @@
     <title>Donanım &amp; Oyun Lab (@turkprincee) Otonom Yayın Akışı</title>
     <link>https://turkprince.github.io/turkprincee-x-otonom-bulut/</link>
     <description>7/24 Ücretsiz Bulut Otonom Teknoloji, Donanım ve Oyun Analizleri</description>
-    <lastBuildDate>Sat, 28 Nov 2026 17:27:13 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 19:09:56 +0300</lastBuildDate>
+    <item>
+      <title>GTA 6 ilk yamasından sonra konsol grafiklerinde düşüş iddiaları artarken nesne detay kaybı ve aydınlatma bozulmaları frametime dalgalanmalarına yol açıyor. %1 Low FPS düşüşlerini engellemek için konsol VRR ve dinamik çözünürlük ayarlarını güncel tutun.</title>
+      <description>GTA 6 ilk yamasından sonra konsol grafiklerinde düşüş iddiaları artarken nesne detay kaybı ve aydınlatma bozulmaları frametime dalgalanmalarına yol açıyor. %1 Low FPS düşüşlerini engellemek için konsol VRR ve dinamik çözünürlük ayarlarını güncel tutun.</description>
+      <guid isPermaLink="false">CLOUD_QUEUE_1795882196</guid>
+      <pubDate>Sat, 28 Nov 2026 19:09:56 +0300</pubDate>
+    </item>
     <item>
       <title>Intel Razor Lake ile doğru yöne dönüyor: 0 E-Core, 12 P-Core ve 120 MB bLLC önbellek.
 
@@ -162,12 +168,6 @@ Yarın sabah 09:30&#x27;da paylaşılacak olan PCIe Gen 5 SSD veri yolu doygunlu
 Yarın sabah 09:30&#x27;da paylaşılacak olan PCIe Gen 5 SSD veri yolu doygunluğunun oyun yükleme sürelerine etkisini kaçırma.</description>
       <guid isPermaLink="false">CLOUD_QUEUE_1795465891</guid>
       <pubDate>Mon, 23 Nov 2026 23:31:31 +0300</pubDate>
-    </item>
-    <item>
-      <title>Gen 4 NVMe SSD yazma ömrünü tüketen 7400 MB/s hız testleri arkasındaki TBW sızıntılarını ve DRAM önbellek kayıplarını yarın sabah 09:30 analiziyle masaya yatırıyoruz.</title>
-      <description>Gen 4 NVMe SSD yazma ömrünü tüketen 7400 MB/s hız testleri arkasındaki TBW sızıntılarını ve DRAM önbellek kayıplarını yarın sabah 09:30 analiziyle masaya yatırıyoruz.</description>
-      <guid isPermaLink="false">CLOUD_QUEUE_1795375906</guid>
-      <pubDate>Sun, 22 Nov 2026 22:31:46 +0300</pubDate>
     </item>
   </channel>
 </rss>
